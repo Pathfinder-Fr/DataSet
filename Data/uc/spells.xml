@@ -1,0 +1,3098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:lang="fr-FR" xmlns="urn:pathfinderDb">
+  <sources>
+    <source id="uc" />
+  </sources>
+  <spells>
+    <spell id="abondance-de-munitions" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Abondance de munitions.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Abondance-De-Munitions.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Abondance de munitions</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="cleric" level="1" />
+        <level list="oracle" level="1" />
+      </levels>
+      <components kinds="V S M/DF">une munition</components>
+      <target>récipient touché</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Les munitions non magiques se régénèrent à chaque round.</summary>
+    </spell>
+    <spell id="absorption-de-toxine" school="necromancy">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Absorption de toxine.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Absorption-De-Toxine.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Absorption de toxine</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="druid" level="4" />
+        <level list="witch" level="4" />
+        <level list="alchemist" level="3" />
+      </levels>
+      <components kinds="V S F">une épine de plante vénéneuse</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="special">voir texte</savingThrow>
+      <summary>Le personnage est temporairement immunisé contre les maladies et les toxines, il en absorbe une et la transmet à autrui.</summary>
+    </spell>
+    <spell id="adoration" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Adoration.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Adoration.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Adoration</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature vivante</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Le personnage gagne un bonus aux tests de Diplomatie et de combat de spectacle.</summary>
+    </spell>
+    <spell id="ami-de-la-forêt" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ami de la forêt.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Ami-De-La-Forêt.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Ami de la forêt</name>
+      <levels>
+        <level list="ranger" level="2" />
+        <level list="druid" level="2" />
+      </levels>
+      <components kinds="V S F">une pincée de fumier</components>
+      <range unit="close" />
+      <target>une créature consentante par tranche de trois niveaux, elles doivent toutes se trouver à moins de 9 m (6 c) les unes des autres</target>
+      <castingTime unit="round" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Les plantes forestières se montrent serviables envers le personnage et ses alliés au lieu d’entraver leurs déplacements.</summary>
+    </spell>
+    <spell id="antidétection-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Antidétection (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Antidétection--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Antidétection (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S M/DF">25 po de poussière de diamant par cible</components>
+      <range unit="touch" />
+      <target>créatures ou objets touchés</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Comme antidétection mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="arbres-de-siège-supérieur" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arbres de siège supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arbres-De-Siège-Supérieur.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Arbres de siège supérieur</name>
+      <levels>
+        <level list="druid" level="9" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <target>une plante G, TG ou Gig tous les trois niveaux</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="none" effect="none" />
+      <summary>Comme arbres de siège mais transforme aussi des arbres TG ou Gig en catapultes végétales de même taille.</summary>
+    </spell>
+    <spell id="arbres-de-siège" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arbres de siège.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arbres-De-Siège.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Arbres de siège</name>
+      <levels>
+        <level list="druid" level="7" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <target>une plante G tous les trois niveaux</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="none" effect="none" />
+      <summary>Transforme des arbres G en catapultes végétales de même taille.</summary>
+    </spell>
+    <spell id="arc-bâton" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arc-bâton.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arc-Bâton.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Arc-bâton</name>
+      <levels>
+        <level list="ranger" level="1" />
+        <level list="paladin" level="1" />
+        <level list="inquisitor" level="1" />
+      </levels>
+      <components kinds="V" />
+      <range unit="personal" />
+      <target>une arme (arc)</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Un arc court peut servir de gourdin et un arc long de bâton.</summary>
+    </spell>
+    <spell id="arme-boomerang-(partagé)" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme boomerang (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arme-Boomerang--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Arme boomerang (partagé)</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="sorcerer-wizard" level="3" />
+        <level list="ranger" level="2" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="2" />
+        <level list="witch" level="3" />
+        <level list="oracle" level="3" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Comme arme boomerang mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="arme-boomerang" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme boomerang.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arme-Boomerang.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Arme boomerang</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="1" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="1" />
+        <level list="witch" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une arme susceptible d’être lancée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Donne la propriété  boomerang à une arme.</summary>
+    </spell>
+    <spell id="arme-infaillible" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme infaillible.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arme-Infaillible.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Arme infaillible</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="witch" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une arme ou 20 projectiles qui doivent tous se trouver groupés au moment de l’incantation</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Bonus de +2 qui augmente de +1 tous les quatre niveaux de lanceur de sorts aux jets d’attaque pour confirmer un coup critique.</summary>
+    </spell>
+    <spell id="arme-protectrice" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme protectrice.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arme-Protectrice.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Arme protectrice</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="summoner" level="2" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S F">une arme de corps à corps que le personnage sait manier et qu’il tient en main</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>L’arme que le personnage utilise comme focalisateur du sort le protège et lui permet de lancer des sorts sans provoquer d’attaque d’opportunité.</summary>
+    </spell>
+    <spell id="armure-sans-effort" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Armure sans effort.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Armure-Sans-Effort.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Armure sans effort</name>
+      <levels>
+        <level list="ranger" level="2" />
+        <level list="paladin" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>L’armure du personnage ne réduit plus sa vitesse de déplacement.</summary>
+    </spell>
+    <spell id="aspect-animal-supérieur" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect animal supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-Animal-Supérieur.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Aspect animal supérieur</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="ranger" level="3" />
+        <level list="druid" level="3" />
+        <level list="alchemist" level="3" />
+        <level list="magus" level="3" />
+      </levels>
+      <components kinds="V S F">un morceau de l’animal</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme aspect animal mais donne droit à deux avantages animaux.</summary>
+    </spell>
+    <spell id="aspect-animal" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect animal.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-Animal.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Aspect animal</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+        <level list="druid" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S F">un morceau de l’animal</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Le personnage bénéficie des avantages d’un animal.</summary>
+    </spell>
+    <spell id="aspect-de-fée-hantée" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect de fée hantée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-De-Fée-Hantée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Aspect de fée hantée</name>
+      <levels>
+        <level list="bard" level="0" />
+        <level list="sorcerer-wizard" level="0" />
+      </levels>
+      <components kinds="S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage s’entoure d’illusions inquiétantes.</summary>
+    </spell>
+    <spell id="aspect-terrifiant" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect terrifiant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-Terrifiant.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Aspect terrifiant</name>
+      <levels>
+        <level list="sorcerer-wizard" level="8" />
+        <level list="druid" level="8" />
+        <level list="cleric" level="8" />
+        <level list="witch" level="8" />
+        <level list="oracle" level="8" />
+      </levels>
+      <components kinds="V S F">une peau de crapaud</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage se transforme en une version G terrifiante de lui-même et émet une aura qui secoue ou effraye les créatures.</summary>
+    </spell>
+    <spell id="assemblage-par-télékinésie" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Assemblage par télékinésie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Assemblage-Par-Télékinésie.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Assemblage par télékinésie</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S F">une reproduction miniature de l’engin de siège cible &lt;nowiki&gt;[&lt;/nowiki&gt;10 po&lt;nowiki&gt;]&lt;/nowiki&gt;</components>
+      <range unit="close" />
+      <target>un engin de siège démonté</target>
+      <castingTime unit="minute" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Le personnage a besoin d’un ouvrier de moins par tranche de deux niveaux de lanceur de sorts pour assembler une arme de siège.</summary>
+    </spell>
+    <spell id="assistant-de-chargement" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Assistant de chargement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Assistant-De-Chargement.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Assistant de chargement</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>arme à projectile touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Charge un tir dans une arme, à chaque round.</summary>
+    </spell>
+    <spell id="avancée-assurée" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Avancée assurée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Avancée-Assurée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Avancée assurée</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="alchemist" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S F">une patte de lapin</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Le personnage peut avancer lentement et sûrement tout en lançant des sorts tant qu’il n’accélère pas, qu’il n’attaque pas et qu’il ne lance pas de sorts offensifs.</summary>
+    </spell>
+    <spell id="balle-dédiée-supérieure" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Balle dédiée supérieure.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Balle-Dédiée-Supérieure.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Balle dédiée supérieure</name>
+      <levels>
+        <level list="sorcerer-wizard" level="6" />
+        <level list="ranger" level="4" />
+        <level list="inquisitor" level="6" />
+        <level list="witch" level="6" />
+      </levels>
+      <components kinds="V S M/DF">un objet de la créature choisie ou de son type</components>
+      <range unit="touch" />
+      <target>une munition ou une arme de jet</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Comme balle dédiée mais inflige 2 points de dégâts par niveau de lanceur de sorts.</summary>
+    </spell>
+    <spell id="balle-dédiée" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Balle dédiée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Balle-Dédiée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Balle dédiée</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="ranger" level="3" />
+        <level list="inquisitor" level="4" />
+        <level list="witch" level="4" />
+      </levels>
+      <components kinds="V S M/DF">un objet de la créature choisie ou de son type</components>
+      <range unit="touch" />
+      <target>une munition ou une arme de jet</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Les munitions sont plus précises si elles visent un certain type de créature.</summary>
+    </spell>
+    <spell id="barrière-protectrice" school="conjuration" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Barrière protectrice.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Barrière-Protectrice.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Barrière protectrice</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="summoner" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S F">1 bout de métal qui vient d’un bouclier</components>
+      <range unit="touch" />
+      <target>créature touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <summary>Entoure la cible de couches de force.</summary>
+    </spell>
+    <spell id="bouclier-de-foudre" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bouclier de foudre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Bouclier-De-Foudre.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Bouclier de foudre</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="alchemist" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Un bouclier de force protège le personnage jusqu’à ce qu’il le renvoie dans une explosion de foudre.</summary>
+    </spell>
+    <spell id="bouclier-pare-balles" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bouclier pare-balles.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Bouclier-Pare-Balles.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Bouclier pare-balles</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="alchemist" level="2" />
+      </levels>
+      <components kinds="V S F">une balle</components>
+      <range unit="touch" />
+      <target>créature touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Le personnage gagne un bonus de parade de +4 à la CA contre les armes à feu.</summary>
+    </spell>
+    <spell id="bulle-dair" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bulle dair.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Bulle-Dair.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Bulle d'air</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="druid" level="1" />
+        <level list="cleric" level="1" />
+        <level list="witch" level="1" />
+        <level list="oracle" level="1" />
+      </levels>
+      <components kinds="S M/DF">petite vessie remplie d’air</components>
+      <range unit="touch" />
+      <target>créature vivante ou objet pas plus gros qu’une arme à deux mains G</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Crée une petite poche d’air autour de la tête du personnage ou autour d’un objet.</summary>
+    </spell>
+    <spell id="calme-illusoire" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Calme illusoire.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Calme-Illusoire.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Calme illusoire</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="alchemist" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="disbelief" />
+      <summary>On dirait que le personnage est immobile alors qu’il agit.</summary>
+    </spell>
+    <spell id="canon-arcanique" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Canon arcanique.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Canon-Arcanique.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Canon arcanique</name>
+      <levels>
+        <level list="sorcerer-wizard" level="7" />
+      </levels>
+      <components kinds="V S F">un canon ornementé miniature forgé avec une goutte du sang du personnage qui coûte 5 000 po</components>
+      <range unit="close" />
+      <target>un canon animé</target>
+      <castingTime unit="round" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Le focalisateur du personnage devient un canon magique qui tire de son propre chef.</summary>
+    </spell>
+    <spell id="chaîne-de-perdition" school="evocation" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Chaîne de perdition.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Chaîne-De-Perdition.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Chaîne de perdition</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="cleric" level="3" />
+        <level list="oracle" level="3" />
+      </levels>
+      <components kinds="V S M/DF">un maillon de chaîne</components>
+      <range unit="close" />
+      <target>3 m de chaîne</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Crée une chaîne de force flottante.</summary>
+    </spell>
+    <spell id="char-fantôme" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Char fantôme.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Char-Fantôme.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Char fantôme</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="summoner" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <target>un carrosse quasi-réel et ses chevaux</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="none" effect="none" />
+      <summary>Invoque un carrosse quasi-réel tiré par quatre chevaux.</summary>
+    </spell>
+    <spell id="charge-de-fourmi-(partagé)" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Charge de fourmi (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Charge-De-Fourmi--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Charge de fourmi (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+        <level list="druid" level="2" />
+        <level list="cleric" level="2" />
+        <level list="summoner" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="oracle" level="2" />
+      </levels>
+      <components kinds="V S M/DF">petite poulie</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme charge de fourmi mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="charge-télékinétique" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Charge télékinétique.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Charge-Télékinétique.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Charge télékinétique</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature consentante</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Propulse un allié dans les airs.</summary>
+    </spell>
+    <spell id="chute-de-température" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Chute de température.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Chute-De-Température.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Chute de température</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="druid" level="2" />
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>rayon de 1,50 m (1 s:c})</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="partial" />
+      <spellResistance resist="true" />
+      <summary>La zone se couvre d’un froid glacial.</summary>
+    </spell>
+    <spell id="conducteur-fantôme" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Conducteur fantôme.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Conducteur-Fantôme.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Conducteur fantôme</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="sorcerer-wizard" level="3" />
+        <level list="summoner" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="squares">2</range>
+      <target>une créature humaine quasi-réelle</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="none" effect="none" />
+      <summary>Convoque un fantôme pour conduire un véhicule.</summary>
+    </spell>
+    <spell id="connaissances-du-borgne" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Connaissances du Borgne.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Connaissances-Du-Borgne.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Connaissances du Borgne</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="druid" level="1" />
+        <level list="cleric" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="oracle" level="1" />
+        <level list="summoner" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime unit="round" value="1" />
+      <summary>Le personnage gagne un bonus de +4 aux tests de Survie et peut suivre une piste alors qu’il se déplace au maximum de sa vitesse.</summary>
+    </spell>
+    <spell id="contact-mutagène" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Contact mutagène.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Contact-Mutagène.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Contact mutagène</name>
+      <levels>
+        <level list="alchemist" level="4" />
+      </levels>
+      <components kinds="V S F">un ongle entier</components>
+      <range unit="touch" />
+      <target>créature touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Le personnage transmet une version affaiblie de son mutagène à autrui.</summary>
+    </spell>
+    <spell id="coup-tonitruant" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Coup tonitruant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Coup-Tonitruant.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Coup tonitruant</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S F">une pierre-tonnerre utilisée</components>
+      <range unit="close" />
+      <target>1 arme à feu</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates">Volonté pour annuler (objet), voir texte</savingThrow>
+      <spellResistance resist="special">oui (inoffensif), voir texte</spellResistance>
+      <summary>Les munitions de l’arme ciblée rendent les adversaires sourds.</summary>
+    </spell>
+    <spell id="couronne-de-lames" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Couronne de lames.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Couronne-De-Lames.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Couronne de lames</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="summoner" level="5" />
+        <level list="witch" level="5" />
+        <level list="magus" level="4" />
+      </levels>
+      <components kinds="V S F">quatre dagues de mithral d’une valeur de 502 po pièce</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="half" />
+      <spellResistance>non (spécial, voir texte)</spellResistance>
+      <summary>Quatre lames de mithral tournoient autour du personnage, attaquent les créatures voisines et le protègent contre les attaques d’opportunité quand il lance un sort.</summary>
+    </spell>
+    <spell id="coursier-fantôme-(partagé)" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Coursier fantôme (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Coursier-Fantôme--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Coursier fantôme (partagé)</name>
+      <levels>
+        <level list="bard" level="4" />
+        <level list="sorcerer-wizard" level="4" />
+        <level list="summoner" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>jusqu’à six créatures équines quasi-réelles</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="none" effect="none" />
+      <summary>Comme coursier fantôme mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="dissimuler-la-magie-(partagé)" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Dissimuler la magie (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Dissimuler-La-Magie--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Dissimuler la magie (partagé)</name>
+      <levels>
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S M">un morceau de gaze</components>
+      <range unit="touch" />
+      <target>créatures ou objets touchés</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Comme dissimuler la magie mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="distorsion-spatiale" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Distorsion spatiale.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Distorsion-Spatiale.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Distorsion spatiale</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="summoner" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S F">du barbelé replié en cercle</components>
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Les attaques de la créature ciblée atterrissent dans une case aléatoire au lieu de celle qu’elle avait prévue.</summary>
+    </spell>
+    <spell id="don-des-langues-(partagé)" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Don des langues (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Don-Des-Langues--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Don des langues (partagé)</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="sorcerer-wizard" level="4" />
+        <level list="cleric" level="5" />
+        <level list="summoner" level="4" />
+        <level list="witch" level="4" />
+        <level list="alchemist" level="4" />
+        <level list="oracle" level="5" />
+      </levels>
+      <components kinds="V S M/DF">une ziggourat miniature en argile</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <summary>Comme don des langues mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="élan-de-rapidité" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Élan de rapidité.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Élan-De-Rapidité.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Élan de rapidité</name>
+      <levels>
+        <level list="ranger" level="3" />
+        <level list="paladin" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="alchemist" level="3" />
+        <level list="magus" level="3" />
+        <level list="antipaladin" level="3" />
+      </levels>
+      <components kinds="V" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>La vitesse du personnage augmente. Quand il se déplace, il ignore les attaques d’opportunité et peut traverser l’espace occupé par des créatures plus grandes que lui.</summary>
+    </spell>
+    <spell id="endurance-aux-énergies-destructives-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Endurance aux énergies destructives (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Endurance-Aux-Énergies-Destructives--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Endurance aux énergies destructives (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+        <level list="paladin" level="2" />
+        <level list="druid" level="2" />
+        <level list="cleric" level="2" />
+        <level list="alchemist" level="3" />
+        <level list="oracle" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme endurance aux énergies destructives mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="engin-de-siège-magique-supérieur" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Engin de siège magique supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Engin-De-Siège-Magique-Supérieur.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Engin de siège magique supérieur</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="paladin" level="4" />
+        <level list="cleric" level="5" />
+        <level list="inquisitor" level="4" />
+        <level list="oracle" level="5" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S M/DF">poudre noire</components>
+      <range unit="close" />
+      <target>engin de siège touché</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>L’engin de siège gagne un bonus de +1 aux jets de visée et de dégâts par tranche de quatre niveaux de lanceur de sorts.</summary>
+    </spell>
+    <spell id="engin-de-siège-magique" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Engin de siège magique.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Engin-De-Siège-Magique.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Engin de siège magique</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="2" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <target>engin de siège touché</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>L’engin de siège gagne un bonus de +1 aux jets de visée et de dégâts.</summary>
+    </spell>
+    <spell id="esprit-impénétrable-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Esprit impénétrable (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Esprit-Impénétrable--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Esprit impénétrable (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="9" />
+        <level list="witch" level="9" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme  esprit impénétrable mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="fabrication-de-balles" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Fabrication de balles.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Fabrication-De-Balles.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Fabrication de balles</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+      </levels>
+      <components kinds="V S F">0,5 kg de plomb ou une quantité de métal mou d'une valeur de 2 po</components>
+      <range unit="touch" />
+      <target>0,5 kg de métal mou</target>
+      <castingTime unit="round" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Convertit 0,5 kg de métal en munitions.</summary>
+    </spell>
+    <spell id="flèche-de-laube" school="evocation" descriptor="light">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Flèche de laube.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Flèche-De-Laube.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Flèche de l'aube</name>
+      <levels>
+        <level list="paladin" level="3" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="oracle" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>50 munitions au maximum (elles doivent se trouver ensemble lors de l’incantation)</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Les munitions ciblées émettent une énergie radieuse.</summary>
+    </spell>
+    <spell id="flèche-sacrée" school="transmutation" descriptor="good">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Flèche sacrée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Flèche-Sacrée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Flèche sacrée</name>
+      <levels>
+        <level list="paladin" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>1 projectile</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Imprègne un projectile de puissance sacrée.</summary>
+    </spell>
+    <spell id="flot-obsidien" school="transmutation" descriptor="earth fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Flot obsidien.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Flot-Obsidien.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Flot obsidien</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="druid" level="4" />
+        <level list="summoner" level="3" />
+      </levels>
+      <components kinds="V S M/DF">un petit morceau d'obsidienne</components>
+      <range unit="close" />
+      <target>rayon de 6 m (4 c)</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="partial">Réflexes, partiel, voir texte</savingThrow>
+      <summary>Transforme une surface en verre fondu.</summary>
+    </spell>
+    <spell id="forme-de-bébé" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme de bébé.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Forme-De-Bébé.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Forme de bébé</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="druid" level="3" />
+        <level list="witch" level="3" />
+      </levels>
+      <components kinds="V S F">une poupée de chiffon</components>
+      <range unit="close" />
+      <target>un animal ou une créature magique</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Le personnage transforme un animal ou une créature magique en une version plus jeune et plus mignonne d’elle-même, pour une courte durée.</summary>
+    </spell>
+    <spell id="forme-de-poussière" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme de poussière.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Forme-De-Poussière.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Forme de poussière</name>
+      <levels>
+        <level list="druid" level="6" />
+        <level list="cleric" level="6" />
+        <level list="witch" level="6" />
+        <level list="alchemist" level="5" />
+        <level list="oracle" level="6" />
+      </levels>
+      <components kinds="V S F">une pincée de poussière ramassée sur une pierre tombale ou un autel sacré</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage devient temporairement une créature intangible faite de poussière.</summary>
+    </spell>
+    <spell id="frappe-miroir" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Frappe miroir.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Frappe-Miroir.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Frappe miroir</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S F">un éclat de miroir</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage frappe plusieurs adversaires lors d’une seule attaque.</summary>
+    </spell>
+    <spell id="hostilité-forcée" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Hostilité forcée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Hostilité-Forcée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Hostilité forcée</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="summoner" level="1" />
+        <level list="witch" level="1" />
+        <level list="oracle" level="1" />
+      </levels>
+      <components kinds="V S M">une goutte du sang du lanceur de sorts</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="special">voir texte</savingThrow>
+      <spellResistance resist="special">voir texte</spellResistance>
+      <summary>Oblige les adversaires à attaquer le personnage au lieu de ses alliés.</summary>
+    </spell>
+    <spell id="image-de-foudre" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Image de foudre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Image-De-Foudre.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Image de foudre</name>
+      <levels>
+        <level list="bard" level="4" />
+        <level list="sorcerer-wizard" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="special">voir texte</spellResistance>
+      <summary>Comme image miroir mais le double inflige des dégâts électriques quand on le détruit.</summary>
+    </spell>
+    <spell id="immolation-spontanée" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Immolation spontanée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Immolation-Spontanée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Immolation spontanée</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+      </levels>
+      <components kinds="V S F">une pincée de salpêtre</components>
+      <range unit="medium" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="special" effect="special" />
+      <spellResistance resist="true" />
+      <summary>La cible subit 3d6 points de dégâts de feu et s’enflamme.</summary>
+    </spell>
+    <spell id="immunité-contre-les-sorts-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Immunité contre les sorts (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Immunité-Contre-Les-Sorts--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Immunité contre les sorts (partagé)</name>
+      <levels>
+        <level list="cleric" level="5" />
+        <level list="inquisitor" level="5" />
+        <level list="oracle" level="5" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme  immunité contre les sorts mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="immunité-contre-les-sorts-suprême-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Immunité contre les sorts suprême (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Immunité-Contre-Les-Sorts-Suprême--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Immunité contre les sorts suprême (partagé)</name>
+      <levels>
+        <level list="cleric" level="9" />
+        <level list="oracle" level="9" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme immunité contre les sorts suprême mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="injection" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Injection.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Injection.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Injection</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="alchemist" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>le jeteur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Le personnage peut administrer une infusion, un élixir, un poison ou une potion par une attaque de contact.</summary>
+    </spell>
+    <spell id="instant-de-gloire" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Instant de gloire.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Instant-De-Gloire.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Instant de gloire</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="cleric" level="1" />
+        <level list="oracle" level="1" />
+      </levels>
+      <components kinds="V S M/DF">de la fourrure de lapin</components>
+      <range unit="squares">10</range>
+      <target>lanceur de sorts et les alliés situés dans un rayon de 15 m (10 c) autour du lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Double un bonus de moral.</summary>
+    </spell>
+    <spell id="instrument-dagonie" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Instrument dagonie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Instrument-Dagonie.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Instrument d'agonie</name>
+      <levels>
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>arme touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates">Volonté pour annuler (inoffensif, objet), voir texte</savingThrow>
+      <spellResistance resist="special">oui (inoffensif, objet), voir texte</spellResistance>
+      <summary>L’arme émet une fureur divine qui donne un bonus aux tests d’Intimidation.</summary>
+    </spell>
+    <spell id="invective-cuisante" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Invective cuisante.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Invective-Cuisante.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Invective cuisante</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="alchemist" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>9 m (6 c) de rayon</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="partial">Réflexes partiel, voir texte</savingThrow>
+      <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+      <summary>Le personnage fait un test d’Intimidation contre tous les adversaires situés dans les 9 (M). Ceux qu’il démoralise subissent des dégâts de feu.</summary>
+    </spell>
+    <spell id="invocation-héroïque" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Invocation héroïque.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Invocation-Héroïque.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Invocation héroïque</name>
+      <levels>
+        <level list="sorcerer-wizard" level="9" />
+        <level list="witch" level="9" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature ou plus, qui ne doivent être distantes de plus de 9 m (6 c) les unes des autres</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Des créatures bénéficient de bonus aux jets d’attaque et de dégâts, de points de vie temporaires et d’une immunité contre les effets de peur et de charme.</summary>
+    </spell>
+    <spell id="juggernaut-mortel" school="necromancy">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Juggernaut mortel.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Juggernaut-Mortel.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Juggernaut mortel</name>
+      <levels>
+        <level list="paladin" level="3" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="oracle" level="3" />
+        <level list="antipaladin" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>La puissance du personnage augmente à chaque fois qu’il tue.</summary>
+    </spell>
+    <spell id="juxtaposition-hostile-supérieure" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Juxtaposition hostile supérieure.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Juxtaposition-Hostile-Supérieure.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Juxtaposition hostile supérieure</name>
+      <levels>
+        <level list="sorcerer-wizard" level="7" />
+        <level list="summoner" level="6" />
+        <level list="witch" level="7" />
+      </levels>
+      <components kinds="V S F">une pièce</components>
+      <range unit="close" />
+      <target>une créature/4 niveaux</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Le personnage peut viser une créature de plus tous les quatre niveaux de lanceur de sorts.</summary>
+    </spell>
+    <spell id="juxtaposition-hostile" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Juxtaposition hostile.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Juxtaposition-Hostile.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Juxtaposition hostile</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="summoner" level="4" />
+        <level list="witch" level="5" />
+      </levels>
+      <components kinds="V S F">une pièce</components>
+      <range unit="close" />
+      <target>une créature de la taille du lanceur de sorts ou plus petite</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Le personnage crée un lien dimensionnel entre la créature visée et sa personne. Ils échangent de place.</summary>
+    </spell>
+    <spell id="lévitation-hostile" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lévitation hostile.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lévitation-Hostile.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Lévitation hostile</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="witch" level="3" />
+      </levels>
+      <components kinds="V S F">une boucle de cuir sertie de magnétite</components>
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Fait léviter la créature visée.</summary>
+    </spell>
+    <spell id="lien-avec-linvocateur" school="necromancy">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lien avec linvocateur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lien-Avec-Linvocateur.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Lien avec l'invocateur</name>
+      <levels>
+        <level list="sorcerer-wizard" level="8" />
+        <level list="cleric" level="4" />
+        <level list="summoner" level="4" />
+        <level list="witch" level="5" />
+        <level list="oracle" level="4" />
+      </levels>
+      <components kinds="V S F">deux mouches</components>
+      <range unit="close" />
+      <target>une créature invoquée ou un eidolon</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>La cible subit des dégâts à chaque fois que ses créatures invoquées en reçoivent.</summary>
+    </spell>
+    <spell id="lien-de-vie-supérieur" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lien de vie supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lien-De-Vie-Supérieur.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Lien de vie supérieur</name>
+      <levels>
+        <level list="summoner" level="5" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage peut transférer 3d6 points de vie à son eidolon par une action rapide.</summary>
+    </spell>
+    <spell id="lien-de-vie" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lien de vie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lien-De-Vie.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Lien de vie</name>
+      <levels>
+        <level list="summoner" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage se lie encore plus étroitement avec son eidolon et peut utiliser le pouvoir lien vital pour partager ses points de vie avec lui.</summary>
+    </spell>
+    <spell id="lien-mental-avec-le-compagnon" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lien mental avec le compagnon.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lien-Mental-Avec-Le-Compagnon.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Lien mental avec le compagnon</name>
+      <levels>
+        <level list="ranger" level="3" />
+        <level list="druid" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>le compagnon animal</target>
+      <castingTime value="1" />
+      <summary>Le personnage peut parler avec son compagnon animal et le gère avec une facilité surnaturelle.</summary>
+    </spell>
+    <spell id="litanie-de-défense" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de défense.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Défense.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de défense</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Double le bonus d’altération d’une armure.</summary>
+    </spell>
+    <spell id="litanie-de-faiblesse" school="necromancy" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de faiblesse.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Faiblesse.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de faiblesse</name>
+      <levels>
+        <level list="inquisitor" level="1" />
+        <level list="antipaladin" level="1" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Une cible est fatiguée pour 1 round.</summary>
+    </spell>
+    <spell id="litanie-de-folie" school="enchantment" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de folie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Folie.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de folie</name>
+      <levels>
+        <level list="inquisitor" level="6" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none">non, voir texte</savingThrow>
+      <spellResistance resist="true" />
+      <summary>Une cible est confuse pour au moins 1 round.</summary>
+    </spell>
+    <spell id="litanie-de-fuite" school="conjuration" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de fuite.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Fuite.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de fuite</name>
+      <levels>
+        <level list="paladin" level="3" />
+        <level list="inquisitor" level="4" />
+        <level list="antipaladin" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature agrippée</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Téléporte un allié agrippé pour le libérer.</summary>
+    </spell>
+    <spell id="litanie-de-paresse" school="enchantment" descriptor="languageDependent mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de paresse.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Paresse.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de paresse</name>
+      <levels>
+        <level list="paladin" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="antipaladin" level="1" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Une cible n’est plus en mesure de faire des attaques d’opportunité pendant 1 round.</summary>
+    </spell>
+    <spell id="litanie-de-prévention" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de prévention.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Prévention.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de prévention</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="3" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime unit="swiftAction" value="1" />
+      <summary>Deux attaques d’opportunité de plus pendant 1 round.</summary>
+    </spell>
+    <spell id="litanie-de-tonnerre" school="evocation" descriptor="languageDependent sonic">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de tonnerre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Tonnerre.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de tonnerre</name>
+      <levels>
+        <level list="paladin" level="4" />
+        <level list="inquisitor" level="5" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Une cible est sourde jusqu’à ce qu’on la débarrasse de cette condition et elle est confuse pour 1 round.</summary>
+    </spell>
+    <spell id="litanie-de-vengeance" school="transmutation" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de vengeance.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Vengeance.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de vengeance</name>
+      <levels>
+        <level list="paladin" level="4" />
+        <level list="inquisitor" level="5" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Les alliés qui attaquent la cible de ce sort gagnent un bonus de +5 aux jets de dégâts pendant 1 round.</summary>
+    </spell>
+    <spell id="litanie-de-vertu" school="evocation" descriptor="good languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de vertu.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Vertu.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de vertu</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Une unique créature Mauvaise reçoit plus de dégâts de la part des créatures qui possède une aura Bonne.</summary>
+    </spell>
+    <spell id="litanie-de-vision" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de vision.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Vision.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie de vision</name>
+      <levels>
+        <level list="paladin" level="3" />
+        <level list="inquisitor" level="4" />
+        <level list="antipaladin" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Le personnage distingue les créatures et les objets invisibles situés dans les 9 m autour de lui.</summary>
+    </spell>
+    <spell id="litanie-déloquence" school="enchantment" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie déloquence.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-Déloquence.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie d'éloquence</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="3" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Fascine une créature pendant 1 round.</summary>
+    </spell>
+    <spell id="litanie-denchevêtrement" school="conjuration" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie denchevêtrement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-Denchevêtrement.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Litanie d'enchevêtrement</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="3" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Enchevêtre une créature pendant un round.</summary>
+    </spell>
+    <spell id="lumière-du-jugement" school="evocation" descriptor="light">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lumière du jugement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lumière-Du-Jugement.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Lumière du jugement</name>
+      <levels>
+        <level list="inquisitor" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>rayon de 9 m (6 c)</target>
+      <castingTime value="1" />
+      <summary>Le personnage gagne un effet supplémentaire tant que son jugement est actif.</summary>
+    </spell>
+    <spell id="main-vagabonde" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Main vagabonde.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Main-Vagabonde.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Main vagabonde</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="cleric" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="S" />
+      <range unit="close" />
+      <target>un objet</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" objects="true" />
+      <summary>Le personnage peut prendre un objet ou le manipuler de loin.</summary>
+    </spell>
+    <spell id="marche-dans-les-airs-(partagé)" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Marche dans les airs (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Marche-Dans-Les-Airs--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Marche dans les airs (partagé)</name>
+      <levels>
+        <level list="druid" level="5" />
+        <level list="cleric" level="5" />
+        <level list="oracle" level="5" />
+        <level list="alchemist" level="4" />
+        <level list="ranger" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme marche dans les airs mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="marche-sur-londe-(partagé)" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Marche sur londe (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Marche-Sur-Londe--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Marche sur l'onde (partagé)</name>
+      <levels>
+        <level list="druid" level="4" />
+        <level list="cleric" level="4" />
+        <level list="oracle" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme  marche sur l’onde mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="métal-solaire" school="transmutation" descriptor="fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Métal solaire.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Métal-Solaire.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Métal solaire</name>
+      <levels>
+        <level list="ranger" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="oracle" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>une arme de corps à corps</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" objects="true" />
+      <summary>L’arme touchée émet une gerbe de flammes.</summary>
+    </spell>
+    <spell id="mixture-pour-bombe-à-décharge-de-foudre" school="evocation" descriptor="electricity">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe à décharge de foudre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-À-Décharge-De-Foudre.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Mixture pour bombe à décharge de foudre</name>
+      <levels>
+        <level list="alchemist" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+      <summary>La bombe du personnage est agrémentée d’un sceau qui inflige des dégâts électriques à chaque fois que les cibles touchées se déplacent de 1,50 (M).</summary>
+    </spell>
+    <spell id="mixture-pour-bombe-ciblée" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe ciblée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-Ciblée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Mixture pour bombe ciblée</name>
+      <levels>
+        <level list="alchemist" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+      <summary>Améliore une bombe qui inflige plus de dégâts à une unique créature.</summary>
+    </spell>
+    <spell id="mixture-pour-bombe-de-vipère" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe de vipère.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-De-Vipère.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Mixture pour bombe de vipère</name>
+      <levels>
+        <level list="alchemist" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>La bombe du personnage invoque des vipères qui mordent les victimes touchées par la bombe ou son aspersion.</summary>
+    </spell>
+    <spell id="mixture-pour-bombe-demprisonnement" school="evocation" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe demprisonnement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-Demprisonnement.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Mixture pour bombe d'emprisonnement</name>
+      <levels>
+        <level list="alchemist" level="6" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>La bombe du personnage crée une cage de force qui piège les créatures qui se trouvent dans le rayon d’aspersion.</summary>
+    </spell>
+    <spell id="mixture-pour-bombe-dombre" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe dombre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-Dombre.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Mixture pour bombe d'ombre</name>
+      <levels>
+        <level list="alchemist" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="special">spécial, voir texte</savingThrow>
+      <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+      <summary>La bombe du personnage recouvre sa cible d’une substance sombre qui lui donne un camouflage mais limite sa visibilité.</summary>
+    </spell>
+    <spell id="mixture-pour-bombe-languide" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe languide.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-Languide.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Mixture pour bombe languide</name>
+      <levels>
+        <level list="alchemist" level="5" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Les créatures touchées par la bombe ou ses aspersions sont fatiguées.</summary>
+    </spell>
+    <spell id="monture-(partagé)" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Monture (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Monture--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Monture (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="summoner" level="2" />
+        <level list="witch" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S M">quelques crins</components>
+      <range unit="close" />
+      <target>jusqu'à six montures</target>
+      <castingTime unit="round" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Comme monture mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="nappe-de-goudron" school="transmutation" descriptor="earth fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Nappe de goudron.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Nappe-De-Goudron.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Nappe de goudron</name>
+      <levels>
+        <level list="sorcerer-wizard" level="6" />
+        <level list="druid" level="6" />
+        <level list="summoner" level="5" />
+      </levels>
+      <components kinds="V S M/DF">une bille de goudron durcie</components>
+      <range unit="close" />
+      <target>6 m (4 c) de rayon</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="partial">Réflexes partiel, voir texte</savingThrow>
+      <summary>Transforme la couche supérieure du sol en goudron brûlant.</summary>
+    </spell>
+    <spell id="ordre-libérateur" school="transmutation" descriptor="earth fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ordre libérateur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Ordre-Libérateur.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Ordre libérateur</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="paladin" level="1" />
+        <level list="druid" level="1" />
+        <level list="cleric" level="1" />
+        <level list="oracle" level="1" />
+      </levels>
+      <components kinds="V" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="immediateAction" value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>La cible fait un test d’Évasion par une action immédiate avec un bonus.</summary>
+    </spell>
+    <spell id="pacte-avec-la-terre" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Pacte avec la terre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Pacte-Avec-La-Terre.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Pacte avec la terre</name>
+      <levels>
+        <level list="ranger" level="4" />
+      </levels>
+      <components kinds="V S F">une pincée de terre qui vient de l'environnement de prédilection du rôdeur</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage considère l’endroit où il se trouve comme un environnement de prédilection pour la durée du sort.</summary>
+    </spell>
+    <spell id="paix-forcée" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Paix forcée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Paix-Forcée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Paix forcée</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="witch" level="1" />
+      </levels>
+      <components kinds="S" />
+      <range unit="close" />
+      <target>une arme au fourreau ou rangée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" />
+      <summary>Fige une arme sur le corps de la cible.</summary>
+    </spell>
+    <spell id="partage-de-la-langue-(partagé)" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Partage de la langue (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Partage-De-La-Langue--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Partage de la langue (partagé)</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="3" />
+        <level list="druid" level="3" />
+        <level list="cleric" level="3" />
+        <level list="oracle" level="3" />
+      </levels>
+      <components kinds="V S M">une page de dictionnaire</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme partage de la langue mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="pattes-daraignée-(partagé)" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Pattes daraignée (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Pattes-Daraignée--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Pattes d'araignée (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="druid" level="3" />
+        <level list="summoner" level="3" />
+        <level list="alchemist" level="3" />
+      </levels>
+      <components kinds="V S M">une araignée vivante</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme pattes d’araignée mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="peau-de-pierre-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Peau de pierre (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Peau-De-Pierre--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Peau de pierre (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="druid" level="6" />
+        <level list="inquisitor" level="5" />
+        <level list="summoner" level="4" />
+        <level list="alchemist" level="5" />
+      </levels>
+      <components kinds="V S F">du granit et de la poudre de diamant &lt;nowiki&gt;[&lt;/nowiki&gt;d’une valeur de 100 po par créature affectée&lt;/nowiki&gt;]&lt;/nowiki&gt;</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme peau de pierre mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="peau-résineuse" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Peau résineuse.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Peau-Résineuse.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Peau résineuse</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="druid" level="3" />
+        <level list="alchemist" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="special">voir texte</savingThrow>
+      <summary>Le personnage gagne une RD 5/perforant et un bonus de +4 au DMD contre les tentatives de désarmement.</summary>
+    </spell>
+    <spell id="perspicacité-tactique" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Perspicacité tactique.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Perspicacité-Tactique.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Perspicacité tactique</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="1" />
+        <level list="inquisitor" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S M/DF">un bout de carte</components>
+      <range unit="squares">6</range>
+      <target>lanceur de sorts et les alliés dans un rayon de 9 m (6 c) centré sur le lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Le personnage gagne un bonus supplémentaire aux jets d’attaque ou à la CA dû à sa position sur le champ de bataille.</summary>
+    </spell>
+    <spell id="plaie-au-visage" school="necromancy">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Plaie au visage.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Plaie-Au-Visage.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Plaie au visage</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>une arme tranchante touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Une arme tranchante inflige des dégâts de saignement à la tête d’un adversaire.</summary>
+    </spell>
+    <spell id="pluie-de-plomb" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Pluie de plomb.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Pluie-De-Plomb.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Pluie de plomb</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="summoner" level="3" />
+        <level list="magus" level="4" />
+      </levels>
+      <components kinds="V S F">une poignée de plombs en métal ou de plombs en fer froid, en argent ou en adamantium ; consultez la description pour le prix</components>
+      <range unit="squares">6</range>
+      <target>cône</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="half" />
+      <summary>Crée une explosion de plombs invoqués.</summary>
+    </spell>
+    <spell id="poigne-sûre" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Poigne sûre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Poigne-Sûre.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Poigne sûre</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="druid" level="2" />
+        <level list="alchemist" level="2" />
+      </levels>
+      <components kinds="V S M/DF">une petite boule de goudron</components>
+      <target>créature touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Le personnage gagne un bonus de compétence de +4 aux tests d’Acrobaties et d’Escalade et au DMD.</summary>
+    </spell>
+    <spell id="poudre-affaiblie" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Poudre affaiblie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Poudre-Affaiblie.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Poudre affaiblie</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="druid" level="1" />
+        <level list="witch" level="1" />
+      </levels>
+      <components kinds="V S M/DF">une cartouche de papier vide</components>
+      <range unit="close" />
+      <target>une aarme à feu chargée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" />
+      <summary>Les munitions de l’arme touchée réduisent sa portée de moitié et imposent un malus de -2 aux jets de dégâts.</summary>
+    </spell>
+    <spell id="poudre-instable" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Poudre instable.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Poudre-Instable.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Poudre instable</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S M/DF">quelques gouttes de liqueur</components>
+      <range unit="close" />
+      <target>une arme à feu chargée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" />
+      <summary>Les munitions de l’arme à feu visée augmentent ses risques de faire long feu.</summary>
+    </spell>
+    <spell id="poudre-mouillée" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Poudre mouillée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Poudre-Mouillée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Poudre mouillée</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="druid" level="1" />
+        <level list="witch" level="1" />
+      </levels>
+      <components kinds="V S M/DF">un morceau de coton mouillé</components>
+      <range unit="close" />
+      <target>une arme à feu chargée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" />
+      <summary>Les munitions chargées dans l’arme ciblées sont inutilisables.</summary>
+    </spell>
+    <spell id="poudre-stable" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Poudre stable.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Poudre-Stable.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Poudre stable</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S M/DF">quelques gouttes de liqueur</components>
+      <range unit="close" />
+      <target>une arme à feu chargée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Les munitions de l’arme ciblée diminuent les risques de long feu.</summary>
+    </spell>
+    <spell id="présage-débilitant" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Présage débilitant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Présage-Débilitant.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Présage débilitant</name>
+      <levels>
+        <level list="cleric" level="4" />
+        <level list="witch" level="4" />
+        <level list="oracle" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="medium" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Impose un triste destin à une créature qui voit ses dégâts réduits de moitié quand elle attaque ou lance un sort.</summary>
+    </spell>
+    <spell id="présage-traumatisant" school="evocation" descriptor="electricity">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Présage traumatisant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Présage-Traumatisant.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Présage traumatisant</name>
+      <levels>
+        <level list="cleric" level="7" />
+        <level list="oracle" level="7" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="medium" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Le destin se montre rancunier envers une créature qui reçoit des dégâts d’électricité à chaque fois qu’elle attaque ou qu’elle lance un sort.</summary>
+    </spell>
+    <spell id="protection-contre-la-loi-(partagé)" school="abjuration" descriptor="chaotic">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre la Loi (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-La-Loi--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Protection contre la Loi (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="summoner" level="2" />
+        <level list="oracle" level="2" />
+        <level list="antipaladin" level="2" />
+        <level list="paladin" level="2" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance>non (voir description)</spellResistance>
+      <summary>Comme protection contre la Loi mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="protection-contre-le-bien-(partagé)" school="abjuration" descriptor="evil">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Bien (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Bien--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Protection contre le Bien (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="summoner" level="2" />
+        <level list="oracle" level="2" />
+        <level list="antipaladin" level="2" />
+        <level list="paladin" level="2" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance>non (voir description)</spellResistance>
+      <summary>Comme protection contre le Bien mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="protection-contre-le-chaos-(partagé)" school="abjuration" descriptor="lawful">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Chaos (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Chaos--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Protection contre le Chaos (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="summoner" level="2" />
+        <level list="oracle" level="2" />
+        <level list="paladin" level="2" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance>non (voir description)</spellResistance>
+      <summary>Comme  protection contre le Chaos mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="protection-contre-le-mal-(partagé)" school="abjuration" descriptor="good">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Mal (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Mal--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Protection contre le Mal (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="summoner" level="2" />
+        <level list="oracle" level="2" />
+        <level list="paladin" level="2" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance>non (voir description)</spellResistance>
+      <summary>Comme protection contre le Mal mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="protection-contre-les-énergies-destructives-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre les énergies destructives (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Les-Énergies-Destructives--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Protection contre les énergies destructives (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="ranger" level="3" />
+        <level list="druid" level="4" />
+        <level list="cleric" level="4" />
+        <level list="inquisitor" level="4" />
+        <level list="summoner" level="4" />
+        <level list="oracle" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme protection contre les énergies destructives mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="protection-contre-les-projectiles-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre les projectiles (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Les-Projectiles--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Protection contre les projectiles (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="summoner" level="3" />
+        <level list="alchemist" level="3" />
+      </levels>
+      <components kinds="V S F">un morceau de carapace de tortue</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme  protection contre les projectiles mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="ralentissement-du-poison-(partagé)" school="conjuration" descriptor="healing">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ralentissement du poison (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Ralentissement-Du-Poison--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Ralentissement du poison (partagé)</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="ranger" level="3" />
+        <level list="paladin" level="3" />
+        <level list="druid" level="3" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="witch" level="3" />
+        <level list="alchemist" level="3" />
+        <level list="oracle" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme ralentissement du poison mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="réaction-négative" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Réaction négative.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Réaction-Négative.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Réaction négative</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="witch" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="S" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>La créature ciblée ne peut pas influencer positivement autrui.</summary>
+    </spell>
+    <spell id="recul-excessif" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Recul excessif.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Recul-Excessif.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Recul excessif</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S F">des rognures de corne de mule</components>
+      <range unit="close" />
+      <target>1 arme à feu</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" />
+      <summary>Les tirs de l’arme à feu ciblée génèrent un recul excessif.</summary>
+    </spell>
+    <spell id="renforcer-larmement-(partagé)" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Renforcer larmement (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Renforcer-Larmement--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Renforcer l'armement (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="cleric" level="2" />
+        <level list="witch" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S M/DF">une épingle en métal</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Comme  renforcer l’armement mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="renforcer-larmement" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Renforcer larmement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Renforcer-Larmement.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Renforcer l'armement</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="cleric" level="1" />
+        <level list="witch" level="1" />
+        <level list="oracle" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S M/DF">une épingle en métal</components>
+      <range unit="touch" />
+      <target>une armure ou une arme</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Mitige temporairement la propriété fragile d’une arme ou d’une armure.</summary>
+    </spell>
+    <spell id="réparation-improvisée" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Réparation improvisée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Réparation-Improvisée.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Réparation improvisée</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="summoner" level="1" />
+        <level list="witch" level="1" />
+        <level list="magus" level="1" />
+      </levels>
+      <components kinds="V S F">une cgoutte de résine</components>
+      <range unit="touch" />
+      <target>un objet brisé d'un maximum de 1 kg/niveau</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>L’objet cible n’est plus brisé.</summary>
+    </spell>
+    <spell id="repérer-les-faiblesses" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Repérer les faiblesses.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Repérer-Les-Faiblesses.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Repérer les faiblesses</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="ranger" level="2" />
+        <level list="inquisitor" level="3" />
+        <level list="witch" level="3" />
+        <level list="magus" level="3" />
+      </levels>
+      <components kinds="V S M/DF">un œil de prédateur en saumure</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage lance deux fois les dés de dégâts des coups critiques et prend les meilleurs.</summary>
+    </spell>
+    <spell id="résistance-aux-énergies-destructives-(partagé)" school="abjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Résistance aux énergies destructives (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Résistance-Aux-Énergies-Destructives--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Résistance aux énergies destructives (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="ranger" level="3" />
+        <level list="paladin" level="3" />
+        <level list="druid" level="3" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="summoner" level="3" />
+        <level list="alchemist" level="3" />
+        <level list="oracle" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme résistance aux énergies destructives mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="réverbération-cinétique" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Réverbération cinétique.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Réverbération-Cinétique.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Réverbération cinétique</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="alchemist" level="2" />
+      </levels>
+      <components kinds="V S F">un peu de sève d'arbre à caoutchouc</components>
+      <range unit="touch" />
+      <target>créature touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" objects="true" />
+      <summary>Renvoie la force de l’attaque ennemie dans son arme.</summary>
+    </spell>
+    <spell id="river-le-regard" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.River le regard.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/River-Le-Regard.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>River le regard</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="magus" level="1" />
+        <level list="witch" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>Oblige la cible à regarder uniquement le personnage pendant toute la durée du sort.</summary>
+    </spell>
+    <spell id="savoir-manier-une-arme" school="enchantment" descriptor="electricity">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Savoir manier une arme.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Savoir-Manier-Une-Arme.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Savoir manier une arme</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="witch" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="2" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S F">un bout de métal</components>
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Accorde le maniement d’une arme pour une courte période.</summary>
+    </spell>
+    <spell id="science-du-lien-de-vie" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Science du lien de vie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Science-Du-Lien-De-Vie.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Science du lien de vie</name>
+      <levels>
+        <level list="summoner" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Transfère 2d6 points de vie à l’eidolon par une action rapide.</summary>
+    </spell>
+    <spell id="scrupule" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Scrupule.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Scrupule.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Scrupule</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="witch" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+      <summary>La cible a un malus aux tests de caractéristique, de compétence et de Concentration tant qu’elle n’a pas passé un round entier sans rien faire.</summary>
+    </spell>
+    <spell id="shuriken-de-feu" school="conjuration" descriptor="fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Shuriken de feu.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Shuriken-De-Feu.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Shuriken de feu</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+      </levels>
+      <components kinds="V S F">une pincée de soufre et un shuriken pour une valeur de 2 po</components>
+      <range unit="close" />
+      <target>deux shuriken enflammés ou plus</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Invoque des projectiles enflammés que le personnage peut lancer sur ses adversaires.</summary>
+    </spell>
+    <spell id="soldats-de-la-nature" school="transmutation" descriptor="fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Soldats de la nature.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Soldats-De-La-Nature.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Soldats de la nature</name>
+      <levels>
+        <level list="ranger" level="2" />
+        <level list="druid" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="squares">6</range>
+      <target>émanation de 9 m (6 c) de rayon, centrée sur le lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Les plantes voisines aident le personnage quand il se bat.</summary>
+    </spell>
+    <spell id="symbole-fatal" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Symbole fatal.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Symbole-Fatal.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Symbole fatal</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="cleric" level="5" />
+        <level list="witch" level="5" />
+        <level list="oracle" level="5" />
+        <level list="magus" level="5" />
+      </levels>
+      <components kinds="V S F">une arme de corps à corps de maître qui vaut au moins 300 po</components>
+      <range>0 m (voir description)</range>
+      <target>1 symbole</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="half" />
+      <spellResistance resist="special">oui, voir texte</spellResistance>
+      <summary>Comme symbole de mort mais occupe une case de 1,50 (M).</summary>
+    </spell>
+    <spell id="tir-aveuglant" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tir aveuglant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Tir-Aveuglant.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Tir aveuglant</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="witch" level="3" />
+      </levels>
+      <components kinds="V S F">une pincée de pyrite en poudre</components>
+      <range unit="close" />
+      <target>une arme à feu</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (objet), voir texte</spellResistance>
+      <summary>Les munitions de l’arme ciblée créent un éclair qui aveugle le tireur et ceux qui l’entourent.</summary>
+    </spell>
+    <spell id="tir-dénergie-à-larme-de-siège-supérieur" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tir dénergie à larme de siège supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Tir-Dénergie-À-Larme-De-Siège-Supérieur.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Tir d'énergie à l'arme de siège supérieur</name>
+      <levels>
+        <level list="sorcerer-wizard" level="6" />
+        <level list="summoner" level="6" />
+      </levels>
+      <components kinds="V S F">une boulette de résine</components>
+      <range unit="close" />
+      <target>un engin de siège de n'importe quelle taille</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Comme  tir d’énergie à l’arme de siège mais affecte un engin de n’importe quelle taille.</summary>
+    </spell>
+    <spell id="tir-dénergie-à-larme-de-siège" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tir dénergie à larme de siège.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Tir-Dénergie-À-Larme-De-Siège.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Tir d'énergie à l'arme de siège</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="summoner" level="5" />
+      </levels>
+      <components kinds="V S F">une boulette de résine</components>
+      <range unit="close" />
+      <target>un engin de siège G</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>Un engin de siège G inflige le type de dégâts d’énergie choisi par le personnage et provoque des effets supplémentaires en fonction.</summary>
+    </spell>
+    <spell id="tir-longue-distance" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tir longue distance.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Tir-Longue-Distance.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Tir longue distance</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="paladin" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="alchemist" level="1" />
+        <level list="magus" level="1" />
+        <level list="antipaladin" level="1" />
+      </levels>
+      <components kinds="V S M/DF">un bout d'empennage</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Bonus de +3 m au facteur de portée de toutes les armes à distance.</summary>
+    </spell>
+    <spell id="tir-par-ricochet" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tir par ricochet.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Tir-Par-Ricochet.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Tir par ricochet</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+      </levels>
+      <components kinds="V S F">un bréchet</components>
+      <range unit="close" />
+      <target>une arme à projectile</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" objects="true" harmless="true" />
+      <summary>L’arme à projectile touchée donne la propriété ricochet à ses munitions.</summary>
+    </spell>
+    <spell id="torche-révélatrice" school="evocation" descriptor="light">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Torche révélatrice.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Torche-Révélatrice.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Torche révélatrice</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>objet touché</target>
+      <castingTime unit="round" value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Les objets touchés émettent une vive lumière qui donne des bonus de Perception et de Psychologie.</summary>
+    </spell>
+    <spell id="traverser-lespace" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Traverser lespace.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Traverser-Lespace.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Traverser l'espace</name>
+      <levels>
+        <level list="sorcerer-wizard" level="7" />
+        <level list="summoner" level="6" />
+        <level list="witch" level="7" />
+        <level list="alchemist" level="6" />
+        <level list="magus" level="6" />
+      </levels>
+      <components kinds="V S F">un oeuf de troglodyte</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <summary>Le personnage peut dépenser une action de mouvement pour se téléporter à 9 m de sa position ou pour se relever sans provoquer d’attaque d’opportunité alors qu’il était à terre.</summary>
+    </spell>
+    <spell id="trouver-la-proie" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Trouver la proie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Trouver-La-Proie.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Trouver la proie</name>
+      <levels>
+        <level list="ranger" level="4" />
+        <level list="inquisitor" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <summary>Le personnage sent si une créature donnée se trouve dans un rayon de 30 km.</summary>
+    </spell>
+    <spell id="vision-dans-le-noir-(partagé)" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Vision dans le noir (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Vision-Dans-Le-Noir--Partagé-.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Vision dans le noir (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="ranger" level="4" />
+        <level list="alchemist" level="3" />
+        <level list="antipaladin" level="3" />
+      </levels>
+      <components kinds="V S M">une pincée de carotte séchée ou une agate</components>
+      <range unit="touch" />
+      <target>créatures touchées</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Comme vision dans le noir mais la durée d’effet se divise entre les créatures touchées.</summary>
+    </spell>
+    <spell id="voir-lalignement" school="divination">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Voir lalignement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Voir-Lalignement.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Voir l'alignement</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="alchemist" level="1" />
+      </levels>
+      <components kinds="V S F">un oeil de triton</components>
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" harmless="true" />
+      <summary>Le personnage choisit un alignement. Toutes les créatures et tous les objets de cet alignement présents dans son champ de vision émettent un halo fantomatique.</summary>
+    </spell>
+    <spell id="vol-de-soins" school="necromancy">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Vol de soins.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Vol-De-Soins.html">DRP Black-Book-Éditions</reference>
+        </references>
+      </source>
+      <name>Vol de soins</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="witch" level="3" />
+      </levels>
+      <components kinds="V S F">un morceau d'éponge imbibé de larmes</components>
+      <range unit="touch" />
+      <target>créature touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none" />
+      <spellResistance resist="true" />
+      <summary>Le personnage siphonne la moitié des soins magiques que la créature visée reçoit.</summary>
+    </spell>
+  </spells>
+</dataSet>

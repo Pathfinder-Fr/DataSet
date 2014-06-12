@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:lang="fr-FR" xmlns="urn:pathfinderDb">
+  <sources>
+    <source id="pfrpg" />
+    <source id="apg" />
+  </sources>
+  <gears>
+    <gear category="adventuring" id="backpack">
+      <name>Sac à dos (vide)</name>
+      <source id="pfrpg" />
+      <weight unit="kg" value="0.25" />
+      <price value="2" />
+    </gear>
+    <gear category="adventuring" id="sewingNeedle">
+      <name>Aiguille à coudre</name>
+      <source id="pfrpg" />
+      <price unit="sp" value="5" />
+    </gear>
+    <gear category="adventuring" id="signetRing">
+      <name>Annveau à compartiment secret</name>
+      <source id="pfrpg" />
+      <price value="5" />
+    </gear>
+  </gears>
+  <gears>
+    <gear category="adventuring" id="magnet">
+      <name>Aimant</name>
+      <source id="apg" />
+      <weight unit="kg" value="0.25" />
+      <price value="0.5" />
+    </gear>
+  </gears>
+</dataSet>

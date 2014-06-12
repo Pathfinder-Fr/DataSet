@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:lang="fr-FR" xmlns="urn:pathfinderDb">
+  <sources>
+    <source id="um" />
+  </sources>
+  <monsters>
+    <monster name="Araignée écarlate" cr="0.25" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="um" />
+    </monster>
+    <monster name="Chèvre" cr="0.33" climate="temperate" environment="mountains" type="animal">
+      <sources>
+        <source id="um" />
+        <source id="bestiary3" />
+      </sources>
+    </monster>
+    <monster name="Cochon" cr="0.33" climate="temperate" environment="forest-jungle" type="animal">
+      <sources>
+        <source id="um" />
+        <source id="bestiary3" />
+      </sources>
+    </monster>
+    <monster name="Grive" cr="0.33" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Hérisson" cr="0.125" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Ma" cr="0.25" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Mille-pattes domestique" cr="0.125" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Pieuvre à anneaux bleus" cr="0.5" climate="temperate" environment="aquatic" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Renard" cr="0.25" climate="temperate" environment="forest-jungle" type="animal">
+      <sources>
+        <source id="um" />
+        <source id="bestiary3" />
+      </sources>
+    </monster>
+    <monster name="Scorpion Vert" cr="0.25" climate="warm" environment="desert" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Tortue de mer" cr="0.16" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+  </monsters>
+</dataSet>
