@@ -1,4 +1,10 @@
-﻿namespace Pathfinder.DataSet
+﻿// -----------------------------------------------------------------------
+// <copyright file="FeatTests.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.DataSet
 {
     using System.Collections.Generic;
     using System.IO;
