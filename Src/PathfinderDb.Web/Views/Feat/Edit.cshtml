@@ -1,0 +1,8 @@
+﻿@model PathfinderDb.ViewModels.FeatEditViewModel
+
+@{
+}
+
+<h2>@ViewBag.Title</h2>
+@Html.EnumDropDownListFor(m => m.Type)
+@Html.ListBoxFor(m => m.Types,
