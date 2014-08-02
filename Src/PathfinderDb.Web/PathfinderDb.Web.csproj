@@ -119,7 +119,9 @@
     <Compile Include="Controllers\ControllerExtensions.cs" />
     <Compile Include="Controllers\DataController.cs" />
     <Compile Include="Controllers\FeatController.cs" />
+    <Compile Include="Controllers\GearController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DataSet\SourcesMvc.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -131,6 +133,10 @@
     <Compile Include="ViewModels\FeatEditViewModel.cs" />
     <Compile Include="ViewModels\FeatIndexViewModel.cs" />
     <Compile Include="ViewModels\FeatType.cs" />
+    <Compile Include="ViewModels\GearCategory.cs" />
+    <Compile Include="ViewModels\GearEditViewModel.cs" />
+    <Compile Include="ViewModels\GearIndexItemViewModel.cs" />
+    <Compile Include="ViewModels\GearIndexViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -185,6 +191,12 @@
     <Content Include="Views\Data\Index.cshtml" />
     <Content Include="Views\Feat\Index.cshtml" />
     <Content Include="Views\Feat\Edit.cshtml" />
+    <Content Include="Views\Gear\Index.cshtml" />
+    <Content Include="Views\Gear\New.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Enum.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Enum-radio.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Enum.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Source.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

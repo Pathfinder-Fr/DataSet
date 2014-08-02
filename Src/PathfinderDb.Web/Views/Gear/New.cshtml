@@ -1,0 +1,11 @@
+﻿@model GearEditViewModel
+
+@{
+    ViewBag.Title = "Équipement - Nouveau";
+}
+
+<h2>@ViewBag.Title</h2>
+@using(Html.BeginForm())
+{
+    @Html.EditorFor(m => m, new { htmlAttributes = new { @class = "form-control" }, })
+}

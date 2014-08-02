@@ -33,6 +33,43 @@
 # gear
 
 ## category
+
+### core rulebook : marchandises et services
+
+- matériel d'aventurier => Adventuring
+- substances et objets spéciaux => SpecialSubstancesAndItems
+- matériel de classes et de compétences => ToolsAndSkillKits
+- vêtements => Clothing
+- nourriture, boisson et hébergement => FoodDrinkAndLodging
+- montures et harnachement => AnimalsMountsAndRelatedGear
+- moyens de transport => Transport
+- lancement de sorts et services => Services
+
+### armes et équipement
+
+- équipement d'aventurier => Adventuring
+- trousses d'outils et de compétences => ToolsAndSkillKits
+- animaux, montures et leur équipement => AnimalsMountsAndRelatedGear
+  - familiers et animaux de compagnie
+  - animaux de garde et animaux de chasse
+  - animaux de ferme et animaux de traits
+  - montures
+  - équipement pour animaux
+- moyens de transports => Transport
+  - transport terrestre
+  - transport maritime
+- vêtements => Clothing
+- jeux => Entertainment
+- marchandises => TradeGoods
+- nourriture et boissons => FoodDrinkAndLodging
+- hébergement et services => FoodDrinkAndLodging
+- remèdes alchimiques => Alchemy
+- outils alchimiques => Alchemy
+- armes alchimiques (/!\ armes) => Alchemy
+- poisons (/!\ poisons) => Poisons
+
+### paizo prd
+
 - adventuring gear
 - tools and skill kits
 - animal, mounts and related gear

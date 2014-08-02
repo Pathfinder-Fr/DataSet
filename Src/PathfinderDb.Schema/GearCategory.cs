@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.DataSet
+﻿// -----------------------------------------------------------------------
+// <copyright file="GearCategory.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.DataSet
 {
     using System.Xml.Serialization;
 
@@ -11,23 +17,8 @@
         [XmlEnum("toolsAndSkillKits")]
         ToolsAndSkillKits,
 
-        [XmlEnum("petsAndFamiliar")]
-        PetsAndFamiliar,
-
-        [XmlEnum("guardAndHuntingAnimals")]
-        GuardAndHuntingAnimals,
-
-        [XmlEnum("farmAndWorkAnimals")]
-        FarmAndWorkAnimals,
-
-        [XmlEnum("mounts")]
-        Mounts,
-
-        [XmlEnum("animalRelatedGear")]
-        AnimalRelatedGear,
-
-        [XmlEnum("specialSubstancesAndItems")]
-        SpecialSubstancesAndItems,
+        [XmlEnum("animalsMountsAndRelatedGear")]
+        AnimalsMountsAndRelatedGear,
 
         [XmlEnum("clothing")]
         Clothing,
@@ -38,22 +29,22 @@
         [XmlEnum("tradeGoods")]
         TradeGoods,
 
-        [XmlEnum("foodAndDrink")]
-        FoodAndDrink,
+        [XmlEnum("foodDrinkAndLodging")]
+        FoodDrinkAndLodging,
 
-        [XmlEnum("lodgingAndServices")]
-        LodgingAndServices,
+        [XmlEnum("services")]
+        Services,
 
         [XmlEnum("transport")]
         Transport,
 
-        [XmlEnum("alchemicalRemedies")]
-        AlchemicalRemedies,
+        [XmlEnum("alchemy")]
+        Alchemy,
 
-        [XmlEnum("alchemicalTools")]
-        AlchemicalTools,
+        [XmlEnum("specialSubstancesAndItems")]
+        SpecialSubstancesAndItems,
 
-        [XmlEnum("alchemicalWeapons")]
-        AlchemicalWeapons
+        [XmlEnum("poisons")]
+        Poisons,
     }
 }

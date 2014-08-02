@@ -10,6 +10,8 @@ namespace PathfinderDb.Models
     {
         Unknown = 0,
 
-        Feat
+        Feat,
+
+        Gear
     }
 }

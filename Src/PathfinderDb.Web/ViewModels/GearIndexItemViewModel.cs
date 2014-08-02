@@ -1,17 +1,15 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="EquipmentItemCategory.cs" company="Pathfinder-fr">
+// <copyright file="GearIndexItemViewModel.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.DataSet
+namespace PathfinderDb.ViewModels
 {
-    public enum EquipmentItemCategory
+    using DataSet;
+
+    public class GearIndexItemViewModel
     {
-        Special,
-
-        Armor,
-
-        Weapon,
+        public Gear Model { get; set; }
     }
 }

@@ -79,6 +79,11 @@
             public const string AdvancedPlayerGuide = "apg";
 
             /// <summary>
+            /// Source id for pathfinder advanced race guide.
+            /// </summary>
+            public const string AdvancedRaceGuide = "arg";
+
+            /// <summary>
             /// Source id for pathfinder ultimate combat.
             /// </summary>
             public const string UltimateCombat = "uc";
@@ -87,6 +92,31 @@
             /// Source id for pathfinder ultimate magic.
             /// </summary>
             public const string UltimateMagic = "um";
+
+            /// <summary>
+            /// Source id for pathfinder ultimate equipment.
+            /// </summary>
+            public const string UltimateEquipment = "ue";
+
+            /// <summary>
+            /// Source id for pathfinder game mastery guide.
+            /// </summary>
+            public const string GameMasteryGuide = "gmg";
+
+            /// <summary>
+            /// Source id for pathfinder ultimate compaign.
+            /// </summary>
+            public const string UltimateCampaign = "uca";
+
+            /// <summary>
+            /// Source id for pathfinder mythic adventures.
+            /// </summary>
+            public const string MythicAdventures = "ma";
+
+            /// <summary>
+            /// Source id for pathfinder NPC codex.
+            /// </summary>
+            public const string NpcCodex = "npc";
 
             /// <summary>
             /// Source id for the paizo blog.
