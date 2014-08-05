@@ -6,13 +6,24 @@
 
 namespace PathfinderDb.Controllers
 {
+    using System.Linq;
     using System.Web.Mvc;
+    using ViewModels;
 
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            return this.View();
+            var model = new HomeIndexViewModel();
+
+            using(var db = this.OpenDb())
+            {
+                var groupCount = db.Documents.GroupBy(d => d.Type).Select(d => new { Type = d.Key, Count = d.Count() }).ToDictionary(x => x.Type, x => x.Count);
+
+                model.CreateGroups(groupCount);
+            }
+
+            return this.View(model);
         }
 
         public ActionResult About()

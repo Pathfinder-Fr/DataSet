@@ -5,7 +5,12 @@
 }
 
 <h2>@ViewBag.Title</h2>
-@using(Html.BeginForm())
+@using (Html.BeginForm())
 {
-    @Html.EditorFor(m => m, new { htmlAttributes = new { @class = "form-control" }, })
+    @Html.ValidationSummary()
+    @Html.Partial("_Editor")
+    <div class="form-group">
+        <button type="submit" name="SubmitAction" value="Save" class="btn btn-default">Enregistrer</button>
+        <button type="submit" name="SubmitAction" value="SaveAndNew" class="btn">Enregistrer et Nouveau</button>
+    </div>
 }

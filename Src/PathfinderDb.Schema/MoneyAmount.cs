@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.DataSet
+﻿// -----------------------------------------------------------------------
+// <copyright file="MoneyAmount.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.ComponentModel;
     using System.Xml.Serialization;

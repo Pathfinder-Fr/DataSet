@@ -4,8 +4,20 @@
 }
 
 <h2>Équipement</h2>
-@foreach(var item in Model.Items)
-{
-    
-}
-
+<ul class="list-inline">
+    <li>@Html.ActionLink("Nouveau", "New", null, new { @class = "btn btn-default" })</li>
+</ul>
+<table class="table">
+    <tbody>
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@Html.ActionLink("Modifier", "Edit", new { id = item.DocId})</td>
+        </tr>
+    }
+        </tbody>
+</table>
+<ul class="list-inline">
+    <li>@Html.ActionLink("Nouveau", "New", null, new { @class = "btn btn-default" })</li>
+</ul>

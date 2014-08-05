@@ -6,12 +6,31 @@
 
 namespace PathfinderDb.Models
 {
+    using System.ComponentModel.DataAnnotations;
+
     public enum DbDocumentType
     {
         Unknown = 0,
 
+        [Display(Name = "Dons")]
         Feat,
 
-        Gear
+        [Display(Name = "Équipements")]
+        Gear,
+
+        [Display(Name = "Sorts")]
+        Spells,
+
+        [Display(Name = "Monstres")]
+        Monsters,
+
+        [Display(Name = "Traits")]
+        Traits,
+
+        [Display(Name = "Armes")]
+        Weapons,
+
+        [Display(Name = "Armures")]
+        Armors
     }
 }

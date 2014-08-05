@@ -4,9 +4,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.DataSet
+namespace PathfinderDb.Schema
 {
+    using System.Xml.Serialization;
+
+    [XmlType("gear", Namespace = Namespaces.PathfinderDb)]
     public class Gear : EquipmentItem
     {
+        [XmlAttribute("category")]
+        public GearCategory Category { get; set; }
+
+        [XmlElement("description")]
+        public string Description { get; set; }
     }
 }

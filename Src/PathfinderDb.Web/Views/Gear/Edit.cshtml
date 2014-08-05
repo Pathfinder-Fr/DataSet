@@ -1,0 +1,15 @@
+﻿@model GearEditViewModel
+
+@{
+    ViewBag.Title = "Équipement - Modifier";
+}
+
+<h2>@ViewBag.Title</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    @Html.Partial("_Editor")
+    <div class="form-group">
+        <button type="submit" name="SubmitAction" value="Save" class="btn btn-default">Enregistrer</button>
+    </div>
+}

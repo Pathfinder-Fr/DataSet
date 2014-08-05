@@ -1,4 +1,4 @@
-﻿namespace PathfinderDb.DataSet
+﻿namespace PathfinderDb.Schema
 {
     public class Distance
     {

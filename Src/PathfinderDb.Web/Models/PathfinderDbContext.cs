@@ -10,19 +10,13 @@ namespace PathfinderDb.Models
 
     public class PathfinderDbContext : DbContext
     {
-        public PathfinderDbContext()
-            : base()
-        {
-            
-        }
-
         public DbSet<DbDocument> Documents { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
                 .Entity<DbDocument>()
-                .HasKey(x => x.Id);
+                .HasKey(x => x.DocId);
         }
     }
 }

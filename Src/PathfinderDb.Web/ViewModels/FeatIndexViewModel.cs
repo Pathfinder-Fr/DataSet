@@ -7,7 +7,7 @@
 namespace PathfinderDb.ViewModels
 {
     using System.Collections.Generic;
-    using DataSet;
+    using Schema;
 
     public class FeatIndexViewModel
     {

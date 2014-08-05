@@ -1,11 +1,17 @@
-﻿namespace PathfinderDb.DataSet
+﻿// -----------------------------------------------------------------------
+// <copyright file="Feat.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Diagnostics;
     using System.Xml.Serialization;
 
     [XmlType("feat", Namespace = Namespaces.PathfinderDb)]
     [DebuggerDisplay("{Name}")]
-    public class Feat : Element
+    public class Feat : Element, IElementWithId
     {
         /// <summary>
         /// Gets or sets the unique id of this feat.

@@ -1,4 +1,4 @@
-﻿namespace PathfinderDb.DataSet
+﻿namespace PathfinderDb.Schema
 {
     using System.Collections.Generic;
     using System.Xml.Serialization;

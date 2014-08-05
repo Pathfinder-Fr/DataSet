@@ -6,10 +6,17 @@
 
 namespace PathfinderDb.ViewModels
 {
-    using DataSet;
+    using Schema;
 
     public class GearIndexItemViewModel
     {
-        public Gear Model { get; set; }
+        public int DocId { get; set; }
+
+        public string Name { get; set; }
+
+        public static GearIndexItemViewModel FromDataSet(Models.DbDocument doc, Gear gear)
+        {
+            return new GearIndexItemViewModel { Name = gear.Name, DocId = doc.DocId };
+        }
     }
 }

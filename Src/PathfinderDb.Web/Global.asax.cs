@@ -19,6 +19,7 @@ namespace PathfinderDb
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
             using (var context = new Models.PathfinderDbContext())
             {
                 context.Database.CreateIfNotExists();

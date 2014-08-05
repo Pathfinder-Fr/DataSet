@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.DataSet
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
@@ -14,6 +14,9 @@ namespace PathfinderDb.DataSet
         {
             this.Source = new ElementSource();
         }
+
+        [XmlAttribute("lang", Namespace = "http://www.w3.org/XML/1998/namespace")]
+        public string Lang { get; set; }
 
         [XmlElement("source")]
         public ElementSource Source

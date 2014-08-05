@@ -18,7 +18,6 @@ namespace PathfinderDb
     using System.Web;
     using System.Web.Mvc;
     using System.Web.Mvc.Html;
-    using System.Web.Routing;
 
     public static class HtmlExtensions
     {
@@ -424,7 +423,6 @@ namespace PathfinderDb
             {
                 group = new SelectListGroup { Name = groupName };
                 groups.Add(group);
-
             }
 
             return group;

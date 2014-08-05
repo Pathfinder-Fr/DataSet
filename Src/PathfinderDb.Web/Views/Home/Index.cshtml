@@ -1,4 +1,6 @@
-﻿@{
+﻿@model HomeIndexViewModel
+
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -32,3 +34,19 @@
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Documentation &raquo;</a></p>
     </div>
 </div>
+
+<h2>Données</h2>
+@foreach (var group in Model.Groups.Select((x, i) => new { Index = i, Value = x }).GroupBy(g => g.Index / 3, g => g.Value))
+{
+    <div class="row">
+        @foreach (var item in group)
+        {
+            <div class="col-md-4">
+                <h2>@Html.ActionLink(item.DisplayName, "Index", item.Controller)</h2>
+                <p>
+                    @item.Count
+                </p>
+            </div>
+        }
+    </div>
+}

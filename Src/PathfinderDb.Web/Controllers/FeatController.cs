@@ -8,7 +8,7 @@ namespace PathfinderDb.Controllers
 {
     using System.Linq;
     using System.Web.Mvc;
-    using DataSet;
+    using Schema;
     using Models;
     using ViewModels;
 

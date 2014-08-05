@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.DataSet
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 

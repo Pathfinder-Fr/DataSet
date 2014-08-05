@@ -1,4 +1,4 @@
-﻿namespace PathfinderDb.DataSet
+﻿namespace PathfinderDb.Schema
 {
     using System;
     using System.Collections.Generic;
@@ -44,7 +44,6 @@
                 lang = new ElementLocalizationLanguage { Lang = language };
                 this.Languages.Add(lang);
             }
-
 
             var entries = lang.Entries ?? (lang.Entries = new List<ElementLocalizationEntry>());
 

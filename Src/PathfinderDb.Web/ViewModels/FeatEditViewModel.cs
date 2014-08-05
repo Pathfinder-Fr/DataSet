@@ -7,7 +7,7 @@
 namespace PathfinderDb.ViewModels
 {
     using System.Linq;
-    using DataSet;
+    using Schema;
 
     public class FeatEditViewModel
     {
@@ -27,7 +27,7 @@ namespace PathfinderDb.ViewModels
         {
             return new Feat
             {
-                Types = this.Types.Select(x => (PathfinderDb.DataSet.FeatType)x).ToArray()
+                Types = this.Types.Select(x => (PathfinderDb.Schema.FeatType)x).ToArray()
             };
         }
     }
