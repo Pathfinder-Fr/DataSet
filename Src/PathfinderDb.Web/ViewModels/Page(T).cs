@@ -8,8 +8,8 @@ namespace PathfinderDb.ViewModels
 {
     using System.Collections.Generic;
 
-    public class GearIndexViewModel
+    public class Page<T>
     {
-        public List<GearIndexItemViewModel> Items { get; set; }
+        public List<T> Items { get; set; }
     }
 }

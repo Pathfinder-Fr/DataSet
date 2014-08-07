@@ -6,7 +6,7 @@
 
 namespace PathfinderDb.Schema
 {
-    public static class WeightUnitExtensions
+    public static class WeightUnits
     {
         public static string ToDisplayString(this WeightUnit @this)
         {

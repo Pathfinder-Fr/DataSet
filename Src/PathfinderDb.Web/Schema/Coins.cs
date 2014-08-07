@@ -6,7 +6,7 @@
 
 namespace PathfinderDb.Schema
 {
-    public static class CoinExtensions
+    public static class Coins
     {
         public static string ToDisplayString(this Coin @this)
         {

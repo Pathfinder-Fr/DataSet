@@ -8,7 +8,7 @@ namespace PathfinderDb.ViewModels
 {
     using System.ComponentModel.DataAnnotations;
 
-    public enum GearCategory
+    public enum GearCategoryViewModel
     {
         [Display(Name = "Matériel d'aventurier")]
         Adventuring,

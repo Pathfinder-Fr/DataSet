@@ -9,7 +9,7 @@ namespace PathfinderDb.Schema
     using System.Collections.Generic;
     using System.Web.Mvc;
 
-    public class SourcesMvc
+    public class Sources
     {
         public static readonly IEnumerable<SelectListItem> SelectListAll = new[]
         {

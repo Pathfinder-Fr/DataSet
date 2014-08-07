@@ -8,15 +8,16 @@ namespace PathfinderDb.ViewModels
 {
     using Schema;
 
-    public class GearIndexItemViewModel
+    public class GearItemViewModel : IItem<Gear, GearItemViewModel>
     {
         public int DocId { get; set; }
 
         public string Name { get; set; }
 
-        public static GearIndexItemViewModel FromDataSet(Models.DbDocument doc, Gear gear)
+        public GearItemViewModel Load(Gear gear)
         {
-            return new GearIndexItemViewModel { Name = gear.Name, DocId = doc.DocId };
+            this.Name = gear.Name;
+            return this;
         }
     }
 }
