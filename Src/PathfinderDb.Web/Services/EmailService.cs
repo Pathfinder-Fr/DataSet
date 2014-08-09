@@ -6,15 +6,30 @@
 
 namespace PathfinderDb.Services
 {
+    using System.Net.Mail;
     using System.Threading.Tasks;
     using Microsoft.AspNet.Identity;
 
     public class EmailService : IIdentityMessageService
     {
-        public Task SendAsync(IdentityMessage message)
+        public async Task SendAsync(IdentityMessage message)
         {
-            // Plug in your email service here to send an email.
-            return Task.FromResult(0);
+            using (var mail = new MailMessage())
+            {
+                mail.Subject = message.Subject;
+                mail.Body = message.Body;
+                mail.To.Add(message.Destination);
+
+                await this.SendAsync(mail);
+            }
+        }
+
+        public async Task SendAsync(MailMessage message)
+        {
+            using (var smtp = new SmtpClient())
+            {
+                await smtp.SendMailAsync(message);
+            }
         }
     }
 }
