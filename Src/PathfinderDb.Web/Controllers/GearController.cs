@@ -8,16 +8,16 @@ namespace PathfinderDb.Controllers
 {
     using System.Web.Mvc;
     using Models;
+    using Models.Gear;
     using Schema;
-    using ViewModels;
 
-    public class GearController : ItemController<Gear, GearItemViewModel, GearEditViewModel>
+    public class GearController : ItemController<Gear, ItemViewModel, EditViewModel>
     {
         public GearController() : base(DbDocumentType.Gear)
         {
         }
 
-        public ActionResult Index(Page<GearItemViewModel> model)
+        public ActionResult Index(Page<ItemViewModel> model)
         {
             using (var db = this.OpenDb())
             {
@@ -29,11 +29,11 @@ namespace PathfinderDb.Controllers
 
         public ActionResult New()
         {
-            return this.View(new GearEditViewModel());
+            return this.View(new EditViewModel());
         }
 
         [HttpPost]
-        public ActionResult New(GearEditViewModel model)
+        public ActionResult New(EditViewModel model)
         {
             return this.Save(model, true);
         }
@@ -44,7 +44,7 @@ namespace PathfinderDb.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit(GearEditViewModel model)
+        public ActionResult Edit(EditViewModel model)
         {
             return this.Save(model, false);
         }

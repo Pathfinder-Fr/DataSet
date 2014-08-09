@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models.Gear
 {
     using System.ComponentModel.DataAnnotations;
 

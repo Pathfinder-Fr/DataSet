@@ -13,7 +13,7 @@ namespace PathfinderDb.Controllers
     {
         public static PathfinderDbContext OpenDb(this Controller @this)
         {
-            return new PathfinderDbContext();
+            return PathfinderDbContext.Create();
         }
 
         public static ActionResult ViewOrNotFound<T>(this Controller @this, T viewModel)

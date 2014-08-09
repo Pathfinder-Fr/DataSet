@@ -1,15 +1,17 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="GearIndexViewModel.cs" company="Pathfinder-fr">
+// <copyright file="ViewSubmitAction.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models
 {
-    using System.Collections.Generic;
-
-    public class Page<T>
+    public enum ViewSubmitAction
     {
-        public List<T> Items { get; set; }
+        Save,
+
+        SaveAndNew,
+
+        SaveAndBack
     }
 }

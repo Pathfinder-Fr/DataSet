@@ -4,11 +4,11 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models.Feat
 {
     using System.ComponentModel.DataAnnotations;
 
-    public enum FeatType
+    public enum FeatTypeViewModel
     {
         [Display(Name = "Combat")]
         Combat = 1,

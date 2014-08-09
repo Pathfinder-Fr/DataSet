@@ -1,17 +1,13 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="ViewSubmitAction.cs" company="Pathfinder-fr">
+// <copyright file="ExternalLoginListViewModel.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models.Account
 {
-    public enum ViewSubmitAction
+    public class ExternalLoginListViewModel
     {
-        Save,
-
-        SaveAndNew,
-
-        SaveAndBack
+        public string ReturnUrl { get; set; }
     }
 }

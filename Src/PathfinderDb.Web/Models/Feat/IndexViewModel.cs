@@ -4,12 +4,12 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models.Feat
 {
     using System.Collections.Generic;
     using Schema;
 
-    public class FeatIndexViewModel
+    public class IndexViewModel
     {
         public IEnumerable<Feat> Feats { get; set; }
     }

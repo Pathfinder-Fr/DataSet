@@ -8,13 +8,13 @@ namespace PathfinderDb.Controllers
 {
     using System.Linq;
     using System.Web.Mvc;
-    using Schema;
     using Models;
-    using ViewModels;
+    using Models.Feat;
+    using Schema;
 
     public class FeatController : Controller
     {
-        public ActionResult Index(FeatIndexViewModel model)
+        public ActionResult Index(IndexViewModel model)
         {
             using (var db = this.OpenDb())
             {
@@ -24,7 +24,7 @@ namespace PathfinderDb.Controllers
             return View(model);
         }
 
-        public ActionResult New(FeatEditViewModel model)
+        public ActionResult New(EditViewModel model)
         {
             return View("Edit", model);
         }

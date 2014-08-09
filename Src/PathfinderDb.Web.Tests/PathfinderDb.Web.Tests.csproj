@@ -80,7 +80,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="HtmlExtensionsTests.cs" />
+    <Compile Include="Views\HtmlExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

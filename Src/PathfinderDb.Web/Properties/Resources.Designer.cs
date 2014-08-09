@@ -61,6 +61,69 @@ namespace PathfinderDb.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Connexion.
+        /// </summary>
+        public static string Account_Login {
+            get {
+                return ResourceManager.GetString("Account_Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saisissez les identifiants de votre compte pour vous connecter..
+        /// </summary>
+        public static string Account_Login_Desc {
+            get {
+                return ResourceManager.GetString("Account_Login_Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Déconnexion.
+        /// </summary>
+        public static string Account_Logoff {
+            get {
+                return ResourceManager.GetString("Account_Logoff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gérer profil.
+        /// </summary>
+        public static string Account_Manage {
+            get {
+                return ResourceManager.GetString("Account_Manage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inscription.
+        /// </summary>
+        public static string Account_Register {
+            get {
+                return ResourceManager.GetString("Account_Register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Créer un nouveau compte utilisateur.
+        /// </summary>
+        public static string Account_Register_Long {
+            get {
+                return ResourceManager.GetString("Account_Register_Long", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bienvenue {0} !.
+        /// </summary>
+        public static string Account_Status {
+            get {
+                return ResourceManager.GetString("Account_Status", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to pc.
         /// </summary>
         public static string CoinCopper {

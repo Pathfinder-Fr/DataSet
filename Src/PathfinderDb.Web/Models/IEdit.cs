@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models
 {
     public interface IEdit<T, out TViewModel> : IItem<T, TViewModel>
     {

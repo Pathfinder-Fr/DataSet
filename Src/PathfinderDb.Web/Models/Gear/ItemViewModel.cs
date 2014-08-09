@@ -4,17 +4,17 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models.Gear
 {
     using Schema;
 
-    public class GearItemViewModel : IItem<Gear, GearItemViewModel>
+    public class ItemViewModel : IItem<Gear, ItemViewModel>
     {
         public int DocId { get; set; }
 
         public string Name { get; set; }
 
-        public GearItemViewModel Load(Gear gear)
+        public ItemViewModel Load(Gear gear)
         {
             this.Name = gear.Name;
             return this;

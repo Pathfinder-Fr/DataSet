@@ -4,14 +4,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models.Gear
 {
     using System.ComponentModel.DataAnnotations;
     using System.Web.Mvc;
     using Properties;
     using Schema;
 
-    public class GearEditViewModel : IEdit<Gear, GearEditViewModel>
+    public class EditViewModel : IEdit<Gear, EditViewModel>
     {
         [HiddenInput(DisplayValue = false)]
         public int DocId { get; set; }
@@ -37,7 +37,7 @@ namespace PathfinderDb.ViewModels
         public string SubCategory { get; set; }
 
         [Display(ResourceType = typeof(Resources), Name = "GearEditViewModel_Price_Name", Prompt = "GearEditViewModel_Price_Prompt")]
-        [CustomValidation(typeof(GearEditViewModel), "ValidatePrice")]
+        [CustomValidation(typeof(EditViewModel), "ValidatePrice")]
         public string Price { get; set; }
 
         [Display(ResourceType = typeof(Resources), Name = "GearEditViewModel_Weight_Name", Prompt = "GearEditViewModel_Weight_Prompt")]
@@ -55,7 +55,7 @@ namespace PathfinderDb.ViewModels
             return (MoneyAmounts.ParsePrice(price, out message) != null && !string.IsNullOrEmpty(price)) ? ValidationResult.Success : new ValidationResult(message);
         }
 
-        public GearEditViewModel Load(Gear gear)
+        public EditViewModel Load(Gear gear)
         {
             this.Category = (GearCategoryViewModel)gear.Category;
             this.Source = gear.Source.Id;
@@ -92,9 +92,9 @@ namespace PathfinderDb.ViewModels
             return gear;
         }
 
-        public GearEditViewModel AsNew()
+        public EditViewModel AsNew()
         {
-            return new GearEditViewModel
+            return new EditViewModel
             {
                 Category = this.Category,
                 Source = this.Source

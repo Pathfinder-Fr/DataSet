@@ -1,15 +1,15 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="IItem.cs" company="Pathfinder-fr">
+// <copyright file="GearIndexViewModel.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models
 {
-    public interface IItem<in T, out TViewModel>
-    {
-        int DocId { get; set; }
+    using System.Collections.Generic;
 
-        TViewModel Load(T source);
+    public class Page<T>
+    {
+        public List<T> Items { get; set; }
     }
 }

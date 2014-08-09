@@ -4,22 +4,22 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.ViewModels
+namespace PathfinderDb.Models.Feat
 {
     using System.Linq;
     using Schema;
 
-    public class FeatEditViewModel
+    public class EditViewModel
     {
-        public FeatType[] Types { get; set; }
+        public FeatTypeViewModel[] Types { get; set; }
 
-        public FeatType Type { get; set; }
+        public FeatTypeViewModel Type { get; set; }
 
-        public static FeatEditViewModel FromFeat(Feat feat)
+        public static EditViewModel FromFeat(Feat feat)
         {
-            return new FeatEditViewModel
+            return new EditViewModel
             {
-                Types = feat.Types.Select(x => (FeatType)x).ToArray()
+                Types = feat.Types.Select(x => (FeatTypeViewModel)x).ToArray()
             };
         }
 

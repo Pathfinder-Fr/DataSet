@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb
+namespace PathfinderDb.Views
 {
     using System;
     using System.ComponentModel.DataAnnotations;

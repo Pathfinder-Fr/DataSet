@@ -117,61 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CoinCopper" xml:space="preserve">
-    <value>pc</value>
+  <data name="Target" xml:space="preserve">
+    <value>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</value>
   </data>
-  <data name="CoinGold" xml:space="preserve">
-    <value>po</value>
-  </data>
-  <data name="CoinPlatinium" xml:space="preserve">
-    <value>pp</value>
-  </data>
-  <data name="CoinSilver" xml:space="preserve">
-    <value>pa</value>
-  </data>
-  <data name="GearEditViewModel_Weight_Name" xml:space="preserve">
-    <value>Poids</value>
-  </data>
-  <data name="GearEditViewModel_Weight_Prompt" xml:space="preserve">
-    <value>1.5kg, 500g, etc.</value>
-  </data>
-  <data name="GearEditViewModel_Price_Prompt" xml:space="preserve">
-    <value>valeur et unité (po par défaut) : 4, 5po, 15pa, etc.</value>
-  </data>
-  <data name="GearEditViewModel_Price_Name" xml:space="preserve">
-    <value>Prix</value>
-  </data>
-  <data name="GearEditViewModel_SubCategory_Name" xml:space="preserve">
-    <value>Sous-catégorie</value>
-  </data>
-  <data name="GearEditViewModel_EnglishName_Name" xml:space="preserve">
-    <value>Nom anglais</value>
-  </data>
-  <data name="GearEditViewModel_Name_Name" xml:space="preserve">
-    <value>Nom</value>
-  </data>
-  <data name="GearEditViewModel_Category_Name" xml:space="preserve">
-    <value>Catégorie</value>
-  </data>
-  <data name="Account_Login" xml:space="preserve">
-    <value>Connexion</value>
-  </data>
-  <data name="Account_Register" xml:space="preserve">
-    <value>Inscription</value>
-  </data>
-  <data name="Account_Login_Desc" xml:space="preserve">
-    <value>Saisissez les identifiants de votre compte pour vous connecter.</value>
-  </data>
-  <data name="Account_Logoff" xml:space="preserve">
-    <value>Déconnexion</value>
-  </data>
-  <data name="Account_Manage" xml:space="preserve">
-    <value>Gérer profil</value>
-  </data>
-  <data name="Account_Register_Long" xml:space="preserve">
-    <value>Créer un nouveau compte utilisateur</value>
-  </data>
-  <data name="Account_Status" xml:space="preserve">
-    <value>Bienvenue {0} !</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>

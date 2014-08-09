@@ -10,15 +10,27 @@ namespace PathfinderDb.Models
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Linq;
+    using Microsoft.AspNet.Identity.EntityFramework;
     using Schema;
-    using ViewModels;
 
-    public class PathfinderDbContext : DbContext
+    public class PathfinderDbContext : IdentityDbContext<Identity.ApplicationUser>
     {
+        public PathfinderDbContext()
+            : base("PathfinderDbContext")
+        {
+        }
+
         public DbSet<DbDocument> Documents { get; set; }
+
+        public static PathfinderDbContext Create()
+        {
+            return new PathfinderDbContext();
+        }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder
                 .Entity<DbDocument>()
                 .HasKey(x => x.DocId);
@@ -29,13 +41,11 @@ namespace PathfinderDb.Models
     {
         public static List<TViewModel> AsSchema<TViewModel>(this DbSet<DbDocument> @this, Func<DbDocument, TViewModel> transform)
         {
-
             return @this
                 .Where(d => d.Type == DbDocumentType.Gear && d.Lang == DataSetLanguages.French)
                 .ToList()
                 .Select(transform)
                 .ToList();
         }
-
     }
 }
