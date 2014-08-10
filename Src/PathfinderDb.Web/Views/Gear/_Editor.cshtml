@@ -4,42 +4,59 @@
     @Html.EditorFor(m => m.DocId)
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.Source, new { @class = "control-label" })
-    @Html.EditorFor(m => m.Source, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.Source)
+    @Html.LabelFor(m => m.Source, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.Source, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Source)
+    </div>
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.Category, new { @class = "control-label" })
-    @Html.EditorFor(m => m.Category, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.Category)
+    @Html.LabelFor(m => m.Category, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.Category, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Category)
+    </div>
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.Name, new { @class = "control-label" })
-    @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.Name)
+    @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.EnglishName, new { @class = "control-label" })
-    @Html.EditorFor(m => m.EnglishName, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.EnglishName)
+    @Html.LabelFor(m => m.EnglishName, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.EnglishName, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.EnglishName)
+    </div>
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.SubCategory, new { @class = "control-label" })
-    @Html.EditorFor(m => m.SubCategory, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.SubCategory)
+    @Html.LabelFor(m => m.SubCategory, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.SubCategory, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.SubCategory)
+    </div>
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.Price, new { @class = "control-label" })
-    @Html.EditorFor(m => m.Price, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.Price)
+    @Html.LabelFor(m => m.Price, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.Price, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Price)
+        @Html.DescriptionFor(m => m.Price, new { @class = "help-block" })
+    </div>
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.Weight, new { @class = "control-label" })
-    @Html.EditorFor(m => m.Weight, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.Weight)
+    @Html.LabelFor(m => m.Weight, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.Weight, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Weight)
+    </div>
 </div>
 <div class="form-group">
-    @Html.LabelFor(m => m.Description, new { @class = "control-label" })
-    @Html.EditorFor(m => m.Description, new { htmlAttributes = new { @class = "form-control" } })
-    @Html.ValidationMessageFor(m => m.Description)
+    @Html.LabelFor(m => m.Description, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.EditorFor(m => m.Description, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Description)
+    </div>
 </div>

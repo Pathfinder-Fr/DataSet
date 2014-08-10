@@ -187,6 +187,15 @@ namespace PathfinderDb.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Valeur et unité (po par défaut) : 4; 5po; 15pa; etc..
+        /// </summary>
+        public static string GearEditViewModel_Price_Description {
+            get {
+                return ResourceManager.GetString("GearEditViewModel_Price_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Prix.
         /// </summary>
         public static string GearEditViewModel_Price_Name {
@@ -196,7 +205,7 @@ namespace PathfinderDb.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to valeur et unité (po par défaut) : 4, 5po, 15pa, etc..
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string GearEditViewModel_Price_Prompt {
             get {

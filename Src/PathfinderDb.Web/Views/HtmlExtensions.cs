@@ -21,6 +21,36 @@ namespace PathfinderDb.Views
 
     public static class HtmlExtensions
     {
+        public static MvcHtmlString DescriptionFor<TModel, TValue>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TValue>> expression, object htmlAttributes)
+        {
+            return DescriptionFor(htmlHelper, expression, HtmlHelper.AnonymousObjectToHtmlAttributes(htmlAttributes));
+        }
+
+        public static MvcHtmlString DescriptionFor<TModel, TValue>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TValue>> expression, IDictionary<string, object> htmlAttributes = null)
+        {
+            if (expression == null)
+                throw new ArgumentNullException("expression");
+
+            var metadata = ModelMetadata.FromLambdaExpression(expression, htmlHelper.ViewData);
+            if (metadata == null)
+                throw new ArgumentException();
+
+            if (metadata.ModelType == null)
+                throw new ArgumentException();
+
+            var description = metadata.Description;
+
+            if (string.IsNullOrEmpty(description))
+            {
+                return MvcHtmlString.Empty;
+            }
+
+            var builder = new TagBuilder("span");
+            builder.MergeAttributes(htmlAttributes);
+            builder.SetInnerText(metadata.Description);
+            return new MvcHtmlString(builder.ToString(TagRenderMode.Normal));
+        }
+
         public static MvcHtmlString EnumDropDownListGroupedFor<TModel, TEnum>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TEnum>> expression, string optionLabel = null, object htmlAttributes = null)
         {
             return EnumDropDownListGroupedFor(htmlHelper, expression, optionLabel, HtmlHelper.AnonymousObjectToHtmlAttributes(htmlAttributes));
@@ -173,7 +203,35 @@ namespace PathfinderDb.Views
                         @enum = new[] { modelState.Value.ConvertTo(metadata.ModelType, null) as Enum };
                     }
                 }
+                else
+                {
+                    object modelValue;
+                    if (htmlHelper.ViewData.TryGetValue(fullHtmlFieldName, out modelValue))
+                    {
+                        if (isArray)
+                        {
+                            @enum = modelValue as Enum[];
+                        }
+                        else
+                        {
+                            @enum = new[] { modelValue as Enum };
+                        }
+                    }
+                }
             }
+
+            if(@enum == null)
+            {
+                if (isArray)
+                {
+                    @enum = htmlHelper.ViewData.Model as Enum[];
+                }
+                else
+                {
+                    @enum = new[] { htmlHelper.ViewData.Model as Enum };
+                }
+            }
+
 
             if (@enum == null && !string.IsNullOrEmpty(expressionText))
                 @enum = htmlHelper.ViewData.Eval(expressionText) as Enum[];
@@ -184,7 +242,10 @@ namespace PathfinderDb.Views
             return @enum;
         }
 
-        private static IEnumerable<SelectListItem> GetSelectListWithDefaultValue(IEnumerable<SelectListItem> selectList, object defaultValue, bool allowMultiple)
+
+        private static
+            IEnumerable<SelectListItem> GetSelectListWithDefaultValue
+            (IEnumerable<SelectListItem> selectList, object defaultValue, bool allowMultiple)
         {
             IEnumerable defaultValues;
 
@@ -223,7 +284,9 @@ namespace PathfinderDb.Views
             return newSelectList;
         }
 
-        internal static IList<SelectListItem> GetSelectList(Type enumType, bool nullable, params Enum[] values)
+        internal static
+            IList<SelectListItem> GetSelectList
+            (Type enumType, bool nullable, params Enum[] values)
         {
             var selectList = GetSelectList(enumType, nullable);
 
@@ -265,7 +328,9 @@ namespace PathfinderDb.Views
             return selectList;
         }
 
-        internal static IList<SelectListItem> GetSelectList(Type enumType, bool nullable)
+        internal static
+            IList<SelectListItem> GetSelectList
+            (Type enumType, bool nullable)
         {
             var list = (IList<SelectListItem>)new List<SelectListItem>();
 
@@ -291,7 +356,9 @@ namespace PathfinderDb.Views
             return list;
         }
 
-        internal static bool IsValidForEnum(Type type, out bool isArray, out bool isNullable, out Type enumType)
+        internal static
+            bool IsValidForEnum
+            (Type type, out bool isArray, out bool isNullable, out Type enumType)
         {
             isArray = false;
             isNullable = false;
@@ -320,7 +387,10 @@ namespace PathfinderDb.Views
             return true;
         }
 
-        internal static string ListItemToOption(SelectListItem item)
+        internal static
+            string ListItemToOption
+            (SelectListItem
+                item)
         {
             var builder = new TagBuilder("option")
             {
@@ -341,7 +411,9 @@ namespace PathfinderDb.Views
             return builder.ToString(TagRenderMode.Normal);
         }
 
-        private static StringBuilder BuildItems(string optionLabel, IEnumerable<SelectListItem> selectList)
+        private static
+            StringBuilder BuildItems
+            (string optionLabel, IEnumerable<SelectListItem> selectList)
         {
             var listItemBuilder = new StringBuilder();
 
@@ -395,7 +467,9 @@ namespace PathfinderDb.Views
             return listItemBuilder;
         }
 
-        private static object GetModelStateValue(HtmlHelper htmlHelper, string key, Type destinationType)
+        private static
+            object GetModelStateValue
+            (HtmlHelper htmlHelper, string key, Type destinationType)
         {
             ModelState modelState;
             if (htmlHelper.ViewData.ModelState.TryGetValue(key, out modelState))
@@ -408,7 +482,9 @@ namespace PathfinderDb.Views
             return null;
         }
 
-        private static SelectListGroup GetGroup(MemberInfo field, List<SelectListGroup> groups)
+        private static
+            SelectListGroup GetGroup
+            (MemberInfo field, List<SelectListGroup> groups)
         {
             var groupName = GetGroupName(field);
 
@@ -428,7 +504,10 @@ namespace PathfinderDb.Views
             return group;
         }
 
-        private static string GetGroupName(MemberInfo field)
+        private static
+            string GetGroupName
+            (MemberInfo
+                field)
         {
             var customAttribute = field.GetCustomAttribute<DisplayAttribute>(false);
             if (customAttribute == null)
@@ -441,7 +520,10 @@ namespace PathfinderDb.Views
             return !string.IsNullOrEmpty(groupName) ? groupName : null;
         }
 
-        private static string GetDisplayName(MemberInfo field)
+        private static
+            string GetDisplayName
+            (MemberInfo
+                field)
         {
             var customAttribute = field.GetCustomAttribute<DisplayAttribute>(false);
             if (customAttribute == null)
@@ -454,7 +536,10 @@ namespace PathfinderDb.Views
             return !string.IsNullOrEmpty(name) ? name : field.Name;
         }
 
-        private static bool HasFlags(Type type)
+        private static
+            bool HasFlags
+            (Type
+                type)
         {
             return type.GetCustomAttribute<FlagsAttribute>(false) != null;
         }

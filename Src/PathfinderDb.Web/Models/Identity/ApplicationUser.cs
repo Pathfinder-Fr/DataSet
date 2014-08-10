@@ -20,9 +20,12 @@ namespace PathfinderDb.Models.Identity
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
-            var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
-            // Add custom user claims here
-            return userIdentity;
+            var identity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
+
+            // Il faut ajouter les claims dans cette méthode ET dans Services.ApplicationSignInManager.CreateUserIdentityAsyc
+            identity.AddClaim(new Claim("DisplayName", this.DisplayName));
+
+            return identity;
         }
     }
 }

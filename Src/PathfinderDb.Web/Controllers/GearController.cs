@@ -17,11 +17,11 @@ namespace PathfinderDb.Controllers
         {
         }
 
-        public ActionResult Index(Page<ItemViewModel> model)
+        public ActionResult Index(IndexViewModel model)
         {
             using (var db = this.OpenDb())
             {
-                model.Items = this.LoadItems(db);
+                model.Items = this.LoadItems(db, model.AsExpressions());
             }
 
             return View(model);

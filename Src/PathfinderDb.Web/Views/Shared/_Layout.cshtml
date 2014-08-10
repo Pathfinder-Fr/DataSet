@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using PathfinderDb.Models
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -20,8 +21,15 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li>@Html.ActionLink("Données", "Index", "Data")</li>
-                        <li>@Html.ActionLink("Exports", "Index", "Data")</li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Données <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                @foreach (var item in DbDocumentTypeDescription.All)
+                                {
+                                    <li>@Html.ActionLink(item.Name, "Index", item.ControllerName)</li>
+                                }
+                            </ul>
+                        </li>
                         <li>@Html.ActionLink("A propos", "About", "Home")</li>
                     </ul>
                     @Html.Partial("_LoginPartial")

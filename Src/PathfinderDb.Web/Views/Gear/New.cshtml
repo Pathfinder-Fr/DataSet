@@ -1,16 +1,21 @@
 ﻿@model PathfinderDb.Models.Gear.EditViewModel
 
 @{
-    ViewBag.Title = "Équipement - Nouveau";
+    ViewBag.Title = "Nouvel équipement";
 }
 
 <h2>@ViewBag.Title</h2>
-@using (Html.BeginForm())
+@using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
-    @Html.ValidationSummary()
+    @Html.AntiForgeryToken()
+    <h4>Ajouter un nouvel équipement.</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
     @Html.Partial("_Editor")
     <div class="form-group">
-        <button type="submit" name="SubmitAction" value="Save" class="btn btn-default">Enregistrer</button>
-        <button type="submit" name="SubmitAction" value="SaveAndNew" class="btn">Enregistrer et Nouveau</button>
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" name="SubmitAction" value="Save" class="btn btn-default">Enregistrer</button>
+            <button type="submit" name="SubmitAction" value="SaveAndNew" class="btn">Enregistrer et Nouveau</button>
+        </div>
     </div>
 }

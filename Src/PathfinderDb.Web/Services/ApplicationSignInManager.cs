@@ -21,10 +21,11 @@ namespace PathfinderDb.Services
         {
         }
 
-        public async override Task<ClaimsIdentity> CreateUserIdentityAsync(ApplicationUser user)
+        public override async Task<ClaimsIdentity> CreateUserIdentityAsync(ApplicationUser user)
         {
             var identity = await user.GenerateUserIdentityAsync((ApplicationUserManager)this.UserManager);
 
+            // Il faut ajouter les claims dans cette méthode ET dans Models.Identity.ApplicationUser.GenerateUserIdentityAsyc
             identity.AddClaim(new Claim("DisplayName", user.DisplayName));
 
             return identity;

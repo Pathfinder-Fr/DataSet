@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="MoneyAmountExtensions.cs" company="Pathfinder-fr">
+// <copyright file="MoneyAmounts.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------
@@ -11,6 +11,41 @@ namespace PathfinderDb.Schema
 
     public static class MoneyAmounts
     {
+        public static string ToDisplayString(this MoneyAmount @this)
+        {
+            if (@this == null)
+            {
+                return string.Empty;
+            }
+
+            if (!string.IsNullOrEmpty(@this.Special))
+            {
+                return @this.Special;
+            }
+
+            return string.Format("{0} {1}", @this.Value, @this.Coin.ToDisplayString());
+        }
+
+        public static string ToEditString(this MoneyAmount @this)
+        {
+            if (@this == null)
+            {
+                return string.Empty;
+            }
+
+            if (!string.IsNullOrEmpty(@this.Special))
+            {
+                if (Regex.IsMatch(@this.Special, @"sp[eé]cial", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+                {
+                    return @this.Special;
+                }
+
+                return "spécial: " + @this.Special;
+            }
+
+            return string.Format("{0} {1}", @this.Value, @this.Coin.ToDisplayString());
+        }
+
         public static MoneyAmount ParsePrice(string price)
         {
             string msg;
@@ -25,7 +60,24 @@ namespace PathfinderDb.Schema
                 return null;
             }
 
-            var match = Regex.Match(price, @"(?<Value>\d+(\.\d{1,2})?)\s*(?<Unit>pp|po|pa|pc|gp|sp|cp|)", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.ExplicitCapture);
+            Match match;
+
+            match = Regex.Match(price, @"^(sp[ée]cial)(:\s*|$)", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
+            if (match.Success)
+            {
+                message = null;
+                if (match.Length == price.Length)
+                {
+                    // special
+                    return new MoneyAmount { Special = price };
+                }
+
+                // special: xx => xx
+                return new MoneyAmount { Special = price.Substring(match.Length).Trim() };
+            }
+
+            match = Regex.Match(price, @"^(?<Value>\d+(\.\d{1,2})?)\s*(?<Unit>pp|po|pa|pc|gp|sp|cp|)$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.ExplicitCapture);
 
             if (!match.Success)
             {
@@ -65,16 +117,6 @@ namespace PathfinderDb.Schema
 
             message = null;
             return result;
-        }
-
-        public static string ToDisplayString(this MoneyAmount @this)
-        {
-            if (!string.IsNullOrEmpty(@this.Special))
-            {
-                return @this.Special;
-            }
-
-            return string.Format("{0} {1}", @this.Value, @this.Coin.ToDisplayString());
         }
     }
 }

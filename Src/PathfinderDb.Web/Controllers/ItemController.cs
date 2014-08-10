@@ -6,12 +6,13 @@
 
 namespace PathfinderDb.Controllers
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Linq.Expressions;
     using System.Web.Mvc;
     using Models;
     using Schema;
-    using ViewModels;
 
     public abstract class ItemController<TSchema, TItem, TEdit> : Controller
         where TSchema : Element, IElementWithId
@@ -25,11 +26,26 @@ namespace PathfinderDb.Controllers
             this.docType = docType;
         }
 
-        protected List<TItem> LoadItems(PathfinderDbContext db)
+        protected List<TItem> LoadItems(PathfinderDbContext db, IEnumerable<Expression<Func<DbDocument, bool>>> predicates)
         {
-            return db
+            return LoadItems(db, predicates.ToArray());
+        }
+
+        protected List<TItem> LoadItems(PathfinderDbContext db, params Expression<Func<DbDocument, bool>>[] predicates)
+        {
+            var query = db
                 .Documents
-                .Where(d => d.Type == this.docType && d.Lang == DataSetLanguages.French)
+                .Where(d => d.Type == this.docType && d.Lang == DataSetLanguages.French);
+
+            if (predicates != null)
+            {
+                foreach (var predicate in predicates)
+                {
+                    query = query.Where(predicate);
+                }
+            }
+
+            return query
                 .ToList()
                 .Select(ForItem)
                 .ToList();
@@ -43,12 +59,12 @@ namespace PathfinderDb.Controllers
                     .Documents
                     .FirstOrDefault(d => d.DocId == id && d.Type == this.docType);
 
-            if (dbDoc == null)
-            {
-                return default(TEdit);
-            }
+                if (dbDoc == null)
+                {
+                    return default(TEdit);
+                }
 
-            return ForEdit(dbDoc);
+                return ForEdit(dbDoc);
             }
         }
 

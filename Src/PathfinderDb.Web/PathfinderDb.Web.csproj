@@ -150,7 +150,6 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ControllerExtensions.cs" />
-    <Compile Include="Controllers\DataController.cs" />
     <Compile Include="Controllers\FeatController.cs" />
     <Compile Include="Controllers\GearController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -159,6 +158,10 @@
     <Compile Include="Migrations\201408091358431_InitialCreate.cs" />
     <Compile Include="Migrations\201408091358431_InitialCreate.Designer.cs">
       <DependentUpon>201408091358431_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201408102118103_AddDocDetails.cs" />
+    <Compile Include="Migrations\201408102118103_AddDocDetails.Designer.cs">
+      <DependentUpon>201408102118103_AddDocDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account\ExternalLoginConfirmationViewModel.cs" />
@@ -170,6 +173,8 @@
     <Compile Include="Models\Account\ResetPasswordViewModel.cs" />
     <Compile Include="Models\Account\SendCodeViewModel.cs" />
     <Compile Include="Models\Account\VerifyCodeViewModel.cs" />
+    <Compile Include="Models\DbDocumentTypeDescription.cs" />
+    <Compile Include="Models\Gear\IndexViewModel.cs" />
     <Compile Include="Models\Identity\ApplicationUser.cs" />
     <Compile Include="Models\Manage\ManageViewModels.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -178,6 +183,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Schema\Coins.cs" />
+    <Compile Include="Schema\Elements.cs" />
+    <Compile Include="Schema\ElementSources.cs" />
     <Compile Include="Schema\MoneyAmounts.cs" />
     <Compile Include="Schema\WeightAmounts.cs" />
     <Compile Include="Schema\Sources.cs" />
@@ -257,7 +264,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Data\Index.cshtml" />
     <Content Include="Views\Feat\Index.cshtml" />
     <Content Include="Views\Feat\Edit.cshtml" />
     <Content Include="Views\Gear\Index.cshtml" />
@@ -281,6 +287,7 @@
     <Content Include="Views\Manage\SetPassword.cshtml" />
     <Content Include="Views\Account\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\SourceNullable.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -294,6 +301,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201408091358431_InitialCreate.resx">
       <DependentUpon>201408091358431_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408102118103_AddDocDetails.resx">
+      <DependentUpon>201408102118103_AddDocDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

@@ -125,7 +125,7 @@
 
             public static string AdventurePath(int number)
             {
-                return "ap#" + number;
+                return "ap" + number;
             }
         }
     }

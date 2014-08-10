@@ -12,6 +12,7 @@ namespace PathfinderDb.Models
     using System.IO;
     using System.Xml;
     using System.Xml.Serialization;
+    using Schema;
 
     public class DbDocument
     {
@@ -28,15 +29,24 @@ namespace PathfinderDb.Models
         [MaxLength(100)]
         public string Id { get; set; }
 
+        public string Source { get; set; }
+
+        public string Category { get; set; }
+
+        public bool HasEnglishName { get; set; }
+
         public string Content { get; set; }
 
-        public void SerializeContent<T>(T contentObject) where T : Schema.Element, Schema.IElementWithId
+        public void SerializeContent<T>(T contentObject) where T : Element, IElementWithId
         {
+            this.Source = contentObject.Source.Id;
+            this.HasEnglishName = contentObject.HasEnglishNameFor(this.Type);
+            this.Category = contentObject.GetDocumentCategory(this.Type);
 
-            var serializer = new XmlSerializer(typeof(T), Schema.Namespaces.PathfinderDb);
+            var serializer = new XmlSerializer(typeof(T), Namespaces.PathfinderDb);
 
             var ns = new XmlSerializerNamespaces();
-            ns.Add("", Schema.Namespaces.PathfinderDb);
+            ns.Add("", Namespaces.PathfinderDb);
 
             using (var stringWriter = new StringWriter())
             using (var xmlWriter = XmlWriter.Create(stringWriter, new XmlWriterSettings { OmitXmlDeclaration = true }))
@@ -46,13 +56,16 @@ namespace PathfinderDb.Models
             }
         }
 
-        public static DbDocument From<T>(DbDocumentType type, T source) where T : Schema.Element, Schema.IElementWithId
+        public static DbDocument From<T>(DbDocumentType type, T source) where T : Element, IElementWithId
         {
             var result = new DbDocument
             {
                 Type = type,
-                Lang = Schema.DataSetLanguages.French,
-                Id = Schema.Ids.Normalize(source.Id)
+                Lang = DataSetLanguages.French,
+                Id = Ids.Normalize(source.Id),
+                HasEnglishName = source.HasEnglishNameFor(type),
+                Source = source.Source.Id,
+                Category = source.GetDocumentCategory(type),
             };
 
             result.SerializeContent(source);
@@ -69,9 +82,9 @@ namespace PathfinderDb.Models
             }
         }
 
-        public T As<T>() where T : Schema.Element, Schema.IElementWithId
+        public T As<T>() where T : Element, IElementWithId
         {
-            var serializer = new XmlSerializer(typeof(T), Schema.Namespaces.PathfinderDb);
+            var serializer = new XmlSerializer(typeof(T), Namespaces.PathfinderDb);
 
             using (var stringReader = new StringReader(this.Content))
             {

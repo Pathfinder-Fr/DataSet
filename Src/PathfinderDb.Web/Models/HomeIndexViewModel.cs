@@ -6,11 +6,8 @@
 
 namespace PathfinderDb.ViewModels
 {
-    using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
     using System.Linq;
-    using System.Reflection;
 
     public class HomeIndexViewModel
     {
@@ -18,18 +15,12 @@ namespace PathfinderDb.ViewModels
 
         public void CreateGroups(IDictionary<Models.DbDocumentType, int> counts)
         {
-            this.Groups = typeof(Models.DbDocumentType)
-                .GetFields(BindingFlags.Public | BindingFlags.Static)
-                .Select(f => new {
-                    Field = f,
-                    Type = (Models.DbDocumentType)f.GetValue(null),
-                    Display = (DisplayAttribute)Attribute.GetCustomAttribute(f, typeof(DisplayAttribute)) })
-                .Where(f => f.Display != null)
-                .OrderBy(f => f.Display.Name)
+            this.Groups = Models.DbDocumentTypeDescription
+                .All
                 .Select(f => new DataGroup
                 {
-                    Controller = ControllerFromField(f.Type),
-                    DisplayName = f.Display.Name,
+                    Controller = f.ControllerName,
+                    DisplayName = f.Name,
                     Count = GetOrDefault(counts, f.Type)
                 })
                 .ToList();
@@ -38,22 +29,12 @@ namespace PathfinderDb.ViewModels
         private static TValue GetOrDefault<TKey, TValue>(IDictionary<TKey, TValue> dict, TKey key, TValue @default = default(TValue))
         {
             TValue value;
-            if(!dict.TryGetValue(key, out value))
+            if (!dict.TryGetValue(key, out value))
             {
                 return @default;
             }
 
             return value;
-
-        }
-
-        private static string ControllerFromField(Models.DbDocumentType type)
-        {
-            switch(type)
-            {
-                default:
-                    return type.ToString();
-            }
         }
 
         public class DataGroup

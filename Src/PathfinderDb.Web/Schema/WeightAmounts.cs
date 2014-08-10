@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="WeightAmountExtensions.cs" company="Pathfinder-fr">
+// <copyright file="WeightAmounts.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------
@@ -11,6 +11,51 @@ namespace PathfinderDb.Schema
 
     public static class WeightAmounts
     {
+        public static string ToDisplayString(this WeightAmount @this)
+        {
+            if (@this == null)
+            {
+                return "–";
+            }
+
+            if (!string.IsNullOrEmpty(@this.Special))
+            {
+                return @this.Special;
+            }
+
+            if (@this.Value == 0)
+            {
+                return "–";
+            }
+
+            if (@this.Value < 1 && @this.Unit == WeightUnit.Kilogram)
+            {
+                return string.Format("{0:0} g", @this.Value * 1000);
+            }
+
+            return string.Format("{0} {1}", @this.Value, @this.Unit.ToDisplayString());
+        }
+
+        public static string ToEditString(this WeightAmount @this)
+        {
+            if (@this == null)
+            {
+                return string.Empty;
+            }
+
+            if (!string.IsNullOrEmpty(@this.Special))
+            {
+                return @this.Special;
+            }
+
+            if (@this.Value < 1 && @this.Unit == WeightUnit.Kilogram)
+            {
+                return string.Format("{0:0} g", @this.Value * 1000);
+            }
+
+            return string.Format("{0} {1}", @this.Value, @this.Unit.ToDisplayString());
+        }
+
         public static WeightAmount ParseWeight(string weight)
         {
             if (string.IsNullOrEmpty(weight))
@@ -35,7 +80,7 @@ namespace PathfinderDb.Schema
 
             switch (match.Groups["Unit"].Value.ToLowerInvariant())
             {
-                //case "kg":
+                    //case "kg":
                 default:
                     result.Unit = WeightUnit.Kilogram;
                     break;
@@ -51,21 +96,6 @@ namespace PathfinderDb.Schema
             }
 
             return result;
-        }
-
-        public static string ToDisplayString(this WeightAmount @this)
-        {
-            if (@this == null)
-            {
-                return null;
-            }
-
-            if (!string.IsNullOrEmpty(@this.Special))
-            {
-                return @this.Special;
-            }
-
-            return string.Format("{0} {1}", @this.Value, @this.Unit.ToDisplayString());
         }
     }
 }

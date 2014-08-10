@@ -1,22 +1,33 @@
-﻿@model PathfinderDb.Models.Page<PathfinderDb.Models.Gear.ItemViewModel>
+﻿@model PathfinderDb.Models.Gear.IndexViewModel
 @{
     ViewBag.Title = "Équipement";
 }
 
 <h2>Équipement</h2>
+@using (Html.BeginForm(null, null, FormMethod.Get, new { @class = "form-inline", role = "form" }))
+{
+    <div class="form-group">
+        @Html.DropDownListFor(m => m.Source, PathfinderDb.Schema.Sources.SelectListAll, "(Toutes les sources)", new { @class = "form-control input-sm" })
+        @Html.EnumDropDownListFor(m => m.Category, "(Toutes les catégories)", new { @class = "form-control input-sm" })
+        <button type="submit" value="Filter" class="btn btn-default btn-sm">Filtrer</button>
+    </div>
+}
 <ul class="list-inline">
     <li>@Html.ActionLink("Nouveau", "New", null, new { @class = "btn btn-default" })</li>
 </ul>
 <table class="table">
     <tbody>
-    @foreach (var item in Model.Items)
-    {
-        <tr>
-            <td>@item.Name</td>
-            <td>@Html.ActionLink("Modifier", "Edit", new { id = item.DocId})</td>
-        </tr>
-    }
-        </tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>@item.Weight</td>
+                <td>@item.Source</td>
+                <td>@Html.ActionLink("Modifier", "Edit", new { id = item.DocId })</td>
+            </tr>
+        }
+    </tbody>
 </table>
 <ul class="list-inline">
     <li>@Html.ActionLink("Nouveau", "New", null, new { @class = "btn btn-default" })</li>

@@ -36,7 +36,7 @@ namespace PathfinderDb.Models.Gear
         [Display(ResourceType = typeof(Resources), Name = "GearEditViewModel_SubCategory_Name")]
         public string SubCategory { get; set; }
 
-        [Display(ResourceType = typeof(Resources), Name = "GearEditViewModel_Price_Name", Prompt = "GearEditViewModel_Price_Prompt")]
+        [Display(ResourceType = typeof(Resources), Name = "GearEditViewModel_Price_Name", Prompt = "GearEditViewModel_Price_Prompt", Description = "GearEditViewModel_Price_Description")]
         [CustomValidation(typeof(EditViewModel), "ValidatePrice")]
         public string Price { get; set; }
 
@@ -59,8 +59,8 @@ namespace PathfinderDb.Models.Gear
         {
             this.Category = (GearCategoryViewModel)gear.Category;
             this.Source = gear.Source.Id;
-            this.Price = gear.Price.ToDisplayString();
-            this.Weight = gear.Weight.ToDisplayString();
+            this.Price = gear.Price.ToEditString();
+            this.Weight = gear.Weight.ToEditString();
             this.Name = gear.Name;
             this.EnglishName = gear.OpenLocalization().GetLocalizedEntry(DataSetLanguages.English, "name");
             this.Description = gear.Description;
