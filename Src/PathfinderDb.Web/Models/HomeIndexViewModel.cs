@@ -13,9 +13,9 @@ namespace PathfinderDb.ViewModels
     {
         public List<DataGroup> Groups { get; set; }
 
-        public void CreateGroups(IDictionary<Models.DbDocumentType, int> counts)
+        public void CreateGroups(IDictionary<Datas.DbDocumentType, int> counts)
         {
-            this.Groups = Models.DbDocumentTypeDescription
+            this.Groups = Datas.DbDocumentTypeDescription
                 .All
                 .Select(f => new DataGroup
                 {

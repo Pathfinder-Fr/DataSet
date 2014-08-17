@@ -68,21 +68,17 @@ namespace PathfinderDb.Models.Gear
             return this;
         }
 
-        public Gear Save()
+        public Gear Save(Gear existing)
         {
-            var gear = new Gear
-            {
-                Name = this.Name,
-                Price = MoneyAmounts.ParsePrice(this.Price),
-                Weight = WeightAmounts.ParseWeight(this.Weight),
-                Category = (GearCategory)this.Category,
-                Id = this.Id,
-                Description = this.Description,
-                Source =
-                {
-                    Id = this.Source
-                },
-            };
+            var gear = existing ?? new Gear();
+
+            gear.Name = this.Name;
+            gear.Price = MoneyAmounts.ParsePrice(this.Price);
+            gear.Weight = WeightAmounts.ParseWeight(this.Weight);
+            gear.Category = (GearCategory)this.Category;
+            gear.Id = this.Id;
+            gear.Description = this.Description;
+            gear.Source.Id = this.Source;
 
             if (!string.IsNullOrEmpty(this.EnglishName))
             {
@@ -101,7 +97,7 @@ namespace PathfinderDb.Models.Gear
             };
         }
 
-        public void Saved(Models.DbDocument dbDoc)
+        public void Saved(Datas.DbDocument dbDoc)
         {
             this.DocId = dbDoc.DocId;
         }

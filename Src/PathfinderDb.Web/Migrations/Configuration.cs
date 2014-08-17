@@ -8,7 +8,7 @@ namespace PathfinderDb.Migrations
 {
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<PathfinderDb.Models.PathfinderDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<PathfinderDb.Datas.PathfinderDbContext>
     {
         public Configuration()
         {
@@ -16,7 +16,7 @@ namespace PathfinderDb.Migrations
             this.ContextKey = "PathfinderDb.Models.PathfinderDbContext";
         }
 
-        protected override void Seed(Models.PathfinderDbContext context)
+        protected override void Seed(Datas.PathfinderDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

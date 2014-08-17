@@ -1,0 +1,18 @@
+namespace PathfinderDb.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class AddDocName : DbMigration
+    {
+        public override void Up()
+        {
+            AddColumn("dbo.DbDocuments", "Name", c => c.String());
+        }
+        
+        public override void Down()
+        {
+            DropColumn("dbo.DbDocuments", "Name");
+        }
+    }
+}

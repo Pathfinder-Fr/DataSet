@@ -8,6 +8,7 @@ namespace PathfinderDb.Controllers
 {
     using System.Linq;
     using System.Web.Mvc;
+    using Datas;
     using Models;
     using Models.Feat;
     using Schema;

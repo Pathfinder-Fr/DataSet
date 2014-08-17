@@ -1,0 +1,2626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:lang="fr-FR" xmlns="urn:pathfinderDb">
+  <sources>
+    <source id="bestiary2" />
+    <source id="bestiary" />
+    <source id="bestiary3" />
+    <source id="um" />
+  </sources>
+  <spells />
+  <spellLists />
+  <feats />
+  <monsters>
+    <monster name="Aa" cr="3" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Aasimar" cr="0.5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Abeille géante" cr="1" climate="temperate" environment="plains" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Abeille reine géante" cr="5" climate="temperate" environment="plains" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Aboleth" cr="7" climate="temperate" environment="aquatic" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Achaïéraï" cr="5" climate="planar" environment="plains" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Adaro" cr="3" climate="warm" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Ad" cr="7" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Adlet" cr="10" climate="cold" environment="plains" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Akhana" cr="12" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Bythos" cr="16" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Paraclétus" cr="2" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Pléroma" cr="20" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Thélétos" cr="7" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Avoral" cr="9" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Cétacéal" cr="15" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Draconal" cr="20" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Léonal" cr="12" climate="planar" environment="plains" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Silvanshie" cr="2" climate="planar" environment="hills" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Vulpinal" cr="6" climate="planar" environment="hills" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ag" cr="11" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Ahuizolt" cr="6" climate="warm" environment="aquatic" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Aigle" cr="0.5" climate="temperate" environment="mountains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Aigle géant" cr="3" climate="temperate" environment="mountains" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ailé ténébreux" cr="14" climate="planar" environment="sky" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Akata" cr="1" climate="temperate" environment="ruins-dungeons" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Akhlut" cr="13" climate="cold" environment="aquatic" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Allosaure" cr="7" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Alraune" cr="13" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Âme-en-peine" cr="5" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Amibe géante" cr="1" climate="temperate" environment="underground" type="ooze">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nuée d'amibes" cr="1" climate="temperate" environment="underground" type="ooze">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Amphisbène" cr="4" climate="temperate" environment="hills" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Anaconda géant" cr="10" climate="warm" environment="swamp" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Anémone de mer géante" cr="2" climate="temperate" environment="aquatic" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Cassisien" cr="2" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Déva astral" cr="14" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Déva monadique" cr="12" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Déva movanique" cr="10" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Planétar" cr="16" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Solar" cr="23" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Anguille électrique" cr="2" climate="warm" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Murène géante" cr="5" climate="warm" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Antilope" cr="0.5" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Auroch" cr="2" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Bélier" cr="1" climate="temperate" environment="mountains" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Bison" cr="4" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dromadaire" cr="1" climate="warm" environment="desert" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élan" cr="1" climate="cold" environment="plains" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Archelon" cr="5" climate="warm" environment="aquatic" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Arsinoitherium" cr="7" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Baluchithérium" cr="8" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Basilosaure" cr="12" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Gl" cr="6" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Mégalania" cr="7" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Mégalocéros" cr="4" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Mégathérium" cr="5" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ankheg" cr="3" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ankylosaure" cr="6" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Araignée-crabe géante" cr="0.5" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Araignée de phase" cr="5" climate="warm" environment="hills" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Araignée de Leng" cr="14" climate="planar" environment="ruins-dungeons" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Araignée écarlate" cr="0.25" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="um" />
+    </monster>
+    <monster name="Araignée géante" cr="1" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Araignée ogre" cr="5" climate="temperate" environment="hills" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Nuée d'araignées" cr="1" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tarentule géante" cr="8" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Veuve noire géante" cr="3" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Aranéa" cr="4" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Arbitre" cr="2" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Arbre à pendus" cr="7" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Archon annonciateur" cr="2" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Archon bouclier" cr="10" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Archon canin" cr="4" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Archon étoile" cr="19" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Archon légionnaire" cr="7" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Archon lumineux" cr="2" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Archon messager" cr="14" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ascomoïde" cr="5" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Astradaémon" cr="16" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="As" cr="20" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tr" cr="2" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Up" cr="9" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Athach" cr="12" climate="temperate" environment="hills" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Atomie" cr="1" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Attrape-mouches géant" cr="10" climate="temperate" environment="swamp" type="plant">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Augnagar" cr="14" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Aurumvorax" cr="9" climate="temperate" environment="hills" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Aveugleur" cr="2" climate="temperate" environment="underground" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Axiomite" cr="8" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Bralani" cr="6" climate="planar" environment="forest-jungle" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Brijidine" cr="17" climate="planar" environment="mountains" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ghaéle" cr="13" climate="planar" environment="forest-jungle" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lyrakien" cr="2" climate="planar" environment="plains" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Lilende" cr="7" climate="planar" environment="forest-jungle" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Azer" cr="2" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Azruverda" cr="13" climate="temperate" environment="underground" type="aberration" />
+    <monster name="Babau" cr="6" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Babélien" cr="5" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Babouin" cr="0.5" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Baku" cr="8" climate="temperate" environment="sky" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Baleine" cr="10" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Grande baleine blanche" cr="14" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Balor" cr="20" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Bandersnatch" cr="17" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Banshie" cr="13" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Barégare" cr="12" climate="planar" environment="forest-jungle" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Barghest" cr="4" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Barghest noble" cr="7" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Basidirond" cr="5" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Basilic" cr="5" climate="temperate" environment="ruins-dungeons" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Bâtard" cr="1" climate="temperate" environment="ruins-dungeons" type="monstrousHumanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Baykok" cr="9" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Bébilith" cr="10" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Béhémoth des tempêtes" cr="22" climate="temperate" environment="sky" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Béhémoth du tonnerre" cr="18" climate="temperate" environment="mountains" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Béhémoth thalassique" cr="20" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Béhir" cr="8" climate="warm" environment="desert" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Belette" cr="0.5" climate="temperate" environment="hills" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Berbalang" cr="6" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Bête du chaos" cr="7" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Bête lunaire" cr="11" climate="temperate" environment="ruins-dungeons" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Bhuta" cr="11" climate="temperate" environment="forest-jungle" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Blaireau" cr="0.5" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Blaireau sanguinaire" cr="2" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Bodak" cr="8" climate="planar" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Boisvivant" cr="8" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Bonze des mers" cr="15" climate="temperate" environment="aquatic" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Bourbiérin" cr="2" climate="temperate" environment="swamp" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Brachiosaure" cr="10" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Brume affamée" cr="6" climate="temperate" environment="ruins-dungeons" type="ooze">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Brume vampirique" cr="3" climate="temperate" environment="swamp" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Bulette" cr="7" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Bunyip" cr="3" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Cacodaémon" cr="2" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Cafard géant" cr="0.5" climate="temperate" environment="urban" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nuée de cafards" cr="2" climate="temperate" environment="urban" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Léchi calebasse" cr="1" climate="temperate" environment="plains" type="plant" />
+    <monster name="Calmar" cr="1" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Calmar géant" cr="9" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Caméléon géant" cr="3" climate="warm" environment="forest-jungle" type="animal" />
+    <monster name="Caryatide" cr="3" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Catoblépas" cr="12" climate="temperate" environment="swamp" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Cauchemar" cr="11" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Cavalier glacé" cr="8" climate="cold" environment="forest-jungle" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Cécaëlia" cr="5" climate="warm" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Centaure" cr="3" climate="temperate" environment="plains" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Cératioïde" cr="3" climate="temperate" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Cerbère" cr="6" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Ceustodaémon" cr="6" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Champignon cérébré" cr="3" climate="temperate" environment="ruins-dungeons" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Champignon fantôme" cr="3" climate="temperate" environment="ruins-dungeons" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Chapeau rouge" cr="6" climate="temperate" environment="underground" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Charançon géant" cr="4" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Charda" cr="7" climate="cold" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Charybde" cr="13" climate="temperate" environment="aquatic" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chat" cr="0.25" climate="temperate" environment="urban" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Chat infernal" cr="7" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chauve-souris" cr="0.125" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nuée de chauves-souris" cr="2" climate="temperate" environment="underground" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Chauve-souris sanguinaire" cr="2" climate="temperate" environment="underground" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mobat" cr="3" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Skaveling" cr="5" climate="temperate" environment="underground" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chernobue" cr="12" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Cheval" cr="1" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Poney" cr="0.5" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Cheval draconique" cr="9" climate="temperate" environment="sky" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chevalier tombal humain" cr="11" climate="temperate" environment="urban" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Chèvre" cr="0.33" climate="temperate" environment="mountains" type="animal">
+      <sources>
+        <source id="um" />
+        <source id="bestiary3" />
+      </sources>
+    </monster>
+    <monster name="Chien" cr="0.33" climate="temperate" environment="urban" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Chien de selle" cr="1" climate="temperate" environment="urban" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Chien de Tindalos" cr="7" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chien esquiveur" cr="2" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chien gobelin" cr="1" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ch" cr="3" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Chimère" cr="7" climate="temperate" environment="hills" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Chouette" cr="0.33" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Grand-duc" cr="0.5" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="chouette géante" cr="5" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Chuchoteur du grenier" cr="4" climate="temperate" environment="urban" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chupacabra" cr="3" climate="warm" environment="hills" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Chuul" cr="7" climate="temperate" environment="swamp" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Cobra de fer" cr="2" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Cobra impérial" cr="5" climate="temperate" environment="swamp" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Cochon" cr="0.33" climate="temperate" environment="forest-jungle" type="animal">
+      <sources>
+        <source id="um" />
+        <source id="bestiary3" />
+      </sources>
+    </monster>
+    <monster name="Cockatrice" cr="3" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Coléoptère goliath" cr="8" climate="warm" environment="forest-jungle" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Coléoptère tranchoir" cr="4" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Punaise de feu" cr="0.33" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Compsognathus" cr="0.5" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Corbeau" cr="0.16" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Corbie sanguinaire" cr="1" climate="temperate" environment="underground" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Couatl" cr="10" climate="warm" environment="forest-jungle" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Cr" cr="2" climate="temperate" environment="aquatic" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nuée de crabes" cr="4" climate="temperate" environment="aquatic" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Crapaud" cr="0.125" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Crapaud géant" cr="2" climate="temperate" environment="swamp" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Crapaud des glaciers" cr="6" climate="cold" environment="hills" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Créature des cryptes" cr="5" climate="temperate" environment="underground" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Crapaud féerique géant" cr="3" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Lion foo" cr="4" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Créature mécanique Espion" cr="0.5" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Léviathan mécanique" cr="12" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Serviteur mécanique" cr="2" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Cristal carnivore" cr="11" climate="temperate" environment="ruins-dungeons" type="ooze">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Crocodile" cr="2" climate="warm" environment="swamp" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Crocodile sanguinaire" cr="9" climate="warm" environment="swamp" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Croquemitaine" cr="10" climate="temperate" environment="ruins-dungeons" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Crucidaémon" cr="15" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Crysmal" cr="3" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Cube gélatineux" cr="3" climate="temperate" environment="ruins-dungeons" type="ooze">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Cyclope" cr="5" climate="temperate" environment="ruins-dungeons" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Grand cyclope" cr="12" climate="temperate" environment="ruins-dungeons" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Cythnigot" cr="2" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Daeodon" cr="4" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Derghodaémon" cr="12" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Hy" cr="8" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Leukodaémon" cr="9" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Méladaémon" cr="11" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Oléthrodaémon" cr="20" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Piscodaémon" cr="10" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Purrodaémon" cr="18" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Thanadaémon" cr="13" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Vulnudaémon" cr="4" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Dandasuka" cr="5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Dauphin" cr="0.5" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Orque épaulard" cr="5" climate="cold" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Décapus" cr="4" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Déinonychus" cr="3" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Licorne demi-céleste" cr="4" climate="temperate" environment="forest-jungle" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dracolisque" cr="7" climate="temperate" environment="swamp" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Minotaure demi-fiélon" cr="6" climate="temperate" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Démon des ombres" cr="7" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dretch" cr="2" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Glabrezu" cr="13" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Hezrou" cr="11" climate="planar" environment="swamp" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Kalavakus" cr="10" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Marilith" cr="17" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nabasu" cr="8" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nalfeshnie" cr="14" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Omox" cr="12" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Qu" cr="2" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Shemhazian" cr="16" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Succube" cr="7" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Démon, Vrock" cr="9" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Vrolikai" cr="19" climate="planar" environment="hills" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Derhii" cr="5" climate="warm" environment="forest-jungle" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Derro" cr="3" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Destrachan" cr="8" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Destrier noir" cr="5" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dévoreur" cr="11" climate="planar" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dévoreur d'âmes" cr="7" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dévoreur d'araignées" cr="5" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Dévoreur d'intellect" cr="8" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dévoreur draconique - Dracosire Rouge" cr="22" climate="temperate" environment="mountains" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dhampir" cr="0.5" climate="temperate" environment="ruins-dungeons" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Di" cr="3" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Di" cr="11" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Di" cr="5" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Di" cr="16" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Di" cr="13" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Di" cr="19" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Di" cr="9" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Di" cr="16" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Di" cr="14" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Diablotin" cr="2" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Diantrefosse" cr="20" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Érinye" cr="8" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lémure" cr="1" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dibbouk" cr="15" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Élasmosaure" cr="7" climate="warm" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Iguanodon" cr="6" climate="warm" environment="swamp" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Pachycéphalosaure" cr="4" climate="warm" environment="plains" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Parasaurolophus" cr="4" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ptéranodon" cr="3" climate="warm" environment="sky" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Stégosaure" cr="7" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tricératops" cr="8" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tylosaure" cr="8" climate="warm" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Tyrannosaure" cr="9" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Djinn" cr="5" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Do" cr="5" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Doppleganger" cr="3" climate="temperate" environment="urban" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon féerique" cr="2" climate="" environment="" type="dragon" />
+    <monster name="Jeune dragon blanc" cr="6" climate="cold" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon blanc adulte" cr="10" climate="cold" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon blanc vénérable" cr="15" climate="cold" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon bleu" cr="9" climate="warm" environment="desert" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon bleu adulte" cr="13" climate="warm" environment="desert" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon bleu vénérable" cr="18" climate="warm" environment="desert" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon noir" cr="7" climate="warm" environment="swamp" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon noir adulte" cr="11" climate="warm" environment="swamp" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon noir vénérable" cr="16" climate="warm" environment="swamp" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon rouge" cr="10" climate="warm" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon rouge adulte" cr="14" climate="warm" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon rouge vénérable" cr="19" climate="warm" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon vert" cr="8" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon vert adulte" cr="12" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon vert vénérable" cr="17" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon d'épines" cr="16" climate="temperate" environment="hills" type="dragon" />
+    <monster name="Jeune dragon d'airain" cr="7" climate="warm" environment="desert" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon d'airain adulte" cr="11" climate="warm" environment="desert" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon d'airain vénérable" cr="16" climate="warm" environment="desert" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon d'argent" cr="10" climate="temperate" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon d'argent adulte" cr="14" climate="temperate" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon d'argent vénérable" cr="19" climate="temperate" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon de bronze" cr="9" climate="temperate" environment="aquatic" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon de bronze adulte" cr="13" climate="temperate" environment="aquatic" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon de bronze vénérable" cr="18" climate="temperate" environment="aquatic" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon de cuivre" cr="8" climate="warm" environment="hills" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon de cuivre adulte" cr="12" climate="warm" environment="hills" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon de cuivre vénérable" cr="17" climate="warm" environment="hills" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon d'or" cr="11" climate="warm" environment="plains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon d'or adulte" cr="15" climate="warm" environment="plains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragon d'or vénérable" cr="20" climate="warm" environment="plains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jeune dragon de cristal" cr="6" climate="planar" environment="underground" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon de cristal adulte" cr="10" climate="planar" environment="underground" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon de cristal vénérable" cr="15" climate="planar" environment="underground" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Jeune Dragon de magma" cr="8" climate="planar" environment="mountains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon de magma adulte" cr="12" climate="planar" environment="mountains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon de magma vénérable" cr="17" climate="planar" environment="mountains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Jeune Dragon des nuages" cr="9" climate="planar" environment="sky" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon des nuages adulte" cr="13" climate="planar" environment="sky" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon des nuages vénérable" cr="18" climate="planar" environment="sky" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Jeune Dragon de saumure" cr="7" climate="planar" environment="aquatic" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon de saumure adulte" cr="11" climate="planar" environment="aquatic" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon de saumure vénérable" cr="16" climate="planar" environment="aquatic" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Jeune Dragon ombrageux" cr="10" climate="planar" environment="plains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon ombrageux adulte" cr="14" climate="planar" environment="plains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon ombrageux vénérable" cr="19" climate="planar" environment="plains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Dragon-tortue" cr="9" climate="temperate" environment="aquatic" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dragonne" cr="7" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Drake des crevasses" cr="9" climate="warm" environment="mountains" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Drake des rivières" cr="3" climate="temperate" environment="aquatic" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Drake des flammes" cr="5" climate="temperate" environment="mountains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Drake des forêts" cr="4" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Drake des mers" cr="6" climate="temperate" environment="aquatic" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Drake du désert" cr="8" climate="warm" environment="desert" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Drake du froid" cr="7" climate="cold" environment="mountains" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ta" cr="2" climate="temperate" environment="forest-jungle" type="dragon" />
+    <monster name="Kongamato" cr="15" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Pseudo-dragon" cr="1" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Vo" cr="6" climate="warm" environment="hills" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Draugr" cr="2" climate="temperate" environment="aquatic" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Drider" cr="7" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dr" cr="0.33" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Drow noble" cr="3" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dryade" cr="3" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Du" cr="0.33" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Dullahan" cr="7" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="D'ziriak" cr="3" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Écorché" cr="16" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="ÉCUREUIL VOLANT" cr="0.33" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Efrit" cr="8" climate="planar" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Eidolon libéré" cr="8" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Élémentaire de l'Air de taille P" cr="1" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Air de taille M" cr="3" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Air de taille G" cr="5" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Air de taille TG" cr="7" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Air noble" cr="9" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Seigneur élémentaire de l'Air" cr="11" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Eau de taille M" cr="3" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Eau de taille G" cr="5" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Eau de taille TG" cr="7" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l'Eau noble" cr="9" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Seigneur élémentaire de l'Eau" cr="11" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de l’éclair de Taille P" cr="1" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de l’éclair de Taille M" cr="3" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de l’éclair de Taille G" cr="5" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de l’éclair de taille TG" cr="7" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de l’éclair Noble" cr="9" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Seigneur Élémentaire de l’éclair" cr="11" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la boue de Taille P" cr="1" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la boue de Taille M" cr="3" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la boue de Taille G" cr="5" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la Boue de taille TG" cr="7" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la boue Noble" cr="9" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Seigneur Élémentaire de la boue" cr="11" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la glace de taille P" cr="1" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la glace de taille M" cr="3" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la glace de taille G" cr="5" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la glace de taille TG" cr="7" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la glace noble" cr="9" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Seigneur Élémentaire de la glace" cr="11" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Élémentaire de la Terre de taille P" cr="1" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de la Terre de taille M" cr="3" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de la Terre de taille G" cr="5" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de la Terre de taille TG" cr="7" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire de la Terre noble" cr="9" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Seigneur élémentaire de la Terre" cr="11" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire du Feu de taille P" cr="1" climate="planar" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire du Feu de taille M" cr="3" climate="planar" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire du Feu de taille G" cr="5" climate="planar" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire du Feu de taille TG" cr="7" climate="planar" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Élémentaire du Feu noble" cr="9" climate="planar" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Seigneur élémentaire du Feu" cr="11" climate="planar" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Éléphant" cr="7" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ma" cr="9" climate="cold" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Enfant lumineux" cr="12" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Enfouisseur des sables" cr="4" climate="warm" environment="desert" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Enlaceur" cr="12" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Epouvantail" cr="4" climate="temperate" environment="plains" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kyton, ermite" cr="20" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Escargot fléau" cr="4" climate="temperate" environment="underground" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Esprit follet" cr="0.33" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Esprit Oni" cr="2" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Essaim de guêpes de l'Enfer" cr="8" climate="planar" environment="ruins-dungeons" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Étranger blafard " cr="10" climate="temperate" environment="plains" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Étrangleur" cr="2" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ettercap" cr="3" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ettin" cr="6" climate="cold" environment="plains" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Faucon" cr="0.33" climate="" environment="" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Grive" cr="0.33" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Hérisson" cr="0.125" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Lézard" cr="0.16" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="LOUTRE" cr="0.25" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Ma" cr="0.25" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Mille-pattes domestique" cr="0.125" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Pieuvre à anneaux bleus" cr="0.5" climate="temperate" environment="aquatic" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="RATON LAVEUR" cr="0.5" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Renard" cr="0.25" climate="temperate" environment="forest-jungle" type="animal">
+      <sources>
+        <source id="um" />
+        <source id="bestiary3" />
+      </sources>
+    </monster>
+    <monster name="Scorpion Vert" cr="0.25" climate="warm" environment="desert" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Singe" cr="0.25" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tortue de mer" cr="0.16" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="um" />
+    </monster>
+    <monster name="Vipère" cr="0.5" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Fantôme" cr="7" climate="temperate" environment="underground" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Farfadet" cr="2" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Faune" cr="1" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Guépard" cr="2" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Léopard" cr="2" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Fe" cr="2" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Festrog" cr="1" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Fe" cr="0.5" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Feu follet" cr="6" climate="temperate" environment="swamp" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Fiélon sargasse" cr="9" climate="temperate" environment="aquatic" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Fleur de lune" cr="8" climate="temperate" environment="plains" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Flumph" cr="1" climate="temperate" environment="ruins-dungeons" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Fongoïde violet" cr="3" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Forlarren" cr="2" climate="temperate" environment="plains" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Fourmi géante" cr="2" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nuée de fourmis soldats" cr="5" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Fourmilion géant" cr="5" climate="warm" environment="desert" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Fourmilion adulte géant" cr="6" climate="warm" environment="desert" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Froghémoth" cr="13" climate="temperate" environment="swamp" type="aberration" />
+    <monster name="Fumigon" cr="6" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="FUATH" cr="1" climate="temperate" environment="aquatic" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Fureteur obscur" cr="2" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gar" cr="1" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Gar géant" cr="6" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Gardien tombal" cr="5" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Gargouille" cr="4" climate="temperate" environment="ruins-dungeons" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Garou-chacal" cr="2" climate="warm" environment="desert" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Garuda" cr="9" climate="warm" environment="mountains" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Géant de cendre" cr="11" climate="temperate" environment="desert" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Géant de la jungle" cr="10" climate="warm" environment="forest-jungle" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Géant de la taïga" cr="12" climate="cold" environment="forest-jungle" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Géant de pierre" cr="8" climate="temperate" environment="mountains" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Géant des bois" cr="6" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Géant des collines" cr="7" climate="temperate" environment="hills" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gé" cr="6" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Géant des marais" cr="8" climate="temperate" environment="swamp" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Géant des nuages" cr="11" climate="temperate" environment="mountains" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Géant des runes" cr="17" climate="cold" environment="mountains" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Géant des tempêtes" cr="13" climate="warm" environment="aquatic" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Géant du désert" cr="9" climate="warm" environment="desert" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Géant du feu" cr="10" climate="warm" environment="mountains" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Géant du froid" cr="9" climate="cold" environment="mountains" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="gecko géant, lézard" cr="1" climate="warm" environment="forest-jungle" type="animal" />
+    <monster name="Gelée ocre" cr="5" climate="temperate" environment="underground" type="ooze">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jann" cr="4" climate="warm" environment="desert" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Marid" cr="9" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Shaitan" cr="7" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ghorazagh" cr="13" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Ghul" cr="5" climate="warm" environment="desert" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Girallon" cr="6" climate="warm" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Girtablilu" cr="8" climate="warm" environment="desert" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Globster" cr="5" climate="temperate" environment="aquatic" type="ooze">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Glouton" cr="2" climate="cold" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Glouton sanguinaire" cr="4" climate="cold" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Glutineux" cr="3" climate="temperate" environment="underground" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Gnoll" cr="1" climate="warm" environment="plains" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gobelin" cr="0.33" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gobelours" cr="2" climate="temperate" environment="hills" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Golem alchimique" cr="9" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Golem d’adamantium" cr="19" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Golem d'argile" cr="10" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Golem canon" cr="15" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Golem de bois" cr="6" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Golem de charogne" cr="4" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Golem de chair" cr="7" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Golem de cuivre" cr="14" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Golem de fer" cr="13" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Golem de glace" cr="5" climate="cold" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Golem de mithral" cr="16" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Golem de pierre" cr="11" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Golem de verre" cr="8" climate="temperate" environment="desert" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Golem d'os" cr="8" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Golem fossile" cr="12" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Golem mécanique" cr="12" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Gorgone" cr="8" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gorille" cr="2" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gorille sanguinaire" cr="3" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gorynych" cr="15" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Goule" cr="1" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Jinkin" cr="1" climate="temperate" environment="underground" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Gremlin, Nuglub" cr="2" climate="temperate" environment="underground" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Gremlin, Pugwampi" cr="0.5" climate="warm" environment="hills" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Vexgit" cr="1" climate="temperate" environment="underground" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Grenouille géante" cr="1" climate="temperate" environment="swamp" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Grenouille venimeuse" cr="0.5" climate="warm" environment="swamp" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Grick" cr="3" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Griffe du récif" cr="1" climate="temperate" environment="aquatic" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Griffon" cr="4" climate="temperate" environment="hills" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Grig" cr="1" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Grizzly" cr="4" climate="cold" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Grindylow" cr="0.5" climate="temperate" environment="aquatic" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Grippli" cr="0.5" climate="warm" environment="swamp" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Grodair" cr="5" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Grootslang" cr="16" climate="warm" environment="aquatic" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Gryph" cr="1" climate="temperate" environment="underground" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Guécube" cr="8" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Guenaude annis" cr="6" climate="cold" environment="swamp" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Guenaude marine" cr="4" climate="temperate" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Guenaude noire" cr="9" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Guenaude verte" cr="5" climate="temperate" environment="swamp" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Guêpe géante" cr="3" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nuée de guêpes" cr="3" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Gug" cr="10" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Habitant de la Lumière" cr="5" climate="planar" environment="sky" type="fey" />
+    <monster name="Habitant de Leng" cr="8" climate="planar" environment="urban" type="outsider" />
+    <monster name="Harpie" cr="4" climate="temperate" environment="swamp" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Titan, hécatonchire" cr="24" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Sphinx, hiéracosphinx" cr="5" climate="warm" environment="hills" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Hippocampe" cr="1" climate="temperate" environment="aquatic" type="magicalBeast" />
+    <monster name="Hippogriffe" cr="2" climate="temperate" environment="sky" type="magicalBeast" />
+    <monster name="Hippopotame" cr="5" climate="warm" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Hippopotame Béhémoth" cr="10" climate="warm" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Hobgobelin" cr="0.5" climate="temperate" environment="hills" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Hodag" cr="6" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Homme-brindille" cr="3" climate="temperate" environment="forest-jungle" type="fey" />
+    <monster name="Ho" cr="0.5" climate="temperate" environment="forest-jungle" type="humanoid" />
+    <monster name="Homme-lézard" cr="1" climate="temperate" environment="swamp" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Homme-phalène" cr="6" climate="temperate" environment="ruins-dungeons" type="monstrousHumanoid" />
+    <monster name="Ho" cr="0.33" climate="temperate" environment="aquatic" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ho" cr="0.33" climate="warm" environment="desert" type="humanoid" />
+    <monster name="Homoncule" cr="1" climate="temperate" environment="urban" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Horreur chasseresse" cr="11" climate="planar" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Hu" cr="2" climate="temperate" environment="underground" type="undead" />
+    <monster name="Humbaba " cr="19" climate="temperate" environment="forest-jungle" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Hurleur" cr="3" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Hydre" cr="4" climate="temperate" environment="swamp" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Hyène" cr="1" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Hy" cr="3" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Iathavos" cr="20" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ifrit" cr="0.5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Iku-turso" cr="8" climate="cold" environment="aquatic" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Imentesh" cr="10" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kolyarut" cr="9" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Lhaksharut" cr="20" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Marut" cr="15" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Zélékhut" cr="9" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kyton, interlocuteur de chair déformé" cr="12" climate="planar" environment="urban" type="outsider" />
+    <monster name="Jabberwocky" cr="23" climate="temperate" environment="forest-jungle" type="dragon">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Jiang-shi" cr="6" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Kami, jinushigami" cr="20" climate="temperate" environment="forest-jungle" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name=" Jorôgumo" cr="12" climate="temperate" environment="mountains" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Jube-jube" cr="15" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Jyoti" cr="9" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kamadan" cr="4" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Kami, kodama" cr="5" climate="temperate" environment="forest-jungle" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Kami, shikigami" cr="2" climate="temperate" environment="plains" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name=" Kami, toshigami " cr="15" climate="temperate" environment="plains" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Zuishin" cr="10" climate="temperate" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Marsupial, kangourou" cr="0.5" climate="temperate" environment="plains" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name=" Kappa " cr="2" climate="temperate" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kech" cr="3" climate="warm" environment="forest-jungle" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Kékétar" cr="17" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kelpie" cr="4" climate="temperate" environment="aquatic" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kirin" cr="7" climate="temperate" environment="sky" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Kobold" cr="0.25" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Korred" cr="4" climate="planar" environment="forest-jungle" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Kraken" cr="18" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Krenshar" cr="1" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Oni, kuwa" cr="4" climate="temperate" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Év" cr="6" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lamie" cr="6" climate="temperate" environment="hills" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lamie matriarche" cr="8" climate="temperate" environment="ruins-dungeons" type="monstrousHumanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Lammasu" cr="8" climate="temperate" environment="desert" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Léchi de feuilles" cr="0.5" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Léchi fongique" cr="2" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Leucrotta" cr="5" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Lézard à collerette géant" cr="5" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lézard voltaïque" cr="2" climate="warm" environment="swamp" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Varan, lézard" cr="2" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Liane meurtrière" cr="3" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Liane-serpent" cr="13" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Libellule géante" cr="4" climate="warm" environment="swamp" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nymphe de libellule géante" cr="3" climate="warm" environment="aquatic" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Liche" cr="12" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Licorne" cr="3" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Limace géante" cr="8" climate="temperate" environment="swamp" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Linnorm de la taïga" cr="19" climate="cold" environment="forest-jungle" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Linnorm des roches" cr="21" climate="cold" environment="mountains" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Linnorm des cairns" cr="18" climate="cold" environment="forest-jungle" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Linnorm des falaises" cr="14" climate="cold" environment="hills" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Linnorm des fjords" cr="16" climate="cold" environment="aquatic" type="dragon">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Linnorm des glaces" cr="17" climate="cold" environment="mountains" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Linnorm des lacs" cr="20" climate="cold" environment="swamp" type="dragon">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lion" cr="3" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Li" cr="5" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Locathah" cr="0.5" climate="temperate" environment="aquatic" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Loup" cr="1" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Loup sanguinaire" cr="3" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Loup arctique" cr="5" climate="cold" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Loup-garou" cr="2" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lo" cr="2" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lukwata" cr="11" climate="warm" environment="aquatic" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Lutin" cr="1" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ou" cr="4" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ou" cr="2" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ra" cr="2" climate="temperate" environment="urban" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ra" cr="2" climate="temperate" environment="urban" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sa" cr="2" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ti" cr="4" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Maflet" cr="6" climate="temperate" environment="desert" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Magmatique" cr="3" climate="planar" environment="mountains" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Maharadjah" cr="20" climate="temperate" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Main Rampante" cr="0.5" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Main Rampante géante" cr="5" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Manananggal" cr="7" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Mandragore" cr="4" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Mante géante" cr="3" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mante obscure" cr="1" climate="temperate" environment="underground" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Manteleur" cr="5" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Manticore" cr="5" climate="warm" environment="hills" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Maraï" cr="8" climate="temperate" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Marchand de sable" cr="3" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Marcheur ténébreux" cr="16" climate="planar" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Marsupial, Thylacine" cr="0.5" climate="warm" environment="hills" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Méduse" cr="7" climate="temperate" environment="swamp" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Méduse géante" cr="7" climate="temperate" environment="aquatic" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Méduse à tête de mort" cr="1" climate="temperate" environment="aquatic" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Nuée de méduses" cr="6" climate="temperate" environment="aquatic" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Méduse saphir" cr="11" climate="temperate" environment="aquatic" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Méphite" cr="3" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mercane" cr="5" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Merrow d'eau douce" cr="3" climate="temperate" environment="aquatic" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Merrow d'eau de mer" cr="6" climate="temperate" environment="aquatic" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Mihstu" cr="8" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Mille-pattes à queue fouettante" cr="3" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Mille-pattes géant" cr="0.5" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mille-pattes titanesque" cr="9" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nuée de mille-pattes" cr="4" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mimique" cr="4" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Minotaure" cr="4" climate="temperate" environment="ruins-dungeons" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mite" cr="0.25" climate="temperate" environment="underground" type="fey">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mobogo" cr="10" climate="temperate" environment="swamp" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Mohrg" cr="8" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Moisissure jaune" cr="2" climate="temperate" environment="forest-jungle" type="ooze">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Moisissure vaseuse" cr="2" climate="temperate" environment="forest-jungle" type="ooze">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Molosse infernal" cr="3" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Molosse nessien" cr="9" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Momie" cr="5" climate="warm" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Morlock" cr="2" climate="temperate" environment="underground" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Mouche géante" cr="1" climate="temperate" environment="swamp" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ver géant" cr="0.5" climate="warm" environment="desert" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Moufette" cr="0.25" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Moufette Géante" cr="3" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Moustique géant" cr="6" climate="temperate" environment="swamp" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nuée de moustiques" cr="3" climate="warm" environment="swamp" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Mycéloïde" cr="4" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Naga aquatique" cr="7" climate="temperate" environment="aquatic" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="naga corrupteur" cr="9" climate="temperate" environment="swamp" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Naga gardien" cr="10" climate="temperate" environment="plains" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Naga lunaire" cr="6" climate="temperate" environment="ruins-dungeons" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Naga royal" cr="11" climate="temperate" environment="ruins-dungeons" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Naga ténébreux" cr="8" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Naunet" cr="7" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nécrophage" cr="3" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nécrophage des glaces" cr="17" climate="cold" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nécrophidius" cr="3" climate="temperate" environment="underground" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Neh-thalggu" cr="8" climate="temperate" environment="mountains" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Néothélide" cr="15" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Néphilim" cr="8" climate="warm" environment="hills" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Néréide" cr="10" climate="temperate" environment="aquatic" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nixe" cr="1" climate="temperate" environment="aquatic" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Norne" cr="18" climate="cold" environment="mountains" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Nuckelavee" cr="9" climate="cold" environment="swamp" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Nue" cr="10" climate="warm" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Nuée d'Asticots" cr="7" climate="temperate" environment="ruins-dungeons" type="vermin" />
+    <monster name="Nuée de rats" cr="2" climate="temperate" environment="urban" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nuée de sangsue" cr="4" climate="warm" environment="swamp" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nuée de serpents" cr="2" climate="temperate" environment="swamp" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Nuée de serpents venimeux" cr="4" climate="temperate" environment="swamp" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Nuée de singes" cr="2" climate="warm" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nuée de tiques" cr="9" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Nymphe" cr="7" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Nyogoth" cr="10" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Objet animé" cr="3" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ogre" cr="3" climate="temperate" environment="hills" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ogre mage" cr="8" climate="cold" environment="hills" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Og" cr="3" climate="temperate" environment="ruins-dungeons" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Oiseau-Tonnerre" cr="11" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ombre" cr="3" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ombre supérieure" cr="8" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ondin" cr="0.5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Yai de glace" cr="14" climate="cold" environment="mountains" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Yai de l'eau" cr="18" climate="temperate" environment="aquatic" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Yai du feu" cr="15" climate="temperate" environment="hills" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Yai du vide" cr="20" climate="cold" environment="mountains" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Thriae, oracle" cr="11" climate="temperate" environment="hills" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Oréade" cr="0.5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Orm aquatique" cr="10" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Orque" cr="0.33" climate="temperate" environment="hills" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Otyugh" cr="4" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ours sanguinaire" cr="7" climate="cold" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ours-hibou" cr="4" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Oxydeur" cr="3" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Papillon sinistre" cr="4" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Pech" cr="3" climate="temperate" environment="underground" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Pêcheur des grottes" cr="2" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Pégase" cr="3" climate="temperate" environment="plains" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Penanggalan" cr="5" climate="temperate" environment="urban" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Péryton" cr="4" climate="temperate" environment="mountains" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Pétitionnaire" cr="1" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Phœnix" cr="15" climate="warm" environment="desert" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Phycomide" cr="4" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Pieuvre" cr="1" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Pieuvre géante" cr="8" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Pipeau" cr="8" climate="temperate" environment="forest-jungle" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Pixie" cr="4" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Poisson diable" cr="4" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Poltergeist" cr="2" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Popobala" cr="15" climate="temperate" environment="forest-jungle" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Porc-épic" cr="0.25" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Porc-épic géant" cr="2" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Pouding noir" cr="7" climate="temperate" environment="underground" type="ooze">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Poupée des âmes" cr="2" climate="temperate" environment="urban" type="construct">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ver du néant" cr="2" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Pukwudgie" cr="7" climate="temperate" environment="forest-jungle" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Shoggti" cr="7" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Thulgant" cr="18" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Raie manta" cr="1" climate="warm" environment="aquatic" type="animal" />
+    <monster name="Raie à aiguillon" cr="0.5" climate="warm" environment="aquatic" type="animal" />
+    <monster name="raktavarna" cr="2" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tataka" cr="15" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Rampant fongique" cr="3" climate="temperate" environment="underground" type="aberration" />
+    <monster name="Rampant ténébreux" cr="18" climate="planar" environment="ruins-dungeons" type="undead" />
+    <monster name="Rat sanguinaire" cr="0.33" climate="temperate" environment="urban" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Rast" cr="5" climate="planar" environment="underground" type="outsider" />
+    <monster name="Ravageur gris" cr="8" climate="temperate" environment="swamp" type="magicalBeast" />
+    <monster name="Thriae, Reine" cr="18" climate="temperate" environment="hills" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Rejeton du péché" cr="2" climate="temperate" environment="ruins-dungeons" type="aberration" />
+    <monster name="Rémorhaz" cr="7" climate="cold" environment="desert" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Requin" cr="2" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Re" cr="9" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Rêve animé" cr="8" climate="planar" environment="urban" type="outsider" />
+    <monster name="Revenant" cr="6" climate="temperate" environment="urban" type="undead" />
+    <monster name="Rhinocéros" cr="4" climate="warm" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Rhinocéros laineux" cr="6" climate="cold" environment="plains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Roc" cr="9" climate="warm" environment="mountains" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Roussalka" cr="12" climate="temperate" environment="aquatic" type="fey">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Sagari" cr="0.5" climate="temperate" environment="forest-jungle" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Sahuagin" cr="2" climate="temperate" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Salamandre" cr="6" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sanglier" cr="2" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sangsue géante" cr="2" climate="warm" environment="swamp" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sard" cr="19" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Sasquatch" cr="2" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Satyre" cr="4" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Scéaduinar" cr="7" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Scorpion des cavernes" cr="1" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Scorpion fantomatique" cr="0.5" climate="warm" environment="desert" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Scorpion géant" cr="3" climate="warm" environment="desert" type="vermin">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Scorpion Noir" cr="15" climate="warm" environment="desert" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Scorpion Piégeur" cr="8" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Scylla" cr="16" climate="temperate" environment="aquatic" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Seigneur félin" cr="11" climate="warm" environment="forest-jungle" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Serpent constricteur" cr="2" climate="warm" environment="swamp" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Serpent Creux" cr="16" climate="temperate" environment="underground" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Serpent des Profondeurs" cr="19" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Serpent gobelin" cr="1" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Serpent venimeux" cr="1" climate="warm" environment="swamp" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Serpent de mer" cr="12" climate="temperate" environment="aquatic" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Seugathi" cr="6" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Shaé" cr="4" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Shantak" cr="8" climate="cold" environment="mountains" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Shédu" cr="9" climate="warm" environment="desert" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Shinigami" cr="17" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Simurgh" cr="17" climate="warm" environment="desert" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Siyokoy" cr="10" climate="temperate" environment="aquatic" type="aberration">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Shoggoth" cr="19" climate="cold" environment="aquatic" type="ooze">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Si" cr="5" climate="temperate" environment="hills" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Skulk" cr="1" climate="temperate" environment="urban" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Sk" cr="2" climate="temperate" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sleipnir" cr="11" climate="cold" environment="mountains" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Slurk" cr="2" climate="temperate" environment="underground" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Soldat de terre-cuite" cr="6" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Thriae, soldat" cr="4" climate="temperate" environment="forest-jungle" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Solifuge géant" cr="1" climate="warm" environment="desert" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Solifuge albinos des cavernes" cr="4" climate="temperate" environment="underground" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Sorcewyrd" cr="6" climate="planar" environment="urban" type="monstrousHumanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Sorcière de feu" cr="9" climate="temperate" environment="swamp" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Spectre" cr="7" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sp" cr="8" climate="warm" environment="desert" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Spore de Mu" cr="21" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Squelette humain" cr="0.33" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Strige" cr="0.5" climate="warm" environment="swamp" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Stymphalide" cr="8" climate="warm" environment="plains" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Suli" cr="0.5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sv" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Sylphe" cr="0.5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Sylvanien" cr="8" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tanuki" cr="4" climate="temperate" environment="forest-jungle" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Taotieh" cr="11" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tarasque" cr="25" climate="temperate" environment="ruins-dungeons" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tendricule" cr="6" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Vague ténébreuse" cr="20" climate="planar" environment="aquatic" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Tengu" cr="0.5" climate="temperate" environment="urban" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tentamort" cr="4" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Tertre errant" cr="6" climate="temperate" environment="swamp" type="plant">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Thrasfyr" cr="17" climate="temperate" environment="hills" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Tieffelin" cr="0.5" climate="temperate" environment="urban" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tigre" cr="4" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Ti" cr="8" climate="temperate" environment="forest-jungle" type="animal">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Tique géante" cr="1" climate="temperate" environment="forest-jungle" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Titan de l'Élysée" cr="21" climate="planar" environment="mountains" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Titan thanatotique" cr="22" climate="planar" environment="mountains" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Toile mortelle" cr="6" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tojanida" cr="5" climate="planar" environment="aquatic" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tophet" cr="10" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tortue happante" cr="0.33" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Tortue happante géante" cr="9" climate="temperate" environment="aquatic" type="animal">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Totenmaske" cr="7" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Traqueur gluant" cr="4" climate="temperate" environment="underground" type="ooze">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Traqueur invisible" cr="7" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Traqueur obscur" cr="4" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Traqueur sans visage" cr="4" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Triton" cr="2" climate="temperate" environment="aquatic" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Troglodyte" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Troll" cr="5" climate="cold" environment="mountains" type="humanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Troll de mousse" cr="3" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Troll de pierre" cr="6" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Troll des glaces" cr="4" climate="cold" environment="mountains" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Troll jötun" cr="15" climate="cold" environment="hills" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Trollosse" cr="3" climate="cold" environment="mountains" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tueur obscur" cr="3" climate="temperate" environment="underground" type="humanoid">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Tupilaq" cr="7" climate="temperate" environment="ruins-dungeons" type="construct">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Tzitzimitl" cr="19" climate="temperate" environment="sky" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Urdefhan" cr="3" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Valkyrie" cr="12" climate="planar" environment="sky" type="outsider">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vampire" cr="9" climate="temperate" environment="urban" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Vanara" cr="0.5" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vargouille" cr="2" climate="temperate" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Vase carnivore" cr="13" climate="temperate" environment="plains" type="ooze">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Vase cérébrale" cr="7" climate="temperate" environment="ruins-dungeons" type="ooze">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vase coupe-gorge" cr="8" climate="temperate" environment="underground" type="ooze">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vase grise" cr="4" climate="cold" environment="swamp" type="ooze">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Vase de magma" cr="7" climate="temperate" environment="mountains" type="ooze">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Vase de plasma" cr="16" climate="temperate" environment="ruins-dungeons" type="ooze">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vase des jardins" cr="2" climate="temperate" environment="forest-jungle" type="ooze">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vautour" cr="0.5" climate="warm" environment="plains" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vautour géant" cr="4" climate="warm" environment="plains" type="animal">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Végépygmée" cr="0.5" climate="temperate" environment="underground" type="plant">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Vémérak" cr="14" climate="temperate" environment="underground" type="aberration">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ver du froid" cr="12" climate="cold" environment="plains" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ver mortel" cr="6" climate="warm" environment="desert" type="magicalBeast">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ver pourpre" cr="12" climate="temperate" environment="underground" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="ver-qui-marche" cr="14" climate="temperate" environment="ruins-dungeons" type="vermin">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Ver ténébreux" cr="8" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Viflin" cr="3" climate="temperate" environment="forest-jungle" type="fey">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Vishkanya" cr="0.5" climate="temperate" environment="urban" type="humanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Vodyanoi" cr="5" climate="temperate" environment="aquatic" type="monstrousHumanoid">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Voonith" cr="4" climate="temperate" environment="swamp" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Wendigo" cr="17" climate="cold" environment="hills" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Worg" cr="2" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Xacarba" cr="15" climate="planar" environment="urban" type="outsider">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Xill" cr="6" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Xorn" cr="6" climate="planar" environment="underground" type="outsider">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Xtabay" cr="0.5" climate="temperate" environment="forest-jungle" type="plant">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Yéti" cr="4" climate="cold" environment="mountains" type="monstrousHumanoid">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Yithien" cr="9" climate="temperate" environment="ruins-dungeons" type="aberration">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Yrthak" cr="9" climate="cold" environment="ruins-dungeons" type="magicalBeast" />
+    <monster name="Yuki-onna" cr="8" climate="cold" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Zombi humain" cr="0.5" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary" />
+    </monster>
+    <monster name="Zombi juju humain" cr="2" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary2" />
+    </monster>
+    <monster name="Zoog" cr="1" climate="temperate" environment="forest-jungle" type="magicalBeast">
+      <source id="bestiary3" />
+    </monster>
+    <monster name="Zouvembi" cr="4" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="bestiary3" />
+    </monster>
+  </monsters>
+</dataSet>

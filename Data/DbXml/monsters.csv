@@ -1,0 +1,888 @@
+Id,Name,Source,Type,Climate,Environment,CR
+,Aa,bestiary2,Undead,Temperate,RuinsDungeons,3
+,Aasimar,bestiary,Outsider,Temperate,Urban,0.5
+,Abeille géante,bestiary2,Vermin,Temperate,Plains,1
+,Abeille reine géante,bestiary2,Vermin,Temperate,Plains,5
+,Aboleth,bestiary,Aberration,Temperate,Aquatic,7
+,Achaïéraï,bestiary2,Outsider,Planar,Plains,5
+,Adaro,bestiary3,MonstrousHumanoid,Warm,Aquatic,3
+,Ad,bestiary3,Outsider,Planar,RuinsDungeons,7
+,Adlet,bestiary3,Humanoid,Cold,Plains,10
+,Akhana,bestiary2,Outsider,Planar,Sky,12
+,Bythos,bestiary2,Outsider,Planar,Sky,16
+,Paraclétus,bestiary2,Outsider,Planar,Sky,2
+,Pléroma,bestiary2,Outsider,Planar,Sky,20
+,Thélétos,bestiary2,Outsider,Planar,Sky,7
+,Avoral,bestiary2,Outsider,Planar,Sky,9
+,Cétacéal,bestiary2,Outsider,Planar,Aquatic,15
+,Draconal,bestiary2,Outsider,Planar,Sky,20
+,Léonal,bestiary2,Outsider,Planar,Plains,12
+,Silvanshie,bestiary2,Outsider,Planar,Hills,2
+,Vulpinal,bestiary2,Outsider,Planar,Hills,6
+,Ag,bestiary3,Outsider,Planar,RuinsDungeons,11
+,Ahuizolt,bestiary3,MagicalBeast,Warm,Aquatic,6
+,Aigle,bestiary,Animal,Temperate,Mountains,0.5
+,Aigle géant,bestiary,MagicalBeast,Temperate,Mountains,3
+,Ailé ténébreux,bestiary2,Undead,Planar,Sky,14
+,Akata,bestiary2,Aberration,Temperate,RuinsDungeons,1
+,Akhlut,bestiary3,MagicalBeast,Cold,Aquatic,13
+,Allosaure,bestiary2,Animal,Warm,ForestJungle,7
+,Alraune,bestiary3,Plant,Temperate,ForestJungle,13
+,Âme-en-peine,bestiary,Undead,Temperate,RuinsDungeons,5
+,Amibe géante,bestiary2,Ooze,Temperate,Underground,1
+,Nuée d'amibes,bestiary2,Ooze,Temperate,Underground,1
+,Amphisbène,bestiary2,MagicalBeast,Temperate,Hills,4
+,Anaconda géant,bestiary2,Animal,Warm,Swamp,10
+,Anémone de mer géante,bestiary3,Vermin,Temperate,Aquatic,2
+,Cassisien,bestiary2,Outsider,Planar,Sky,2
+,Déva astral,bestiary,Outsider,Planar,Sky,14
+,Déva monadique,bestiary2,Outsider,Planar,Sky,12
+,Déva movanique,bestiary2,Outsider,Planar,Sky,10
+,Planétar,bestiary,Outsider,Planar,Sky,16
+,Solar,bestiary,Outsider,Planar,Sky,23
+,Anguille électrique,bestiary,Animal,Warm,Aquatic,2
+,Murène géante,bestiary,Animal,Warm,Aquatic,5
+,Antilope,bestiary3,Animal,Temperate,Plains,0.5
+,Auroch,bestiary,Animal,Temperate,Plains,2
+,Bélier,bestiary2,Animal,Temperate,Mountains,1
+,Bison,bestiary,Animal,Temperate,Plains,4
+,Dromadaire,bestiary2,Animal,Warm,Desert,1
+,Élan,bestiary3,Animal,Cold,Plains,1
+,Archelon,bestiary3,Animal,Warm,Aquatic,5
+,Arsinoitherium,bestiary2,Animal,Temperate,Plains,7
+,Baluchithérium,bestiary3,Animal,Warm,ForestJungle,8
+,Basilosaure,bestiary3,Animal,Temperate,Aquatic,12
+,Gl,bestiary2,Animal,Temperate,Plains,6
+,Mégalania,bestiary3,Animal,Warm,ForestJungle,7
+,Mégalocéros,bestiary2,Animal,Temperate,ForestJungle,4
+,Mégathérium,bestiary2,Animal,Temperate,ForestJungle,5
+,Ankheg,bestiary,MagicalBeast,Temperate,Plains,3
+,Ankylosaure,bestiary,Animal,Warm,Plains,6
+,Araignée-crabe géante,bestiary3,Vermin,Temperate,ForestJungle,0.5
+,Araignée de phase,bestiary,MagicalBeast,Warm,Hills,5
+,Araignée de Leng,bestiary2,MagicalBeast,Planar,RuinsDungeons,14
+,Araignée écarlate,um,Vermin,Temperate,ForestJungle,0.25
+,Araignée géante,bestiary,Vermin,Temperate,ForestJungle,1
+,Araignée ogre,bestiary3,Vermin,Temperate,Hills,5
+,Nuée d'araignées,bestiary,Vermin,Temperate,ForestJungle,1
+,Tarentule géante,bestiary2,Vermin,Temperate,ForestJungle,8
+,Veuve noire géante,bestiary2,Vermin,Temperate,Underground,3
+,Aranéa,bestiary2,MagicalBeast,Temperate,ForestJungle,4
+,Arbitre,bestiary2,Outsider,Planar,Urban,2
+,Arbre à pendus,bestiary2,Plant,Temperate,ForestJungle,7
+,Archon annonciateur,bestiary3,Outsider,Planar,Sky,2
+,Archon bouclier,bestiary2,Outsider,Planar,Sky,10
+,Archon canin,bestiary,Outsider,Planar,Urban,4
+,Archon étoile,bestiary2,Outsider,Planar,Sky,19
+,Archon légionnaire,bestiary3,Outsider,Planar,Sky,7
+,Archon lumineux,bestiary,Outsider,Planar,Sky,2
+,Archon messager,bestiary,Outsider,Planar,Sky,14
+,Ascomoïde,bestiary3,Plant,Temperate,Underground,5
+,Astradaémon,bestiary2,Outsider,Planar,RuinsDungeons,16
+,As,bestiary3,Outsider,Planar,RuinsDungeons,20
+,Tr,bestiary3,Outsider,Planar,RuinsDungeons,2
+,Up,bestiary3,Outsider,Planar,RuinsDungeons,9
+,Athach,bestiary2,Humanoid,Temperate,Hills,12
+,Atomie,bestiary3,Fey,Temperate,ForestJungle,1
+,Attrape-mouches géant,bestiary,Plant,Temperate,Swamp,10
+,Augnagar,bestiary2,Outsider,Planar,Underground,14
+,Aurumvorax,bestiary2,MagicalBeast,Temperate,Hills,9
+,Aveugleur,bestiary2,MagicalBeast,Temperate,Underground,2
+,Axiomite,bestiary2,Outsider,Planar,Urban,8
+,Bralani,bestiary,Outsider,Planar,ForestJungle,6
+,Brijidine,bestiary2,Outsider,Planar,Mountains,17
+,Ghaéle,bestiary,Outsider,Planar,ForestJungle,13
+,Lyrakien,bestiary2,Outsider,Planar,Plains,2
+,Lilende,bestiary,Outsider,Planar,ForestJungle,7
+,Azer,bestiary2,Outsider,Planar,Underground,2
+,Azruverda,,Aberration,Temperate,Underground,13
+,Babau,bestiary,Outsider,Planar,RuinsDungeons,6
+,Babélien,bestiary,Aberration,Temperate,Underground,5
+,Babouin,bestiary2,Animal,Warm,ForestJungle,0.5
+,Baku,bestiary3,MagicalBeast,Temperate,Sky,8
+,Baleine,bestiary2,Animal,Temperate,Aquatic,10
+,Grande baleine blanche,bestiary2,Animal,Temperate,Aquatic,14
+,Balor,bestiary,Outsider,Planar,RuinsDungeons,20
+,Bandersnatch,bestiary3,MagicalBeast,Temperate,ForestJungle,17
+,Banshie,bestiary2,Undead,Temperate,RuinsDungeons,13
+,Barégare,bestiary3,Outsider,Planar,ForestJungle,12
+,Barghest,bestiary,Outsider,Planar,RuinsDungeons,4
+,Barghest noble,bestiary,Outsider,Planar,RuinsDungeons,7
+,Basidirond,bestiary,Plant,Temperate,Underground,5
+,Basilic,bestiary,MagicalBeast,Temperate,RuinsDungeons,5
+,Bâtard,bestiary2,MonstrousHumanoid,Temperate,RuinsDungeons,1
+,Baykok,bestiary3,Undead,Temperate,RuinsDungeons,9
+,Bébilith,bestiary,Outsider,Planar,RuinsDungeons,10
+,Béhémoth des tempêtes,bestiary3,MagicalBeast,Temperate,Sky,22
+,Béhémoth du tonnerre,bestiary3,MagicalBeast,Temperate,Mountains,18
+,Béhémoth thalassique,bestiary3,MagicalBeast,Temperate,Aquatic,20
+,Béhir,bestiary,MagicalBeast,Warm,Desert,8
+,Belette,bestiary,Animal,Temperate,Hills,0.5
+,Berbalang,bestiary3,Undead,Temperate,RuinsDungeons,6
+,Bête du chaos,bestiary2,Outsider,Planar,Underground,7
+,Bête lunaire,bestiary3,Aberration,Temperate,RuinsDungeons,11
+,Bhuta,bestiary3,Undead,Temperate,ForestJungle,11
+,Blaireau,bestiary2,Animal,Temperate,ForestJungle,0.5
+,Blaireau sanguinaire,bestiary2,Animal,Temperate,ForestJungle,2
+,Bodak,bestiary2,Undead,Planar,RuinsDungeons,8
+,Boisvivant,bestiary2,Plant,Temperate,ForestJungle,8
+,Bonze des mers,bestiary3,Undead,Temperate,Aquatic,15
+,Bourbiérin,bestiary,Humanoid,Temperate,Swamp,2
+,Brachiosaure,bestiary,Animal,Warm,Plains,10
+,Brume affamée,bestiary3,Ooze,Temperate,RuinsDungeons,6
+,Brume vampirique,bestiary2,Aberration,Temperate,Swamp,3
+,Bulette,bestiary,MagicalBeast,Temperate,Plains,7
+,Bunyip,bestiary2,MagicalBeast,Temperate,Aquatic,3
+,Cacodaémon,bestiary2,Outsider,Planar,RuinsDungeons,2
+,Cafard géant,bestiary2,Vermin,Temperate,Urban,0.5
+,Nuée de cafards,bestiary2,Vermin,Temperate,Urban,2
+,Léchi calebasse,,Plant,Temperate,Plains,1
+,Calmar,bestiary,Animal,Temperate,Aquatic,1
+,Calmar géant,bestiary,Animal,Temperate,Aquatic,9
+,Caméléon géant,,Animal,Warm,ForestJungle,3
+,Caryatide,bestiary3,Construct,Temperate,RuinsDungeons,3
+,Catoblépas,bestiary2,MagicalBeast,Temperate,Swamp,12
+,Cauchemar,bestiary,Outsider,Planar,Sky,11
+,Cavalier glacé,bestiary3,Fey,Cold,ForestJungle,8
+,Cécaëlia,bestiary3,MonstrousHumanoid,Warm,Aquatic,5
+,Centaure,bestiary,MonstrousHumanoid,Temperate,Plains,3
+,Cératioïde,bestiary3,MonstrousHumanoid,Temperate,Aquatic,3
+,Cerbère,bestiary3,Outsider,Planar,RuinsDungeons,6
+,Ceustodaémon,bestiary2,Outsider,Planar,RuinsDungeons,6
+,Champignon cérébré,bestiary3,Plant,Temperate,RuinsDungeons,3
+,Champignon fantôme,bestiary3,Plant,Temperate,RuinsDungeons,3
+,Chapeau rouge,bestiary2,Fey,Temperate,Underground,6
+,Charançon géant,bestiary,Vermin,Temperate,Underground,4
+,Charda,bestiary2,MonstrousHumanoid,Cold,Aquatic,7
+,Charybde,bestiary2,Aberration,Temperate,Aquatic,13
+,Chat,bestiary,Animal,Temperate,Urban,0.25
+,Chat infernal,bestiary2,Outsider,Planar,RuinsDungeons,7
+,Chauve-souris,bestiary,Animal,Temperate,ForestJungle,0.125
+,Nuée de chauves-souris,bestiary,Animal,Temperate,Underground,2
+,Chauve-souris sanguinaire,bestiary,Animal,Temperate,Underground,2
+,Mobat,bestiary2,MagicalBeast,Temperate,ForestJungle,3
+,Skaveling,bestiary2,Undead,Temperate,Underground,5
+,Chernobue,bestiary2,Outsider,Planar,Underground,12
+,Cheval,bestiary,Animal,Temperate,Plains,1
+,Poney,bestiary,Animal,Temperate,Plains,0.5
+,Cheval draconique,bestiary2,MagicalBeast,Temperate,Sky,9
+,Chevalier tombal humain,bestiary3,Undead,Temperate,Urban,11
+,Chèvre,um,Animal,Temperate,Mountains,0.33
+,Chien,bestiary,Animal,Temperate,Urban,0.33
+,Chien de selle,bestiary,Animal,Temperate,Urban,1
+,Chien de Tindalos,bestiary2,Outsider,Planar,Urban,7
+,Chien esquiveur,bestiary2,MagicalBeast,Temperate,Plains,2
+,Chien gobelin,bestiary,Animal,Temperate,ForestJungle,1
+,Ch,bestiary,Outsider,Planar,RuinsDungeons,3
+,Chimère,bestiary,MagicalBeast,Temperate,Hills,7
+,Chouette,bestiary,Animal,Temperate,ForestJungle,0.33
+,Grand-duc,bestiary3,Animal,Temperate,ForestJungle,0.5
+,chouette géante,bestiary3,MagicalBeast,Temperate,ForestJungle,5
+,Chuchoteur du grenier,bestiary2,Undead,Temperate,Urban,4
+,Chupacabra,bestiary2,MagicalBeast,Warm,Hills,3
+,Chuul,bestiary,Aberration,Temperate,Swamp,7
+,Cobra de fer,bestiary,Construct,Temperate,RuinsDungeons,2
+,Cobra impérial,bestiary2,Animal,Temperate,Swamp,5
+,Cochon,um,Animal,Temperate,ForestJungle,0.33
+,Cockatrice,bestiary,MagicalBeast,Temperate,Plains,3
+,Coléoptère goliath,bestiary2,Vermin,Warm,ForestJungle,8
+,Coléoptère tranchoir,bestiary2,Vermin,Temperate,ForestJungle,4
+,Punaise de feu,bestiary,Vermin,Temperate,Underground,0.33
+,Compsognathus,bestiary2,Animal,Warm,ForestJungle,0.5
+,Corbeau,bestiary,Animal,Temperate,ForestJungle,0.16
+,Corbie sanguinaire,bestiary3,MonstrousHumanoid,Temperate,Underground,1
+,Couatl,bestiary,Outsider,Warm,ForestJungle,10
+,Cr,bestiary,Vermin,Temperate,Aquatic,2
+,Nuée de crabes,bestiary,Vermin,Temperate,Aquatic,4
+,Crapaud,bestiary,Animal,Temperate,ForestJungle,0.125
+,Crapaud géant,bestiary2,Animal,Temperate,Swamp,2
+,Crapaud des glaciers,bestiary2,MagicalBeast,Cold,Hills,6
+,Créature des cryptes,bestiary2,Undead,Temperate,Underground,5
+,Crapaud féerique géant,bestiary3,Fey,Temperate,ForestJungle,3
+,Lion foo,bestiary3,Outsider,Planar,RuinsDungeons,4
+,Créature mécanique Espion,bestiary3,Construct,Temperate,RuinsDungeons,0.5
+,Léviathan mécanique,bestiary3,Construct,Temperate,RuinsDungeons,12
+,Serviteur mécanique,bestiary3,Construct,Temperate,RuinsDungeons,2
+,Cristal carnivore,bestiary3,Ooze,Temperate,RuinsDungeons,11
+,Crocodile,bestiary,Animal,Warm,Swamp,2
+,Crocodile sanguinaire,bestiary,Animal,Warm,Swamp,9
+,Croquemitaine,bestiary3,Fey,Temperate,RuinsDungeons,10
+,Crucidaémon,bestiary3,Outsider,Planar,RuinsDungeons,15
+,Crysmal,bestiary2,Outsider,Planar,Underground,3
+,Cube gélatineux,bestiary,Ooze,Temperate,RuinsDungeons,3
+,Cyclope,bestiary,Humanoid,Temperate,RuinsDungeons,5
+,Grand cyclope,bestiary3,Humanoid,Temperate,RuinsDungeons,12
+,Cythnigot,bestiary2,Outsider,Planar,RuinsDungeons,2
+,Daeodon,bestiary,Animal,Temperate,ForestJungle,4
+,Derghodaémon,bestiary2,Outsider,Planar,Urban,12
+,Hy,bestiary2,Outsider,Planar,Aquatic,8
+,Leukodaémon,bestiary2,Outsider,Planar,RuinsDungeons,9
+,Méladaémon,bestiary2,Outsider,Planar,RuinsDungeons,11
+,Oléthrodaémon,bestiary2,Outsider,Planar,RuinsDungeons,20
+,Piscodaémon,bestiary2,Outsider,Planar,Aquatic,10
+,Purrodaémon,bestiary2,Outsider,Planar,RuinsDungeons,18
+,Thanadaémon,bestiary2,Outsider,Planar,RuinsDungeons,13
+,Vulnudaémon,bestiary3,Outsider,Planar,RuinsDungeons,4
+,Dandasuka,bestiary3,Outsider,Temperate,Urban,5
+,Dauphin,bestiary,Animal,Temperate,Aquatic,0.5
+,Orque épaulard,bestiary,Animal,Cold,Aquatic,5
+,Décapus,bestiary2,Aberration,Temperate,Underground,4
+,Déinonychus,bestiary,Animal,Temperate,ForestJungle,3
+,Licorne demi-céleste,bestiary,Outsider,Temperate,ForestJungle,4
+,Dracolisque,bestiary,Dragon,Temperate,Swamp,7
+,Minotaure demi-fiélon,bestiary,Outsider,Temperate,RuinsDungeons,6
+,Démon des ombres,bestiary,Outsider,Planar,RuinsDungeons,7
+,Dretch,bestiary,Outsider,Planar,RuinsDungeons,2
+,Glabrezu,bestiary,Outsider,Planar,RuinsDungeons,13
+,Hezrou,bestiary,Outsider,Planar,Swamp,11
+,Kalavakus,bestiary2,Outsider,Planar,RuinsDungeons,10
+,Marilith,bestiary,Outsider,Planar,RuinsDungeons,17
+,Nabasu,bestiary,Outsider,Planar,RuinsDungeons,8
+,Nalfeshnie,bestiary,Outsider,Planar,RuinsDungeons,14
+,Omox,bestiary2,Outsider,Planar,Aquatic,12
+,Qu,bestiary,Outsider,Planar,RuinsDungeons,2
+,Shemhazian,bestiary2,Outsider,Planar,RuinsDungeons,16
+,Succube,bestiary,Outsider,Planar,Urban,7
+,"Démon, Vrock",bestiary,Outsider,Planar,RuinsDungeons,9
+,Vrolikai,bestiary2,Outsider,Planar,Hills,19
+,Derhii,bestiary3,MonstrousHumanoid,Warm,ForestJungle,5
+,Derro,bestiary,Humanoid,Temperate,Underground,3
+,Destrachan,bestiary2,Aberration,Temperate,Underground,8
+,Destrier noir,bestiary,Outsider,Planar,Sky,5
+,Dévoreur,bestiary,Undead,Planar,RuinsDungeons,11
+,Dévoreur d'âmes,bestiary2,Outsider,Planar,RuinsDungeons,7
+,Dévoreur d'araignées,bestiary3,MagicalBeast,Temperate,ForestJungle,5
+,Dévoreur d'intellect,bestiary,Aberration,Temperate,Underground,8
+,Dévoreur draconique - Dracosire Rouge,bestiary2,Undead,Temperate,Mountains,22
+,Dhampir,bestiary2,Humanoid,Temperate,RuinsDungeons,0.5
+,Di,bestiary2,Outsider,Planar,RuinsDungeons,3
+,Di,bestiary,Outsider,Planar,Urban,11
+,Di,bestiary,Outsider,Planar,Urban,5
+,Di,bestiary,Outsider,Planar,Urban,16
+,Di,bestiary,Outsider,Planar,Urban,13
+,Di,bestiary2,Outsider,Planar,RuinsDungeons,19
+,Di,bestiary,Outsider,Planar,Urban,9
+,Di,bestiary2,Outsider,Planar,RuinsDungeons,16
+,Di,bestiary2,Outsider,Planar,Urban,14
+,Diablotin,bestiary,Outsider,Planar,Urban,2
+,Diantrefosse,bestiary,Outsider,Planar,Urban,20
+,Érinye,bestiary,Outsider,Planar,Urban,8
+,Lémure,bestiary,Outsider,Planar,Urban,1
+,Dibbouk,bestiary3,Undead,Temperate,RuinsDungeons,15
+,Élasmosaure,bestiary,Animal,Warm,Aquatic,7
+,Iguanodon,bestiary3,Animal,Warm,Swamp,6
+,Pachycéphalosaure,bestiary3,Animal,Warm,Plains,4
+,Parasaurolophus,bestiary2,Animal,Warm,ForestJungle,4
+,Ptéranodon,bestiary,Animal,Warm,Sky,3
+,Stégosaure,bestiary,Animal,Warm,Plains,7
+,Tricératops,bestiary,Animal,Warm,Plains,8
+,Tylosaure,bestiary2,Animal,Warm,Aquatic,8
+,Tyrannosaure,bestiary,Animal,Warm,ForestJungle,9
+,Djinn,bestiary,Outsider,Planar,Sky,5
+,Do,bestiary2,Outsider,Planar,RuinsDungeons,5
+,Doppleganger,bestiary,MonstrousHumanoid,Temperate,Urban,3
+,Dragon féerique,,Dragon,Other,Unknown,2
+,Jeune dragon blanc,bestiary,Dragon,Cold,Mountains,6
+,Dragon blanc adulte,bestiary,Dragon,Cold,Mountains,10
+,Dragon blanc vénérable,bestiary,Dragon,Cold,Mountains,15
+,Jeune dragon bleu,bestiary,Dragon,Warm,Desert,9
+,Dragon bleu adulte,bestiary,Dragon,Warm,Desert,13
+,Dragon bleu vénérable,bestiary,Dragon,Warm,Desert,18
+,Jeune dragon noir,bestiary,Dragon,Warm,Swamp,7
+,Dragon noir adulte,bestiary,Dragon,Warm,Swamp,11
+,Dragon noir vénérable,bestiary,Dragon,Warm,Swamp,16
+,Jeune dragon rouge,bestiary,Dragon,Warm,Mountains,10
+,Dragon rouge adulte,bestiary,Dragon,Warm,Mountains,14
+,Dragon rouge vénérable,bestiary,Dragon,Warm,Mountains,19
+,Jeune dragon vert,bestiary,Dragon,Temperate,ForestJungle,8
+,Dragon vert adulte,bestiary,Dragon,Temperate,ForestJungle,12
+,Dragon vert vénérable,bestiary,Dragon,Temperate,ForestJungle,17
+,Dragon d'épines,,Dragon,Temperate,Hills,16
+,Jeune dragon d'airain,bestiary,Dragon,Warm,Desert,7
+,Dragon d'airain adulte,bestiary,Dragon,Warm,Desert,11
+,Dragon d'airain vénérable,bestiary,Dragon,Warm,Desert,16
+,Jeune dragon d'argent,bestiary,Dragon,Temperate,Mountains,10
+,Dragon d'argent adulte,bestiary,Dragon,Temperate,Mountains,14
+,Dragon d'argent vénérable,bestiary,Dragon,Temperate,Mountains,19
+,Jeune dragon de bronze,bestiary,Dragon,Temperate,Aquatic,9
+,Dragon de bronze adulte,bestiary,Dragon,Temperate,Aquatic,13
+,Dragon de bronze vénérable,bestiary,Dragon,Temperate,Aquatic,18
+,Jeune dragon de cuivre,bestiary,Dragon,Warm,Hills,8
+,Dragon de cuivre adulte,bestiary,Dragon,Warm,Hills,12
+,Dragon de cuivre vénérable,bestiary,Dragon,Warm,Hills,17
+,Jeune dragon d'or,bestiary,Dragon,Warm,Plains,11
+,Dragon d'or adulte,bestiary,Dragon,Warm,Plains,15
+,Dragon d'or vénérable,bestiary,Dragon,Warm,Plains,20
+,Jeune dragon de cristal,bestiary2,Dragon,Planar,Underground,6
+,Dragon de cristal adulte,bestiary2,Dragon,Planar,Underground,10
+,Dragon de cristal vénérable,bestiary2,Dragon,Planar,Underground,15
+,Jeune Dragon de magma,bestiary2,Dragon,Planar,Mountains,8
+,Dragon de magma adulte,bestiary2,Dragon,Planar,Mountains,12
+,Dragon de magma vénérable,bestiary2,Dragon,Planar,Mountains,17
+,Jeune Dragon des nuages,bestiary2,Dragon,Planar,Sky,9
+,Dragon des nuages adulte,bestiary2,Dragon,Planar,Sky,13
+,Dragon des nuages vénérable,bestiary2,Dragon,Planar,Sky,18
+,Jeune Dragon de saumure,bestiary2,Dragon,Planar,Aquatic,7
+,Dragon de saumure adulte,bestiary2,Dragon,Planar,Aquatic,11
+,Dragon de saumure vénérable,bestiary2,Dragon,Planar,Aquatic,16
+,Jeune Dragon ombrageux,bestiary2,Dragon,Planar,Plains,10
+,Dragon ombrageux adulte,bestiary2,Dragon,Planar,Plains,14
+,Dragon ombrageux vénérable,bestiary2,Dragon,Planar,Plains,19
+,Dragon-tortue,bestiary,Dragon,Temperate,Aquatic,9
+,Dragonne,bestiary3,MagicalBeast,Temperate,Plains,7
+,Drake des crevasses,bestiary3,Dragon,Warm,Mountains,9
+,Drake des rivières,bestiary3,Dragon,Temperate,Aquatic,3
+,Drake des flammes,bestiary2,Dragon,Temperate,Mountains,5
+,Drake des forêts,bestiary2,Dragon,Temperate,ForestJungle,4
+,Drake des mers,bestiary2,Dragon,Temperate,Aquatic,6
+,Drake du désert,bestiary3,Dragon,Warm,Desert,8
+,Drake du froid,bestiary2,Dragon,Cold,Mountains,7
+,Ta,,Dragon,Temperate,ForestJungle,2
+,Kongamato,bestiary3,Dragon,Temperate,ForestJungle,15
+,Pseudo-dragon,bestiary,Dragon,Temperate,ForestJungle,1
+,Vo,bestiary,Dragon,Warm,Hills,6
+,Draugr,bestiary2,Undead,Temperate,Aquatic,2
+,Drider,bestiary,Aberration,Temperate,Underground,7
+,Dr,bestiary,Humanoid,Temperate,Underground,0.33
+,Drow noble,bestiary,Humanoid,Temperate,Underground,3
+,Dryade,bestiary,Fey,Temperate,ForestJungle,3
+,Du,bestiary,Humanoid,Temperate,Underground,0.33
+,Dullahan,bestiary2,Undead,Temperate,RuinsDungeons,7
+,D'ziriak,bestiary2,Outsider,Planar,Urban,3
+,Écorché,bestiary3,Undead,Temperate,RuinsDungeons,16
+,ÉCUREUIL VOLANT,bestiary3,Animal,Temperate,ForestJungle,0.33
+,Efrit,bestiary,Outsider,Planar,Desert,8
+,Eidolon libéré,bestiary3,Outsider,Planar,RuinsDungeons,8
+,Élémentaire de l'Air de taille P,bestiary,Outsider,Planar,Sky,1
+,Élémentaire de l'Air de taille M,bestiary,Outsider,Planar,Sky,3
+,Élémentaire de l'Air de taille G,bestiary,Outsider,Planar,Sky,5
+,Élémentaire de l'Air de taille TG,bestiary,Outsider,Planar,Sky,7
+,Élémentaire de l'Air noble,bestiary,Outsider,Planar,Sky,9
+,Seigneur élémentaire de l'Air,bestiary,Outsider,Planar,Sky,11
+,Élémentaire de l'Eau de taille M,bestiary,Outsider,Planar,Aquatic,3
+,Élémentaire de l'Eau de taille G,bestiary,Outsider,Planar,Aquatic,5
+,Élémentaire de l'Eau de taille TG,bestiary,Outsider,Planar,Aquatic,7
+,Élémentaire de l'Eau noble,bestiary,Outsider,Planar,Aquatic,9
+,Seigneur élémentaire de l'Eau,bestiary,Outsider,Planar,Aquatic,11
+,Élémentaire de l’éclair de Taille P,bestiary2,Outsider,Planar,Sky,1
+,Élémentaire de l’éclair de Taille M,bestiary2,Outsider,Planar,Sky,3
+,Élémentaire de l’éclair de Taille G,bestiary2,Outsider,Planar,Sky,5
+,Élémentaire de l’éclair de taille TG,bestiary2,Outsider,Planar,Sky,7
+,Élémentaire de l’éclair Noble,bestiary2,Outsider,Planar,Sky,9
+,Seigneur Élémentaire de l’éclair,bestiary2,Outsider,Planar,Sky,11
+,Élémentaire de la boue de Taille P,bestiary2,Outsider,Planar,Underground,1
+,Élémentaire de la boue de Taille M,bestiary2,Outsider,Planar,Underground,3
+,Élémentaire de la boue de Taille G,bestiary2,Outsider,Planar,Underground,5
+,Élémentaire de la Boue de taille TG,bestiary2,Outsider,Planar,Underground,7
+,Élémentaire de la boue Noble,bestiary2,Outsider,Planar,Underground,9
+,Seigneur Élémentaire de la boue,bestiary2,Outsider,Planar,Underground,11
+,Élémentaire de la glace de taille P,bestiary2,Outsider,Planar,Aquatic,1
+,Élémentaire de la glace de taille M,bestiary2,Outsider,Planar,Aquatic,3
+,Élémentaire de la glace de taille G,bestiary2,Outsider,Planar,Aquatic,5
+,Élémentaire de la glace de taille TG,bestiary2,Outsider,Planar,Aquatic,7
+,Élémentaire de la glace noble,bestiary2,Outsider,Planar,Aquatic,9
+,Seigneur Élémentaire de la glace,bestiary2,Outsider,Planar,Aquatic,11
+,Élémentaire de la Terre de taille P,bestiary,Outsider,Planar,Underground,1
+,Élémentaire de la Terre de taille M,bestiary,Outsider,Planar,Underground,3
+,Élémentaire de la Terre de taille G,bestiary,Outsider,Planar,Underground,5
+,Élémentaire de la Terre de taille TG,bestiary,Outsider,Planar,Underground,7
+,Élémentaire de la Terre noble,bestiary,Outsider,Planar,Underground,9
+,Seigneur élémentaire de la Terre,bestiary,Outsider,Planar,Underground,11
+,Élémentaire du Feu de taille P,bestiary,Outsider,Planar,Desert,1
+,Élémentaire du Feu de taille M,bestiary,Outsider,Planar,Desert,3
+,Élémentaire du Feu de taille G,bestiary,Outsider,Planar,Desert,5
+,Élémentaire du Feu de taille TG,bestiary,Outsider,Planar,Desert,7
+,Élémentaire du Feu noble,bestiary,Outsider,Planar,Desert,9
+,Seigneur élémentaire du Feu,bestiary,Outsider,Planar,Desert,11
+,Éléphant,bestiary,Animal,Warm,Plains,7
+,Ma,bestiary,Animal,Cold,Plains,9
+,Enfant lumineux,bestiary2,Outsider,Planar,RuinsDungeons,12
+,Enfouisseur des sables,bestiary2,Aberration,Warm,Desert,4
+,Enlaceur,bestiary,Aberration,Temperate,Underground,12
+,Epouvantail,bestiary2,Construct,Temperate,Plains,4
+,"Kyton, ermite",bestiary3,Outsider,Planar,Urban,20
+,Escargot fléau,bestiary3,MagicalBeast,Temperate,Underground,4
+,Esprit follet,bestiary3,Fey,Temperate,ForestJungle,0.33
+,Esprit Oni,bestiary3,Outsider,Temperate,Urban,2
+,Essaim de guêpes de l'Enfer,bestiary3,Vermin,Planar,RuinsDungeons,8
+,"Étranger blafard ",bestiary3,Undead,Temperate,Plains,10
+,Étrangleur,bestiary,Aberration,Temperate,Underground,2
+,Ettercap,bestiary,Aberration,Temperate,Underground,3
+,Ettin,bestiary,Humanoid,Cold,Plains,6
+,Faucon,bestiary,Animal,Other,Unknown,0.33
+,Grive,um,Animal,Temperate,ForestJungle,0.33
+,Hérisson,um,Animal,Temperate,ForestJungle,0.125
+,Lézard,bestiary,Animal,Temperate,ForestJungle,0.16
+,LOUTRE,bestiary3,Animal,Temperate,ForestJungle,0.25
+,Ma,um,Animal,Temperate,ForestJungle,0.25
+,Mille-pattes domestique,um,Animal,Temperate,ForestJungle,0.125
+,Pieuvre à anneaux bleus,um,Animal,Temperate,Aquatic,0.5
+,RATON LAVEUR,bestiary3,Animal,Temperate,ForestJungle,0.5
+,Renard,um,Animal,Temperate,ForestJungle,0.25
+,Scorpion Vert,um,Animal,Warm,Desert,0.25
+,Singe,bestiary,Animal,Warm,ForestJungle,0.25
+,Tortue de mer,um,Animal,Temperate,ForestJungle,0.16
+,Vipère,bestiary,Animal,Temperate,ForestJungle,0.5
+,Fantôme,bestiary,Undead,Temperate,Underground,7
+,Farfadet,bestiary2,Fey,Temperate,ForestJungle,2
+,Faune,bestiary3,Fey,Temperate,ForestJungle,1
+,Guépard,bestiary,Animal,Warm,Plains,2
+,Léopard,bestiary,Animal,Warm,ForestJungle,2
+,Fe,bestiary3,Animal,Temperate,Plains,2
+,Festrog,bestiary3,Undead,Temperate,RuinsDungeons,1
+,Fe,bestiary2,Outsider,Planar,Urban,0.5
+,Feu follet,bestiary,Aberration,Temperate,Swamp,6
+,Fiélon sargasse,bestiary3,Plant,Temperate,Aquatic,9
+,Fleur de lune,bestiary2,Plant,Temperate,Plains,8
+,Flumph,bestiary3,Aberration,Temperate,RuinsDungeons,1
+,Fongoïde violet,bestiary,Plant,Temperate,Underground,3
+,Forlarren,bestiary2,Fey,Temperate,Plains,2
+,Fourmi géante,bestiary,Vermin,Temperate,Underground,2
+,Nuée de fourmis soldats,bestiary,Vermin,Temperate,Underground,5
+,Fourmilion géant,bestiary3,Vermin,Warm,Desert,5
+,Fourmilion adulte géant,bestiary3,Vermin,Warm,Desert,6
+,Froghémoth,,Aberration,Temperate,Swamp,13
+,Fumigon,bestiary2,Outsider,Planar,RuinsDungeons,6
+,FUATH,bestiary3,Fey,Temperate,Aquatic,1
+,Fureteur obscur,bestiary,Humanoid,Temperate,Underground,2
+,Gar,bestiary2,Animal,Temperate,Aquatic,1
+,Gar géant,bestiary2,Animal,Temperate,Aquatic,6
+,Gardien tombal,bestiary3,Construct,Temperate,RuinsDungeons,5
+,Gargouille,bestiary,MonstrousHumanoid,Temperate,RuinsDungeons,4
+,Garou-chacal,bestiary3,MagicalBeast,Warm,Desert,2
+,Garuda,bestiary3,Outsider,Warm,Mountains,9
+,Géant de cendre,bestiary3,Humanoid,Temperate,Desert,11
+,Géant de la jungle,bestiary3,Humanoid,Warm,ForestJungle,10
+,Géant de la taïga,bestiary2,Humanoid,Cold,ForestJungle,12
+,Géant de pierre,bestiary,Humanoid,Temperate,Mountains,8
+,Géant des bois,bestiary2,Humanoid,Temperate,ForestJungle,6
+,Géant des collines,bestiary,Humanoid,Temperate,Hills,7
+,Gé,bestiary3,Humanoid,Temperate,Underground,6
+,Géant des marais,bestiary2,Humanoid,Temperate,Swamp,8
+,Géant des nuages,bestiary,Humanoid,Temperate,Mountains,11
+,Géant des runes,bestiary2,Humanoid,Cold,Mountains,17
+,Géant des tempêtes,bestiary,Humanoid,Warm,Aquatic,13
+,Géant du désert,bestiary3,Humanoid,Warm,Desert,9
+,Géant du feu,bestiary,Humanoid,Warm,Mountains,10
+,Géant du froid,bestiary,Humanoid,Cold,Mountains,9
+,"gecko géant, lézard",,Animal,Warm,ForestJungle,1
+,Gelée ocre,bestiary,Ooze,Temperate,Underground,5
+,Jann,bestiary,Outsider,Warm,Desert,4
+,Marid,bestiary,Outsider,Planar,Aquatic,9
+,Shaitan,bestiary,Outsider,Planar,Underground,7
+,Ghorazagh,bestiary3,Aberration,Temperate,Underground,13
+,Ghul,bestiary3,Undead,Warm,Desert,5
+,Girallon,bestiary,MagicalBeast,Warm,ForestJungle,6
+,Girtablilu,bestiary3,MonstrousHumanoid,Warm,Desert,8
+,Globster,bestiary3,Ooze,Temperate,Aquatic,5
+,Glouton,bestiary,Animal,Cold,ForestJungle,2
+,Glouton sanguinaire,bestiary,Animal,Cold,ForestJungle,4
+,Glutineux,bestiary3,MonstrousHumanoid,Temperate,Underground,3
+,Gnoll,bestiary,Humanoid,Warm,Plains,1
+,Gobelin,bestiary,Humanoid,Temperate,ForestJungle,0.33
+,Gobelours,bestiary,Humanoid,Temperate,Hills,2
+,Golem alchimique,bestiary2,Construct,Temperate,RuinsDungeons,9
+,Golem d’adamantium,bestiary2,Construct,Temperate,RuinsDungeons,19
+,Golem d'argile,bestiary,Construct,Temperate,RuinsDungeons,10
+,Golem canon,bestiary3,Construct,Temperate,RuinsDungeons,15
+,Golem de bois,bestiary,Construct,Temperate,RuinsDungeons,6
+,Golem de charogne,bestiary2,Construct,Temperate,RuinsDungeons,4
+,Golem de chair,bestiary,Construct,Temperate,RuinsDungeons,7
+,Golem de cuivre,bestiary3,Construct,Temperate,RuinsDungeons,14
+,Golem de fer,bestiary,Construct,Temperate,RuinsDungeons,13
+,Golem de glace,bestiary,Construct,Cold,RuinsDungeons,5
+,Golem de mithral,bestiary2,Construct,Temperate,RuinsDungeons,16
+,Golem de pierre,bestiary,Construct,Temperate,RuinsDungeons,11
+,Golem de verre,bestiary2,Construct,Temperate,Desert,8
+,Golem d'os,bestiary3,Construct,Temperate,RuinsDungeons,8
+,Golem fossile,bestiary3,Construct,Temperate,RuinsDungeons,12
+,Golem mécanique,bestiary2,Construct,Temperate,RuinsDungeons,12
+,Gorgone,bestiary,MagicalBeast,Temperate,Plains,8
+,Gorille,bestiary,Animal,Warm,ForestJungle,2
+,Gorille sanguinaire,bestiary,Animal,Warm,ForestJungle,3
+,Gorynych,bestiary3,Dragon,Temperate,ForestJungle,15
+,Goule,bestiary,Undead,Temperate,RuinsDungeons,1
+,Jinkin,bestiary2,Fey,Temperate,Underground,1
+,"Gremlin, Nuglub",bestiary2,Fey,Temperate,Underground,2
+,"Gremlin, Pugwampi",bestiary2,Fey,Warm,Hills,0.5
+,Vexgit,bestiary2,Fey,Temperate,Underground,1
+,Grenouille géante,bestiary,Animal,Temperate,Swamp,1
+,Grenouille venimeuse,bestiary,Animal,Warm,Swamp,0.5
+,Grick,bestiary2,Aberration,Temperate,Underground,3
+,Griffe du récif,bestiary2,Aberration,Temperate,Aquatic,1
+,Griffon,bestiary,MagicalBeast,Temperate,Hills,4
+,Grig,bestiary2,Fey,Temperate,ForestJungle,1
+,Grizzly,bestiary,Animal,Cold,ForestJungle,4
+,Grindylow,bestiary2,Aberration,Temperate,Aquatic,0.5
+,Grippli,bestiary2,Humanoid,Warm,Swamp,0.5
+,Grodair,bestiary3,MagicalBeast,Temperate,Aquatic,5
+,Grootslang,bestiary3,MagicalBeast,Warm,Aquatic,16
+,Gryph,bestiary2,MagicalBeast,Temperate,Underground,1
+,Guécube,bestiary3,Undead,Temperate,RuinsDungeons,8
+,Guenaude annis,bestiary3,MonstrousHumanoid,Cold,Swamp,6
+,Guenaude marine,bestiary,MonstrousHumanoid,Temperate,Aquatic,4
+,Guenaude noire,bestiary,Outsider,Planar,Urban,9
+,Guenaude verte,bestiary,MonstrousHumanoid,Temperate,Swamp,5
+,Guêpe géante,bestiary,Vermin,Temperate,ForestJungle,3
+,Nuée de guêpes,bestiary,Vermin,Temperate,ForestJungle,3
+,Gug,bestiary2,Aberration,Temperate,Underground,10
+,Habitant de la Lumière,,Fey,Planar,Sky,5
+,Habitant de Leng,,Outsider,Planar,Urban,8
+,Harpie,bestiary,MonstrousHumanoid,Temperate,Swamp,4
+,"Titan, hécatonchire",bestiary3,Outsider,Planar,RuinsDungeons,24
+,"Sphinx, hiéracosphinx",bestiary3,MagicalBeast,Warm,Hills,5
+,Hippocampe,,MagicalBeast,Temperate,Aquatic,1
+,Hippogriffe,,MagicalBeast,Temperate,Sky,2
+,Hippopotame,bestiary2,Animal,Warm,Aquatic,5
+,Hippopotame Béhémoth,bestiary2,Animal,Warm,Aquatic,10
+,Hobgobelin,bestiary,Humanoid,Temperate,Hills,0.5
+,Hodag,bestiary3,MagicalBeast,Temperate,ForestJungle,6
+,Homme-brindille,,Fey,Temperate,ForestJungle,3
+,Ho,,Humanoid,Temperate,ForestJungle,0.5
+,Homme-lézard,bestiary,Humanoid,Temperate,Swamp,1
+,Homme-phalène,,MonstrousHumanoid,Temperate,RuinsDungeons,6
+,Ho,bestiary,Humanoid,Temperate,Aquatic,0.33
+,Ho,,Humanoid,Warm,Desert,0.33
+,Homoncule,bestiary,Construct,Temperate,Urban,1
+,Horreur chasseresse,bestiary,Construct,Planar,RuinsDungeons,11
+,Hu,,Undead,Temperate,Underground,2
+,"Humbaba ",bestiary3,MonstrousHumanoid,Temperate,ForestJungle,19
+,Hurleur,bestiary2,Outsider,Planar,RuinsDungeons,3
+,Hydre,bestiary,MagicalBeast,Temperate,Swamp,4
+,Hyène,bestiary,Animal,Warm,Plains,1
+,Hy,bestiary,Animal,Warm,Plains,3
+,Iathavos,bestiary2,Outsider,Planar,RuinsDungeons,20
+,Ifrit,bestiary2,Outsider,Temperate,Urban,0.5
+,Iku-turso,bestiary3,Aberration,Cold,Aquatic,8
+,Imentesh,bestiary2,Outsider,Planar,Urban,10
+,Kolyarut,bestiary2,Outsider,Planar,Urban,9
+,Lhaksharut,bestiary2,Outsider,Planar,Sky,20
+,Marut,bestiary2,Outsider,Planar,Urban,15
+,Zélékhut,bestiary2,Outsider,Planar,Urban,9
+,"Kyton, interlocuteur de chair déformé",,Outsider,Planar,Urban,12
+,Jabberwocky,bestiary2,Dragon,Temperate,ForestJungle,23
+,Jiang-shi,bestiary3,Undead,Temperate,RuinsDungeons,6
+,"Kami, jinushigami",bestiary3,Outsider,Temperate,ForestJungle,20
+," Jorôgumo",bestiary3,MonstrousHumanoid,Temperate,Mountains,12
+,Jube-jube,bestiary3,MagicalBeast,Temperate,ForestJungle,15
+,Jyoti,bestiary2,Outsider,Planar,Sky,9
+,Kamadan,bestiary3,MagicalBeast,Temperate,Plains,4
+,"Kami, kodama",bestiary3,Outsider,Temperate,ForestJungle,5
+,"Kami, shikigami",bestiary3,Outsider,Temperate,Plains,2
+," Kami, toshigami ",bestiary3,Outsider,Temperate,Plains,15
+,Zuishin,bestiary3,Outsider,Temperate,RuinsDungeons,10
+,"Marsupial, kangourou",bestiary3,Animal,Temperate,Plains,0.5
+," Kappa ",bestiary2,MonstrousHumanoid,Temperate,Aquatic,2
+,Kech,bestiary3,MonstrousHumanoid,Warm,ForestJungle,3
+,Kékétar,bestiary2,Outsider,Planar,RuinsDungeons,17
+,Kelpie,bestiary2,Fey,Temperate,Aquatic,4
+,Kirin,bestiary3,MagicalBeast,Temperate,Sky,7
+,Kobold,bestiary,Humanoid,Temperate,Underground,0.25
+,Korred,bestiary2,Fey,Planar,ForestJungle,4
+,Kraken,bestiary,MagicalBeast,Temperate,Aquatic,18
+,Krenshar,bestiary,MagicalBeast,Temperate,ForestJungle,1
+,"Oni, kuwa",bestiary3,Outsider,Temperate,RuinsDungeons,4
+,Év,bestiary,Outsider,Planar,Urban,6
+,Lamie,bestiary,MonstrousHumanoid,Temperate,Hills,6
+,Lamie matriarche,bestiary2,MonstrousHumanoid,Temperate,RuinsDungeons,8
+,Lammasu,bestiary3,MagicalBeast,Temperate,Desert,8
+,Léchi de feuilles,bestiary3,Plant,Temperate,ForestJungle,0.5
+,Léchi fongique,bestiary3,Plant,Temperate,Underground,2
+,Leucrotta,bestiary2,MagicalBeast,Temperate,ForestJungle,5
+,Lézard à collerette géant,bestiary,Animal,Warm,ForestJungle,5
+,Lézard voltaïque,bestiary,MagicalBeast,Warm,Swamp,2
+,"Varan, lézard",bestiary,Animal,Warm,ForestJungle,2
+,Liane meurtrière,bestiary,Plant,Temperate,ForestJungle,3
+,Liane-serpent,bestiary2,Plant,Temperate,ForestJungle,13
+,Libellule géante,bestiary2,Vermin,Warm,Swamp,4
+,Nymphe de libellule géante,bestiary2,Vermin,Warm,Aquatic,3
+,Liche,bestiary,Undead,Temperate,RuinsDungeons,12
+,Licorne,bestiary,MagicalBeast,Temperate,ForestJungle,3
+,Limace géante,bestiary,Vermin,Temperate,Swamp,8
+,Linnorm de la taïga,bestiary3,Dragon,Cold,ForestJungle,19
+,Linnorm des roches,bestiary3,Dragon,Cold,Mountains,21
+,Linnorm des cairns,bestiary3,Dragon,Cold,ForestJungle,18
+,Linnorm des falaises,bestiary,Dragon,Cold,Hills,14
+,Linnorm des fjords,bestiary3,Dragon,Cold,Aquatic,16
+,Linnorm des glaces,bestiary,Dragon,Cold,Mountains,17
+,Linnorm des lacs,bestiary,Dragon,Cold,Swamp,20
+,Lion,bestiary,Animal,Warm,Plains,3
+,Li,bestiary,Animal,Warm,Plains,5
+,Locathah,bestiary2,Humanoid,Temperate,Aquatic,0.5
+,Loup,bestiary,Animal,Temperate,ForestJungle,1
+,Loup sanguinaire,bestiary,Animal,Temperate,ForestJungle,3
+,Loup arctique,bestiary,MagicalBeast,Cold,ForestJungle,5
+,Loup-garou,bestiary,Humanoid,Temperate,ForestJungle,2
+,Lo,bestiary,Humanoid,Temperate,ForestJungle,2
+,Lukwata,bestiary,MagicalBeast,Warm,Aquatic,11
+,Lutin,bestiary2,Fey,Temperate,ForestJungle,1
+,Ou,bestiary2,Humanoid,Temperate,ForestJungle,4
+,Ou,bestiary2,Humanoid,Temperate,ForestJungle,2
+,Ra,bestiary,Humanoid,Temperate,Urban,2
+,Ra,bestiary,Humanoid,Temperate,Urban,2
+,Sa,bestiary2,Humanoid,Temperate,ForestJungle,2
+,Ti,bestiary2,Humanoid,Temperate,ForestJungle,4
+,Maflet,bestiary3,MonstrousHumanoid,Temperate,Desert,6
+,Magmatique,bestiary3,Outsider,Planar,Mountains,3
+,Maharadjah,bestiary3,Outsider,Temperate,RuinsDungeons,20
+,Main Rampante,bestiary2,Undead,Temperate,RuinsDungeons,0.5
+,Main Rampante géante,bestiary2,Undead,Temperate,RuinsDungeons,5
+,Manananggal,bestiary3,Undead,Temperate,RuinsDungeons,7
+,Mandragore,bestiary2,Plant,Temperate,ForestJungle,4
+,Mante géante,bestiary,Vermin,Temperate,ForestJungle,3
+,Mante obscure,bestiary,MagicalBeast,Temperate,Underground,1
+,Manteleur,bestiary,Aberration,Temperate,Underground,5
+,Manticore,bestiary,MagicalBeast,Warm,Hills,5
+,Maraï,bestiary3,Outsider,Temperate,RuinsDungeons,8
+,Marchand de sable,bestiary2,Outsider,Planar,Underground,3
+,Marcheur ténébreux,bestiary2,Undead,Planar,RuinsDungeons,16
+,"Marsupial, Thylacine",bestiary3,Animal,Warm,Hills,0.5
+,Méduse,bestiary,MonstrousHumanoid,Temperate,Swamp,7
+,Méduse géante,bestiary2,Vermin,Temperate,Aquatic,7
+,Méduse à tête de mort,bestiary3,Vermin,Temperate,Aquatic,1
+,Nuée de méduses,bestiary2,Vermin,Temperate,Aquatic,6
+,Méduse saphir,bestiary3,Vermin,Temperate,Aquatic,11
+,Méphite,bestiary,Outsider,Planar,Urban,3
+,Mercane,bestiary2,Outsider,Planar,Urban,5
+,Merrow d'eau douce,bestiary2,Humanoid,Temperate,Aquatic,3
+,Merrow d'eau de mer,bestiary2,Humanoid,Temperate,Aquatic,6
+,Mihstu,bestiary2,Outsider,Planar,Underground,8
+,Mille-pattes à queue fouettante,bestiary2,Vermin,Temperate,Underground,3
+,Mille-pattes géant,bestiary,Vermin,Temperate,Underground,0.5
+,Mille-pattes titanesque,bestiary2,Vermin,Temperate,Underground,9
+,Nuée de mille-pattes,bestiary,Vermin,Temperate,Underground,4
+,Mimique,bestiary,Aberration,Temperate,Underground,4
+,Minotaure,bestiary,MonstrousHumanoid,Temperate,RuinsDungeons,4
+,Mite,bestiary,Fey,Temperate,Underground,0.25
+,Mobogo,bestiary3,MagicalBeast,Temperate,Swamp,10
+,Mohrg,bestiary,Undead,Temperate,RuinsDungeons,8
+,Moisissure jaune,bestiary,Ooze,Temperate,ForestJungle,2
+,Moisissure vaseuse,bestiary2,Ooze,Temperate,ForestJungle,2
+,Molosse infernal,bestiary,Outsider,Planar,RuinsDungeons,3
+,Molosse nessien,bestiary,Outsider,Planar,RuinsDungeons,9
+,Momie,bestiary,Undead,Warm,RuinsDungeons,5
+,Morlock,bestiary,MonstrousHumanoid,Temperate,Underground,2
+,Mouche géante,bestiary2,Vermin,Temperate,Swamp,1
+,Ver géant,bestiary2,Vermin,Warm,Desert,0.5
+,Moufette,bestiary3,Animal,Temperate,ForestJungle,0.25
+,Moufette Géante,bestiary3,Animal,Temperate,ForestJungle,3
+,Moustique géant,bestiary2,Vermin,Temperate,Swamp,6
+,Nuée de moustiques,bestiary2,Vermin,Warm,Swamp,3
+,Mycéloïde,bestiary3,Plant,Temperate,Underground,4
+,Naga aquatique,bestiary3,Aberration,Temperate,Aquatic,7
+,naga corrupteur,bestiary,Aberration,Temperate,Swamp,9
+,Naga gardien,bestiary,Aberration,Temperate,Plains,10
+,Naga lunaire,bestiary3,Aberration,Temperate,RuinsDungeons,6
+,Naga royal,bestiary3,Aberration,Temperate,RuinsDungeons,11
+,Naga ténébreux,bestiary,Aberration,Temperate,Underground,8
+,Naunet,bestiary2,Outsider,Planar,Sky,7
+,Nécrophage,bestiary,Undead,Temperate,RuinsDungeons,3
+,Nécrophage des glaces,bestiary2,Undead,Cold,RuinsDungeons,17
+,Nécrophidius,bestiary2,Construct,Temperate,Underground,3
+,Neh-thalggu,bestiary2,Aberration,Temperate,Mountains,8
+,Néothélide,bestiary,Aberration,Temperate,Underground,15
+,Néphilim,bestiary3,Outsider,Warm,Hills,8
+,Néréide,bestiary2,Fey,Temperate,Aquatic,10
+,Nixe,bestiary3,Fey,Temperate,Aquatic,1
+,Norne,bestiary3,Fey,Cold,Mountains,18
+,Nuckelavee,bestiary3,Fey,Cold,Swamp,9
+,Nue,bestiary3,MagicalBeast,Warm,ForestJungle,10
+,Nuée d'Asticots,,Vermin,Temperate,RuinsDungeons,7
+,Nuée de rats,bestiary,Animal,Temperate,Urban,2
+,Nuée de sangsue,bestiary,Vermin,Warm,Swamp,4
+,Nuée de serpents,bestiary3,Animal,Temperate,Swamp,2
+,Nuée de serpents venimeux,bestiary3,Animal,Temperate,Swamp,4
+,Nuée de singes,bestiary,Animal,Warm,ForestJungle,2
+,Nuée de tiques,bestiary2,Vermin,Temperate,ForestJungle,9
+,Nymphe,bestiary,Fey,Temperate,ForestJungle,7
+,Nyogoth,bestiary2,Outsider,Planar,RuinsDungeons,10
+,Objet animé,bestiary,Construct,Temperate,RuinsDungeons,3
+,Ogre,bestiary,Humanoid,Temperate,Hills,3
+,Ogre mage,bestiary,Outsider,Cold,Hills,8
+,Og,bestiary2,Humanoid,Temperate,RuinsDungeons,3
+,Oiseau-Tonnerre,bestiary2,MagicalBeast,Temperate,Plains,11
+,Ombre,bestiary,Undead,Temperate,RuinsDungeons,3
+,Ombre supérieure,bestiary,Undead,Temperate,RuinsDungeons,8
+,Ondin,bestiary2,Outsider,Temperate,Urban,0.5
+,Yai de glace,bestiary3,Outsider,Cold,Mountains,14
+,Yai de l'eau,bestiary3,Outsider,Temperate,Aquatic,18
+,Yai du feu,bestiary3,Outsider,Temperate,Hills,15
+,Yai du vide,bestiary3,Outsider,Cold,Mountains,20
+,"Thriae, oracle",bestiary3,MonstrousHumanoid,Temperate,Hills,11
+,Oréade,bestiary2,Outsider,Temperate,Urban,0.5
+,Orm aquatique,bestiary2,MagicalBeast,Temperate,Aquatic,10
+,Orque,bestiary,Humanoid,Temperate,Hills,0.33
+,Otyugh,bestiary,Aberration,Temperate,Underground,4
+,Ours sanguinaire,bestiary,Animal,Cold,ForestJungle,7
+,Ours-hibou,bestiary,MagicalBeast,Temperate,ForestJungle,4
+,Oxydeur,bestiary,Aberration,Temperate,Underground,3
+,Papillon sinistre,bestiary2,Outsider,Planar,Sky,4
+,Pech,bestiary2,Fey,Temperate,Underground,3
+,Pêcheur des grottes,bestiary,Vermin,Temperate,Underground,2
+,Pégase,bestiary,MagicalBeast,Temperate,Plains,3
+,Penanggalan,bestiary3,Humanoid,Temperate,Urban,5
+,Péryton,bestiary2,MagicalBeast,Temperate,Mountains,4
+,Pétitionnaire,bestiary2,Outsider,Planar,Urban,1
+,Phœnix,bestiary,MagicalBeast,Warm,Desert,15
+,Phycomide,bestiary2,Plant,Temperate,Underground,4
+,Pieuvre,bestiary,Animal,Temperate,Aquatic,1
+,Pieuvre géante,bestiary,Animal,Temperate,Aquatic,8
+,Pipeau,bestiary3,Aberration,Temperate,ForestJungle,8
+,Pixie,bestiary,Fey,Temperate,ForestJungle,4
+,Poisson diable,bestiary2,MagicalBeast,Temperate,Aquatic,4
+,Poltergeist,bestiary2,Undead,Temperate,RuinsDungeons,2
+,Popobala,bestiary3,MonstrousHumanoid,Temperate,ForestJungle,15
+,Porc-épic,bestiary3,Animal,Temperate,ForestJungle,0.25
+,Porc-épic géant,bestiary3,Animal,Temperate,ForestJungle,2
+,Pouding noir,bestiary,Ooze,Temperate,Underground,7
+,Poupée des âmes,bestiary2,Construct,Temperate,Urban,2
+,Ver du néant,bestiary2,Outsider,Planar,Sky,2
+,Pukwudgie,bestiary3,MonstrousHumanoid,Temperate,ForestJungle,7
+,Shoggti,bestiary2,Outsider,Planar,RuinsDungeons,7
+,Thulgant,bestiary2,Outsider,Planar,RuinsDungeons,18
+,Raie manta,,Animal,Warm,Aquatic,1
+,Raie à aiguillon,,Animal,Warm,Aquatic,0.5
+,raktavarna,bestiary3,Outsider,Temperate,Urban,2
+,Tataka,bestiary3,Outsider,Temperate,Urban,15
+,Rampant fongique,,Aberration,Temperate,Underground,3
+,Rampant ténébreux,,Undead,Planar,RuinsDungeons,18
+,Rat sanguinaire,bestiary,Animal,Temperate,Urban,0.33
+,Rast,,Outsider,Planar,Underground,5
+,Ravageur gris,,MagicalBeast,Temperate,Swamp,8
+,"Thriae, Reine",bestiary3,MonstrousHumanoid,Temperate,Hills,18
+,Rejeton du péché,,Aberration,Temperate,RuinsDungeons,2
+,Rémorhaz,bestiary,MagicalBeast,Cold,Desert,7
+,Requin,bestiary,Animal,Temperate,Aquatic,2
+,Re,bestiary,Animal,Temperate,Aquatic,9
+,Rêve animé,,Outsider,Planar,Urban,8
+,Revenant,,Undead,Temperate,Urban,6
+,Rhinocéros,bestiary,Animal,Warm,Plains,4
+,Rhinocéros laineux,bestiary,Animal,Cold,Plains,6
+,Roc,bestiary,Animal,Warm,Mountains,9
+,Roussalka,bestiary3,Fey,Temperate,Aquatic,12
+,Sagari,bestiary3,Aberration,Temperate,ForestJungle,0.5
+,Sahuagin,bestiary,MonstrousHumanoid,Temperate,Aquatic,2
+,Salamandre,bestiary,Outsider,Planar,Underground,6
+,Sanglier,bestiary,Animal,Temperate,ForestJungle,2
+,Sangsue géante,bestiary,Vermin,Warm,Swamp,2
+,Sard,bestiary2,Plant,Temperate,ForestJungle,19
+,Sasquatch,bestiary3,Humanoid,Temperate,ForestJungle,2
+,Satyre,bestiary,Fey,Temperate,ForestJungle,4
+,Scéaduinar,bestiary2,Outsider,Planar,Sky,7
+,Scorpion des cavernes,bestiary2,Vermin,Temperate,Underground,1
+,Scorpion fantomatique,bestiary3,Vermin,Warm,Desert,0.5
+,Scorpion géant,bestiary,Vermin,Warm,Desert,3
+,Scorpion Noir,bestiary2,Vermin,Warm,Desert,15
+,Scorpion Piégeur,bestiary3,Vermin,Temperate,ForestJungle,8
+,Scylla,bestiary2,Aberration,Temperate,Aquatic,16
+,Seigneur félin,bestiary3,Humanoid,Warm,ForestJungle,11
+,Serpent constricteur,bestiary,Animal,Warm,Swamp,2
+,Serpent Creux,bestiary3,Undead,Temperate,Underground,16
+,Serpent des Profondeurs,bestiary3,MagicalBeast,Temperate,Aquatic,19
+,Serpent gobelin,bestiary3,Aberration,Temperate,Underground,1
+,Serpent venimeux,bestiary,Animal,Warm,Swamp,1
+,Serpent de mer,bestiary,MagicalBeast,Temperate,Aquatic,12
+,Seugathi,bestiary2,Aberration,Temperate,Underground,6
+,Shaé,bestiary3,Outsider,Planar,Urban,4
+,Shantak,bestiary2,MagicalBeast,Cold,Mountains,8
+,Shédu,bestiary3,MagicalBeast,Warm,Desert,9
+,Shinigami,bestiary3,Outsider,Planar,RuinsDungeons,17
+,Simurgh,bestiary3,MagicalBeast,Warm,Desert,17
+,Siyokoy,bestiary,Aberration,Temperate,Aquatic,10
+,Shoggoth,bestiary,Ooze,Cold,Aquatic,19
+,Si,bestiary2,MagicalBeast,Temperate,Hills,5
+,Skulk,bestiary2,Humanoid,Temperate,Urban,1
+,Sk,bestiary,MonstrousHumanoid,Temperate,Aquatic,2
+,Sleipnir,bestiary,MagicalBeast,Cold,Mountains,11
+,Slurk,bestiary2,MagicalBeast,Temperate,Underground,2
+,Soldat de terre-cuite,bestiary,Construct,Temperate,RuinsDungeons,6
+,"Thriae, soldat",bestiary3,MonstrousHumanoid,Temperate,ForestJungle,4
+,Solifuge géant,bestiary2,Vermin,Warm,Desert,1
+,Solifuge albinos des cavernes,bestiary2,Vermin,Temperate,Underground,4
+,Sorcewyrd,bestiary2,MonstrousHumanoid,Planar,Urban,6
+,Sorcière de feu,bestiary2,Undead,Temperate,Swamp,9
+,Spectre,bestiary,Undead,Temperate,RuinsDungeons,7
+,Sp,bestiary,MagicalBeast,Warm,Desert,8
+,Spore de Mu,bestiary2,Plant,Temperate,Underground,21
+,Squelette humain,bestiary,Undead,Temperate,RuinsDungeons,0.33
+,Strige,bestiary,MagicalBeast,Warm,Swamp,0.5
+,Stymphalide,bestiary3,MagicalBeast,Warm,Plains,8
+,Suli,bestiary,Outsider,Temperate,Urban,0.5
+,Sv,bestiary,Humanoid,Temperate,Underground,1
+,Sylphe,bestiary2,Outsider,Temperate,Urban,0.5
+,Sylvanien,bestiary,Plant,Temperate,ForestJungle,8
+,Tanuki,bestiary3,MonstrousHumanoid,Temperate,ForestJungle,4
+,Taotieh,bestiary3,Construct,Temperate,RuinsDungeons,11
+,Tarasque,bestiary,MagicalBeast,Temperate,RuinsDungeons,25
+,Tendricule,bestiary2,Plant,Temperate,ForestJungle,6
+,Vague ténébreuse,bestiary2,Undead,Planar,Aquatic,20
+,Tengu,bestiary,Humanoid,Temperate,Urban,0.5
+,Tentamort,bestiary2,Aberration,Temperate,Underground,4
+,Tertre errant,bestiary,Plant,Temperate,Swamp,6
+,Thrasfyr,bestiary2,MagicalBeast,Temperate,Hills,17
+,Tieffelin,bestiary,Outsider,Temperate,Urban,0.5
+,Tigre,bestiary,Animal,Temperate,ForestJungle,4
+,Ti,bestiary,Animal,Temperate,ForestJungle,8
+,Tique géante,bestiary2,Vermin,Temperate,ForestJungle,1
+,Titan de l'Élysée,bestiary2,Outsider,Planar,Mountains,21
+,Titan thanatotique,bestiary2,Outsider,Planar,Mountains,22
+,Toile mortelle,bestiary3,Undead,Temperate,RuinsDungeons,6
+,Tojanida,bestiary3,Outsider,Planar,Aquatic,5
+,Tophet,bestiary3,Construct,Temperate,RuinsDungeons,10
+,Tortue happante,bestiary2,Animal,Temperate,Aquatic,0.33
+,Tortue happante géante,bestiary2,Animal,Temperate,Aquatic,9
+,Totenmaske,bestiary2,Undead,Temperate,RuinsDungeons,7
+,Traqueur gluant,bestiary2,Ooze,Temperate,Underground,4
+,Traqueur invisible,bestiary,Outsider,Planar,Sky,7
+,Traqueur obscur,bestiary,Humanoid,Temperate,Underground,4
+,Traqueur sans visage,bestiary2,Aberration,Temperate,Underground,4
+,Triton,bestiary2,Outsider,Temperate,Aquatic,2
+,Troglodyte,bestiary,Humanoid,Temperate,Underground,1
+,Troll,bestiary,Humanoid,Cold,Mountains,5
+,Troll de mousse,bestiary3,Humanoid,Temperate,ForestJungle,3
+,Troll de pierre,bestiary2,Humanoid,Temperate,Underground,6
+,Troll des glaces,bestiary2,Humanoid,Cold,Mountains,4
+,Troll jötun,bestiary3,Humanoid,Cold,Hills,15
+,Trollosse,bestiary3,MagicalBeast,Cold,Mountains,3
+,Tueur obscur,bestiary2,Humanoid,Temperate,Underground,3
+,Tupilaq,bestiary3,Construct,Temperate,RuinsDungeons,7
+,Tzitzimitl,bestiary3,Undead,Temperate,Sky,19
+,Urdefhan,bestiary2,Outsider,Planar,Underground,3
+,Valkyrie,bestiary3,Outsider,Planar,Sky,12
+,Vampire,bestiary,Undead,Temperate,Urban,9
+,Vanara,bestiary3,Humanoid,Temperate,ForestJungle,0.5
+,Vargouille,bestiary,Outsider,Temperate,RuinsDungeons,2
+,Vase carnivore,bestiary2,Ooze,Temperate,Plains,13
+,Vase cérébrale,bestiary3,Ooze,Temperate,RuinsDungeons,7
+,Vase coupe-gorge,bestiary3,Ooze,Temperate,Underground,8
+,Vase grise,bestiary,Ooze,Cold,Swamp,4
+,Vase de magma,bestiary2,Ooze,Temperate,Mountains,7
+,Vase de plasma,bestiary3,Ooze,Temperate,RuinsDungeons,16
+,Vase des jardins,bestiary3,Ooze,Temperate,ForestJungle,2
+,Vautour,bestiary3,Animal,Warm,Plains,0.5
+,Vautour géant,bestiary3,Animal,Warm,Plains,4
+,Végépygmée,bestiary,Plant,Temperate,Underground,0.5
+,Vémérak,bestiary2,Aberration,Temperate,Underground,14
+,Ver du froid,bestiary2,MagicalBeast,Cold,Plains,12
+,Ver mortel,bestiary2,MagicalBeast,Warm,Desert,6
+,Ver pourpre,bestiary,MagicalBeast,Temperate,Underground,12
+,ver-qui-marche,bestiary2,Vermin,Temperate,RuinsDungeons,14
+,Ver ténébreux,bestiary2,Outsider,Planar,RuinsDungeons,8
+,Viflin,bestiary2,Fey,Temperate,ForestJungle,3
+,Vishkanya,bestiary3,Humanoid,Temperate,Urban,0.5
+,Vodyanoi,bestiary3,MonstrousHumanoid,Temperate,Aquatic,5
+,Voonith,bestiary3,MagicalBeast,Temperate,Swamp,4
+,Wendigo,bestiary2,Outsider,Cold,Hills,17
+,Worg,bestiary,MagicalBeast,Temperate,ForestJungle,2
+,Xacarba,bestiary2,Outsider,Planar,Urban,15
+,Xill,bestiary,Outsider,Planar,RuinsDungeons,6
+,Xorn,bestiary,Outsider,Planar,Underground,6
+,Xtabay,bestiary2,Plant,Temperate,ForestJungle,0.5
+,Yéti,bestiary,MonstrousHumanoid,Cold,Mountains,4
+,Yithien,bestiary3,Aberration,Temperate,RuinsDungeons,9
+,Yrthak,,MagicalBeast,Cold,RuinsDungeons,9
+,Yuki-onna,bestiary3,Undead,Cold,RuinsDungeons,8
+,Zombi humain,bestiary,Undead,Temperate,RuinsDungeons,0.5
+,Zombi juju humain,bestiary2,Undead,Temperate,RuinsDungeons,2
+,Zoog,bestiary3,MagicalBeast,Temperate,ForestJungle,1
+,Zouvembi,bestiary3,Undead,Temperate,RuinsDungeons,4

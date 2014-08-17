@@ -11,6 +11,7 @@ namespace PathfinderDb.Controllers
     using System.Linq;
     using System.Linq.Expressions;
     using System.Web.Mvc;
+    using Datas;
     using Models;
     using Schema;
 
@@ -24,6 +25,11 @@ namespace PathfinderDb.Controllers
         protected ItemController(DbDocumentType docType)
         {
             this.docType = docType;
+        }
+
+        protected DbDocumentType DocType
+        {
+            get { return this.docType; }
         }
 
         protected List<TItem> LoadItems(PathfinderDbContext db, IEnumerable<Expression<Func<DbDocument, bool>>> predicates)
@@ -64,7 +70,10 @@ namespace PathfinderDb.Controllers
                     return default(TEdit);
                 }
 
-                return ForEdit(dbDoc);
+                var schema = dbDoc.As<TSchema>();
+                var dbModel = ForEdit(schema);
+                dbModel.DocId = dbDoc.DocId;
+                return dbModel;
             }
         }
 
@@ -118,8 +127,7 @@ namespace PathfinderDb.Controllers
         protected virtual void SaveNew(PathfinderDbContext db, TEdit model)
         {
             // TODO Vérifier qu'il n'existe pas déjà un objet avec ce lang/id
-
-            var dbDoc = DbDocument.From(this.docType, model.Save());
+            var dbDoc = DbDocument.From(this.docType, model.Save(null));
             db.Documents.Add(dbDoc);
 
             db.SaveChanges();
@@ -129,33 +137,41 @@ namespace PathfinderDb.Controllers
 
         protected virtual ActionResult SaveExisting(PathfinderDbContext db, TEdit model)
         {
+            // Load existing document
             var dbDoc = db.Documents.FirstOrDefault(d => d.DocId == model.DocId);
             if (dbDoc == null)
             {
-                this.ModelState.AddModelError("", @"L'équipement indiqué n'existe plus. Les modifications n'ont pas pu être enregistrées");
+                this.ModelState.AddModelError("", @"L'élément indiqué n'existe plus. Les modifications n'ont pas pu être enregistrées");
                 return this.View(model);
             }
 
-            var dbModel = ForEdit(dbDoc);
+            // Convert to edit it
+            var schema = dbDoc.As<TSchema>();
+            var dbModel = ForEdit(schema);
+            dbModel.DocId = dbDoc.DocId;
 
+            // Apply model changes
             if (!this.TryUpdateModel(dbModel))
             {
                 return this.View(model);
             }
 
-            dbDoc.SerializeContent(dbModel.Save());
+            // Save model to schema
+            dbModel.Save(schema);
+
+            // Update document
+            dbDoc.SerializeContent(schema);
             dbDoc.Id = dbModel.Id;
 
+            // Update database
             db.SaveChanges();
 
             return null;
         }
 
-        private static TEdit ForEdit(DbDocument dbDoc)
+        private static TEdit ForEdit(TSchema schema)
         {
-            var edit = new TEdit { DocId = dbDoc.DocId };
-            edit.Load(dbDoc.As<TSchema>());
-            return edit;
+            return new TEdit().Load(schema);
         }
 
         private static TItem ForItem(DbDocument dbDoc)

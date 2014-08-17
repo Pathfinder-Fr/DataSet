@@ -6,7 +6,7 @@
 
     [XmlType("spell", Namespace = Namespaces.PathfinderDb)]
     [DebuggerDisplay("{Name}")]
-    public class Spell : Element
+    public class Spell : Element, IElementWithId
     {
         /// <summary>
         /// Gets or sets the unique id of this spell.

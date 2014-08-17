@@ -7,6 +7,7 @@
 namespace PathfinderDb
 {
     using System;
+    using Datas;
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin;

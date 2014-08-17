@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.Models
+namespace PathfinderDb.Datas
 {
     using System;
     using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace PathfinderDb.Models
     using Microsoft.AspNet.Identity.EntityFramework;
     using Schema;
 
-    public class PathfinderDbContext : IdentityDbContext<Identity.ApplicationUser>
+    public class PathfinderDbContext : IdentityDbContext<Models.Identity.ApplicationUser>
     {
         public PathfinderDbContext()
             : base("PathfinderDbContext")

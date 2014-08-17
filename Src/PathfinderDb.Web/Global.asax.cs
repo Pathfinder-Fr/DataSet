@@ -20,7 +20,7 @@ namespace PathfinderDb
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            using (var context = new Models.PathfinderDbContext())
+            using (var context = new Datas.PathfinderDbContext())
             {
                 context.Database.CreateIfNotExists();
             }

@@ -10,6 +10,7 @@ namespace PathfinderDb.Models.Gear
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.Linq.Expressions;
+    using Datas;
 
     public class IndexViewModel : Page<ItemViewModel>
     {

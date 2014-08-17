@@ -1,0 +1,696 @@
+Id,Name,Source,Types
+abondance-de-révélations,Abondance de révélations,um,General
+adepte-du-filet,Adepte du filet,uc,Combat
+agilité-dimensionnelle,Agilité dimensionnelle,uc,General
+aide-rapide,Aide rapide,apg,General
+aile-de-la-grue,Aile de la grue,uc,Combat
+aisance,Aisance,pfrpg,General
+amélioration-des-créatures-convoquées,Amélioration des créatures convoquées,pfrpg,General
+ancre-douloureuse,Ancre douloureuse,um,General
+anonyme,Anonyme,uc,Grit
+antagoniste,Antagoniste,um,General
+apparence-enfantine,Apparence enfantine,apg,General
+appel-du-conjurateur,Appel du conjurateur,apg,General
+apprendre-un-piège-de-rôdeur,Apprendre un piège de rôdeur,um,General
+aptitude-magique,Aptitude magique,pfrpg,General
+arcane-supplémentaire,Arcane supplémentaire,um,General
+arme-de-prédilection-supérieure,Arme de prédilection supérieure,pfrpg,Combat
+arme-de-prédilection,Arme de prédilection,pfrpg,Combat
+arme-en-main,Arme en main,pfrpg,Combat
+arme-jetable,Arme jetable,uc,General
+arme-naturelle-supérieure,Arme naturelle supérieure,bestiary,Monster
+arme-à-aspersion-à-ricochet,Arme à aspersion à ricochet,um,General
+armure-naturelle-supérieure,Armure naturelle supérieure,bestiary,Monster
+art-du-bouclier-supérieur,Art du bouclier supérieur,pfrpg,Combat
+art-du-bouclier,Art du bouclier,pfrpg,Combat
+art-du-devin,Art du devin,apg,General
+artisanat-de-groupe,Artisanat de groupe,apg,General
+artiste-du-ko,Artiste du KO,uc,General
+aspect-bestial,Aspect bestial,pfrpg,General
+assaut-de-gnome-hanté,Assaut de gnome hanté,uc,Combat
+assaut-dimensionnel,Assaut dimensionnel,uc,General
+assaut-hébétant,Assaut hébétant,apg,Combat
+assaut-repoussant,Assaut repoussant,apg,General
+assaut-sanglant,Assaut sanglant,apg,General
+assaut-étourdissant,Assaut étourdissant,apg,General
+assommant,Assommant,uc,Combat
+assurer-sa-prise,Assurer sa prise,uc,General
+astuce-déquitation,Astuce d'équitation,apg,General
+athlétisme,Athlétisme,pfrpg,General
+attaque-au-galop,Attaque au galop,pfrpg,Combat
+attaque-en-finesse,Attaque en finesse,pfrpg,Combat
+attaque-en-groupe,Attaque en groupe,apg,General
+attaque-en-puissance,Attaque en puissance,pfrpg,Combat
+attaque-en-rotation,Attaque en rotation,pfrpg,Combat
+attaque-en-vol,Attaque en vol,bestiary,Monster
+attaque-magique,Attaque magique,apg,General
+attaque-puissante-supérieure,Attaque puissante supérieure,pfrpg,Combat
+attaque-spéciale-renforcée,Attaque spéciale renforcée,bestiary,Monster
+attaque-éclair,Attaque éclair,pfrpg,Combat
+attaques-multiples,Attaques multiples,bestiary,General
+attaques-réflexes,Attaques réflexes,pfrpg,Combat
+attirer-rapidement,Attirer rapidement,uc,Combat
+attrait-de-la-vie,Attrait de la vie,um,General
+audace-supplémentaire,Audace supplémentaire,uc,Grit
+augmentation-dintensité,Augmentation d'intensité,pfrpg,Metamagic
+aura-de-fléau-des-dragons,Aura de fléau des dragons,um,General
+aura-dintrépidité,Aura d'intrépidité,um,General
+autonome,Autonome,pfrpg,General
+avance-et-frappe,Avance et frappe,apg,General
+balancement-du-serpent,Balancement du serpent,uc,"Combat, Style"
+balayage-au-bâton,Balayage au bâton,um,Combat
+bien-préparé,Bien préparé,apg,General
+bluff-magique,Bluff magique,um,General
+bombe-télécommandée,Bombe télécommandée,um,General
+bond-du-tigre,Bond du tigre,uc,"Combat, Style"
+bouclier-contre-les-projectiles,Bouclier contre les projectiles,apg,General
+bouclier-contre-les-rayons,Bouclier contre les rayons,apg,General
+bouclier-magique,Bouclier magique,apg,General
+bouclier-pour-la-monture,Bouclier pour la monture,apg,General
+bouclier-protecteur,Bouclier protecteur,apg,General
+bouclier-salvateur,Bouclier salvateur,apg,General
+bouclier-vivant,Bouclier vivant,uc,Combat
+bousculade-rapide,Bousculade rapide,uc,Combat
+bousculade-supérieure,Bousculade supérieure,pfrpg,Combat
+bousculade-tourbillonnante,Bousculade tourbillonnante,uc,Combat
+boyaux-dacier,Boyaux dacier,apg,General
+briser-la-garde,Briser la garde,uc,Combat
+briser-la-mâchoire,Briser la mâchoire,uc,Combat
+briser-la-tenaille,Briser la tenaille,uc,Combat
+briser-le-cou,Briser le cou,uc,Combat
+briser-les-défenses,Briser les défenses,pfrpg,Combat
+briser-les-os,Briser les os,uc,Combat
+briseur-de-sorts,Briseur de sorts,pfrpg,General
+briseur-dobjets,Briseur d'objets,apg,General
+brute-enragée,Brute enragée,uc,General
+canalisateur-polyvalent,Canalisateur polyvalent,um,General
+canalisation-agressive,Canalisation agressive,uc,General
+canalisation-alignée,Canalisation alignée,pfrpg,General
+canalisation-rapide,Canalisation rapide,um,General
+canalisation-supplémentaire,Canalisation supplémentaire,pfrpg,General
+canalisation-sélective,Canalisation sélective,pfrpg,General
+canalisation-élémentaire,Canalisation élémentaire,pfrpg,General
+capture-de-projectiles,Capture de projectiles,pfrpg,Combat
+capture,Capture,bestiary,Monster
+carapace-de-la-tortue,Carapace de la tortue,uc,"Combat, Style"
+caresse-de-lefrit,Caresse de l’efrit,uc,Combat
+carnage-effroyable,Carnage effroyable,apg,General
+cavalerie-en-formation,Cavalerie en formation,uc,"Combat, Teamwork"
+cercle-du-meurtrier,Cercle du meurtrier,uc,"Combat, Performance"
+champion-expérimenté,Champion expérimenté,uc,General
+chantesort,Chantesort,um,General
+chanteur-de-guerre,Chanteur de guerre,apg,General
+chanteur-de-la-nature,Chanteur de la nature,apg,General
+chanteur-des-roches,Chanteur des roches,apg,General
+charge-dévastatrice,Charge dévastatrice,pfrpg,Combat
+charge-radieuse,Charge radieuse,um,General
+charge-renversante,Charge renversante,apg,General
+chasseur-métamorphe,Chasseur métamorphe,uc,General
+choc-de-lenragé,Choc de l'enragé,uc,General
+châtiment-canalisé-supérieur,Châtiment canalisé supérieur,uc,General
+châtiment-canalisé,Châtiment canalisé,pfrpg,Combat
+cible-dopportunité,Cible d'opportunité,uc,"Combat, Teamwork"
+coincer,Coincer,uc,Combat
+collectionneur-planaire,Collectionneur planaire,um,General
+combat-chorégraphié,Combat chorégraphié,uc,"Combat, Performance"
+combat-en-aveugle,Combat en aveugle,pfrpg,Combat
+combat-monté,Combat monté,pfrpg,Combat
+combat-à-deux-armes-supérieur,Combat à deux armes supérieur,pfrpg,Combat
+combat-à-deux-armes,Combat à deux armes,pfrpg,Combat
+combat-à-plusieurs-armes,Combat à plusieurs armes,bestiary,General
+combattant-de-spectacle,Combattant de spectacle,uc,"Combat, Performance"
+combattre-au-delà-de-la-mort,Combattre au-delà de la mort,apg,General
+comme-le-vent,Comme le vent,pfrpg,Combat
+comme-léclair,Comme l'éclair,pfrpg,Combat
+concentration-instinctive,Concentration instinctive,um,General
+concentration-malgré-la-fureur,Concentration malgré la fureur,apg,General
+conducteur-de-talent,Conducteur de talent,uc,General
+conducteur-expérimenté,Conducteur expérimenté,uc,General
+connaissance-supérieure-de-la-pierre,Connaissance supérieure de la pierre,apg,General
+connaissances-magiques-étendues,Connaissances magiques étendues,apg,General
+connaissances-officieuses,Connaissances officieuses,um,General
+contrôle-des-morts-vivants,Contrôle des morts-vivants,pfrpg,General
+convocation-lunaire,Convocation lunaire,um,General
+convocation-sacrée,Convocation sacrée,um,General
+convocation-solaire,Convocation solaire,um,General
+convocation-stellaire,Convocation stellaire,um,General
+convocation-supérieure,Convocation supérieure,um,General
+convocations-supplémentaires,Convocations supplémentaires,um,General
+cosmopolite,Cosmopolite,apg,General
+coup-bousculant,Coup bousculant,apg,General
+coup-dans-lombre,Coup dans l'ombre,apg,General
+coup-de-bouclier-opportuniste,Coup de bouclier opportuniste,apg,General
+coup-de-dégagement,Coup de dégagement,uc,Combat
+coup-de-flèche,Coup de flèche,apg,General
+coup-de-grâce-de-lenragé,Coup de grâce de l’enragé,uc,General
+coup-de-la-cockatrice,Coup de la cockatrice,apg,General
+coup-destructeur,Coup destructeur,apg,General
+coup-déloyal,Coup déloyal,uc,General
+coup-désarmant,Coup désarmant,apg,General
+coup-déstabilisant,Coup déstabilisant,uc,Combat
+coup-déséquilibrant,Coup déséquilibrant,apg,General
+coup-final-mortel,Coup final mortel,uc,Combat
+coup-final-sanglant,Coup final sanglant,uc,Combat
+coup-final-violent,Coup final violent,uc,Combat
+coup-mémorable,Coup mémorable,apg,General
+coup-odieux,Coup odieux,apg,General
+coup-parfait,Coup parfait,apg,General
+coup-précis,Coup précis,apg,General
+coup-repositionnant,Coup repositionnant,apg,General
+coup-écrasant,Coup écrasant,uc,Combat
+coup-étourdissant,Coup étourdissant,pfrpg,Combat
+couple-dopportunistes,Couple d'opportunistes,apg,General
+coups-protecteurs,Coups protecteurs,apg,General
+course,Course,pfrpg,General
+couteau-de-sorcière,Couteau de sorcière,um,General
+critique-assourdissant,Critique assourdissant,pfrpg,"Combat, Critical"
+critique-aveuglant,Critique aveuglant,pfrpg,"Combat, Critical"
+critique-de-dissipation,Critique de dissipation,uc,Combat
+critique-de-plaie-supérieur,Critique de plaie supérieur,um,General
+critique-de-plaie,Critique de plaie,um,General
+critique-dempalement,Critique d'empalement,uc,"Combat, Critical"
+critique-fatigant,Critique fatigant,pfrpg,"Combat, Critical"
+critique-fébrile,Critique fébrile,pfrpg,"Combat, Critical"
+critique-handicapant,Critique handicapant,apg,General
+critique-maudit,Critique maudit,um,General
+critique-ralentissant,Critique ralentissant,pfrpg,"Combat, Critical"
+critique-sanglant,Critique sanglant,pfrpg,"Combat, Critical"
+critique-épuisant,Critique épuisant,pfrpg,"Combat, Critical"
+critique-étourdissant,Critique étourdissant,pfrpg,"Combat, Critical"
+croc-du-serpent,Croc du serpent,uc,"Combat, Style"
+croc-en-jambe-au-bâton,Croc-en-jambe au bâton,um,Combat
+croc-en-jambe-supérieur,Croc-en-jambe supérieur,pfrpg,Combat
+crocs-acérés,Crocs acérés,apg,General
+création-danneaux-magiques,Création d'anneaux magiques,pfrpg,ItemCreation
+création-darmes-et-armures-magiques,Création d'armes et armures magiques,pfrpg,ItemCreation
+création-darmes-à-feu,Création d'armes à feu,uc,General
+création-de-baguettes-magiques,Création de baguettes magiques,pfrpg,ItemCreation
+création-de-bâtons-magiques,Création de bâtons magiques,pfrpg,ItemCreation
+création-de-créatures-artificielles,Création de créatures artificielles,bestiary,General
+création-de-reliques-armes-ou-boucliers,"Création de reliques, armes ou boucliers",um,General
+création-de-sceptres-magiques,Création de sceptres magiques,pfrpg,ItemCreation
+création-dobjets-merveilleux,Création d'objets merveilleux,pfrpg,ItemCreation
+création-délixir-sanguin,Création d'élixir sanguin,um,General
+cul-sec,Cul sec,apg,General
+cœur-de-vermine,Cœur de vermine,apg,General
+danse-de-la-moquerie,Danse de la moquerie,uc,"Combat, Performance"
+derviche-dimensionnel,Derviche dimensionnel,uc,General
+destruction-darme-supérieure,Destruction d'arme supérieure,pfrpg,Combat
+discernement-ultérieur,Discernement ultérieur,um,General
+discret,Discret,pfrpg,General
+dispense-de-composantes-matérielles,Dispense de composantes matérielles,pfrpg,General
+dissipation-destructrice,Dissipation destructrice,uc,General
+doigts-de-fée,Doigts de fée,pfrpg,General
+don-pour-les-critiques,Don pour les critiques,pfrpg,Combat
+donner-linitiative,Donner l'initiative,um,General
+dos-à-dos,Dos à dos,uc,Teamwork
+double-croc-en-jambe,Double croc-en-jambe,uc,"Combat, Teamwork"
+double-frappe,Double frappe,pfrpg,Combat
+double-tueur,Double tueur,uc,General
+dur-à-cuire-(alternatif),Dur à cuire (alternatif),uc,General
+dur-à-cuire,Dur à cuire,pfrpg,General
+déchiquetage-du-sanglier,Déchiquetage du sanglier,uc,Combat
+déclenchement-manuel,Déclenchement manuel,uc,General
+découverte-supplémentaire,Découverte supplémentaire,apg,General
+défense-à-deux-armes,Défense à deux armes,pfrpg,Combat
+défenses-coordonnées,Défenses coordonnées,apg,General
+dégagement-flamboyant,Dégagement flamboyant,uc,Combat
+déluge-des-tonnerres-jumeaux,Déluge des tonnerres jumeaux,uc,Combat
+déluge-du-croisé,Déluge du croisé,uc,General
+démarche-de-laraignée,Démarche de l'araignée,apg,General
+démonstration-de-maître,Démonstration de maître,uc,"Combat, Performance"
+démonstration-du-héros,Démonstration du héros,uc,"Combat, Performance"
+démonstration-féroce,Démonstration féroce,uc,"Combat, Performance"
+démonstration,Démonstration,pfrpg,Combat
+déplacement-acrobatique,Déplacement acrobatique,pfrpg,General
+déplacement-mystique,Déplacement mystique,um,General
+désarmement-supérieur,Désarmement supérieur,pfrpg,Combat
+désarçonner,Désarçonner,pfrpg,Combat
+détection-de-lexpertise,Détection de l'expertise,um,General
+détection-officieuse,Détection officieuse,um,General
+développement-de-la-résistance,Développement de la résistance,uc,General
+efficacité-des-sorts-accrue-supérieure,Efficacité des sorts accrue supérieure,pfrpg,General
+efficacité-des-sorts-accrue,Efficacité des sorts accrue,pfrpg,General
+efficacité-du-tueur,Efficacité du tueur,uc,General
+eidolon-concentré,Eidolon concentré,um,General
+eidolon-protecteur,Eidolon protecteur,um,General
+eidolon-résilient,Eidolon résilient,um,General
+eidolon-vigilant,Eidolon vigilant,um,General
+empathie-rapide,Empathie rapide,um,General
+empathie-sauvage-supérieure,Empathie sauvage supérieure,um,General
+empoisonneur-précis,Empoisonneur précis,uc,Combat
+enchaînement-final,Enchaînement final,uc,Combat
+enchaînement,Enchaînement,pfrpg,Combat
+endurance,Endurance,pfrpg,General
+ensemble,Ensemble,um,Teamwork
+entrave-à-distance,Entrave à distance,uc,Combat
+entraînement-au-combat-féroce,Entraînement au combat féroce,uc,Combat
+entraînement-aux-armures-renforcé,Entraînement aux armures renforcé,uc,Combat
+entraînement-défensif-aux-armes,Entraînement défensif aux armes,uc,Combat
+entraînement-supérieur,Entraînement supérieur,apg,General
+entraîner-au-sol,Entraîner au sol,uc,Combat
+esprit-du-djinn,Esprit du djinn,uc,Combat
+esprit-du-marid,Esprit du marid,uc,"Combat, Style"
+esquive-acrobatique,Esquive acrobatique,uc,General
+esquive,Esquive,pfrpg,Combat
+expertise-du-combat,Expertise du combat,pfrpg,Combat
+expertise-magique-majeure,Expertise magique majeure,apg,General
+expertise-magique-mineure,Expertise magique mineure,apg,General
+exploit-de-la-cachette-secrète,Exploit de la cachette secrète,uc,Grit
+exploit-du-tir-par-ricochet,Exploit du tir par ricochet,uc,Grit
+exploit-du-tireur-habile,Exploit du tireur habile,uc,Grit
+exploit-signé,Exploit signé,uc,Grit
+exploitation-des-connaissances,Exploitation des connaissances,um,General
+expériences-variées,Expériences variées,apg,General
+extension-de-durée,Extension de durée,pfrpg,Metamagic
+extension-de-portée,Extension de portée,pfrpg,Metamagic
+extension-de-pouvoir-magique,Extension de pouvoir magique,pfrpg,Monster
+extension-de-zone-deffet,Extension de zone d'effet,pfrpg,Metamagic
+extension-deffet,Extension d'effet,pfrpg,Metamagic
+familier-supérieur,Familier supérieur,bestiary,General
+familier-évolué,Familier évolué,um,General
+fausse-ouverture,Fausse ouverture,uc,Combat
+feinte-de-dégagement,Feinte de dégagement,uc,Combat
+feinte-du-traqueur-au-clair-de-lune,Feinte du traqueur au clair de lune,uc,Combat
+feinte-supérieure,Feinte supérieure,pfrpg,Combat
+feinte-à-deux-armes,Feinte à deux armes,uc,Combat
+fente,Fente,pfrpg,Combat
+feu-nourri,Feu nourri,pfrpg,Combat
+filet-et-trident,Filet et trident,uc,Combat
+fioritures-rhétoriques,Fioritures rhétoriques,uc,General
+foi-absolue,Foi absolue,um,General
+force-intimidante,Force intimidante,pfrpg,Combat
+forme-animale-optimale,Forme animale optimale,um,General
+forme-animale-planaire,Forme animale planaire,uc,General
+forme-animale-rapide,Forme animale rapide,um,General
+forme-puissante,Forme puissante,um,General
+fourberie,Fourberie,pfrpg,General
+frappe-ciblée-supérieure,Frappe ciblée supérieure,uc,General
+frappe-de-cauchemar,Frappe de cauchemar,uc,Combat
+frappe-de-domaine,Frappe de domaine,uc,Combat
+frappe-de-la-vipère,Frappe de la vipère,uc,Combat
+frappe-de-lécole,Frappe de l'école,uc,Combat
+frappe-du-bouclier,Frappe du bouclier,pfrpg,Combat
+frappe-du-kirin,Frappe du kirin,uc,Combat
+frappe-décisive-supérieure,Frappe décisive supérieure,pfrpg,Combat
+frappe-décisive,Frappe décisive,pfrpg,Combat
+frappe-dévastatrice,Frappe dévastatrice,uc,Combat
+frappe-ensorcelée,Frappe ensorcelée,uc,Combat
+frappe-magique,Frappe magique,pfrpg,Combat
+frappe-maléfique,Frappe maléfique,uc,Combat
+frappe-mortelle,Frappe mortelle,pfrpg,Combat
+frappe-ondoyante,Frappe ondoyante,uc,Combat
+frappe-puissante-supérieure,Frappe puissante supérieure,pfrpg,Combat
+frappe-puissante,Frappe puissante,pfrpg,Combat
+frappe-révélatrice,Frappe révélatrice,uc,Combat
+frappe-sanglante-ensorcelée,Frappe sanglante ensorcelée,um,General
+fraternité-animale,Fraternité animale,pfrpg,General
+froid-du-marid,Froid du marid,uc,"Combat, Style"
+fuite-renversante,Fuite renversante,uc,Combat
+fureur-de-la-méduse,Fureur de la méduse,pfrpg,Combat
+férocité-du-dragon,Férocité du dragon,uc,Combat
+férocité-du-sanglier,Férocité du sanglier,uc,"Combat, Style"
+garde-du-corps,Garde du corps,apg,General
+glissade,Glissade,um,General
+gnome-hanté,Gnome hanté,uc,Combat
+grande-tenaille,Grande tenaille,apg,General
+griffe-de-la-panthère,Griffe de la panthère,uc,"Combat, Style"
+griffes-coupantes,Griffes coupantes,apg,General
+griffes-du-tigre,Griffes du tigre,uc,"Combat, Style"
+griffes-magiques,Griffes magiques,apg,General
+gros-buveur,Gros buveur,apg,General
+grâce-supplémentaire,Grâce supplémentaire,pfrpg,General
+grâce-supérieure,Grâce supérieure,um,General
+grâce-ultime,Grâce ultime,um,General
+guide-divin,Guide divin,uc,General
+guérison-rapide,Guérison rapide,apg,General
+guérison-vertueuse,Guérison vertueuse,uc,General
+halfelin-porte-chance,Halfelin porte-chance,apg,General
+homme-de-main,Homme de main,apg,General
+horreur-de-létreinte-fatale,Horreur de l'étreinte fatale,uc,Combat
+héritage-monastique,Héritage monastique,uc,Combat
+héritage-racial,Héritage racial,apg,General
+immobiliser,Immobiliser,pfrpg,Combat
+impact-du-tir-critique,Impact du tir critique,uc,General
+implantation-de-bombe,Implantation de bombe,um,General
+imposition-des-mains-supplémentaire,Imposition des mains supplémentaire,pfrpg,General
+inaperçu,Inaperçu,apg,General
+incantation-animale,Incantation animale,pfrpg,General
+incantation-rapide,Incantation rapide,pfrpg,Metamagic
+incantation-silencieuse,Incantation silencieuse,pfrpg,Metamagic
+incantation-statique,Incantation statique,pfrpg,Metamagic
+ingénieur-de-siège,Ingénieur de siège,uc,Combat
+initié-du-refus-de-mourir,Initié du refus de mourir,uc,Combat
+interception-de-coups,Interception de coups,apg,General
+interférence-divine,Interférence divine,um,General
+intuition-partagée,Intuition partagée,apg,General
+intuition-prophétique,Intuition prophétique,um,General
+invocateur-de-squelettes,Invocateur de squelettes,um,General
+jugement-instantané,Jugement instantané,uc,General
+jugement-partagé,Jugement partagé,uc,General
+jugement-partial,Jugement partial,um,General
+jugement-renforcé,Jugement renforcé,um,General
+ki-supplémentaire,Ki supplémentaire,pfrpg,General
+ko-sur-limmobile,KO sur l'immobile,uc,Combat
+la-mort-ou-la-gloire,La mort ou la gloire,uc,Combat
+lacération-furieuse-supérieure,Lacération furieuse supérieure,uc,Combat
+lacération-furieuse,Lacération furieuse,uc,Combat
+lancer-improvisé,Lancer improvisé,pfrpg,Combat
+lancer-ki,Lancer ki,apg,General
+lancer-lors-dune-charge,Lancer lors d'une charge,uc,Combat
+lancer-à-deux-mains,Lancer à deux mains,uc,Combat
+lanceur-de-sort-allié,Lanceur de sort allié,apg,General
+lanceur-de-sort-protégé,Lanceur de sort protégé,apg,General
+lanceur-enragé,Lanceur enragé,uc,General
+lanceur-à-courte-distance,Lanceur à courte distance,uc,Combat
+lanceur-à-distance,Lanceur à distance,uc,Combat
+langue-sauvage,Langue sauvage,um,General
+lien-de-lenfant-de-la-terre,Lien de l'enfant de la terre,uc,Combat
+linceul-de-gnome-hanté,Linceul de gnome hanté,uc,Combat
+lutte-supérieure,Lutte supérieure,pfrpg,Combat
+lutteur-rapide,Lutteur rapide,uc,Combat
+magie-de-guerre,Magie de guerre,pfrpg,General
+maléfice-magique,Maléfice magique,um,General
+maléfice-maudit,Maléfice maudit,um,General
+maléfice-supplémentaire,Maléfice supplémentaire,apg,General
+maniement-des-armes-courantes,Maniement des armes courantes,pfrpg,Combat
+maniement-des-boucliers,Maniement des boucliers,pfrpg,Combat
+maniement-du-pavois,Maniement du pavois,pfrpg,Combat
+maniement-dune-arme-de-guerre,Maniement d'une arme de guerre,pfrpg,Combat
+maniement-dune-arme-exotique,Maniement d'une arme exotique,pfrpg,Combat
+manœuvre-de-désorientation,Manœuvre de désorientation,uc,General
+manœuvrer-le-filet,Manœuvrer le filet,uc,Combat
+manœuvres-agiles,Manœuvres agiles,pfrpg,Combat
+manœuvres-coordonnées,Manœuvres coordonnées,apg,General
+manœuvres-dimensionnelles,Manœuvres dimensionnelles,uc,General
+marche-sur-les-nuages,Marche sur les nuages,apg,General
+marqué-pour-punir,Marqué pour punir,uc,General
+marteler-la-faille,Marteler la faille,uc,Combat
+maître-alchimiste,Maître alchimiste,apg,General
+maître-artisan,Maître artisan,pfrpg,General
+maître-de-la-matraque,Maître de la matraque,uc,Combat
+maître-de-la-traque-au-clair-de-lune,Maître de la traque au clair de lune,uc,Combat
+maître-de-létreinte-fatale,Maître de l'étreinte fatale,uc,Combat
+maître-des-bâtons,Maître des bâtons,um,General
+maître-des-chevaux,Maître des chevaux,uc,Combat
+maître-des-morts-vivants,Maître des morts-vivants,um,General
+maître-des-tonnerres-jumeaux,Maître des tonnerres jumeaux,uc,Combat
+maître-des-écoles-de-combat,Maître des écoles de combat,uc,Combat
+maître-du-combat-de-spectacle,Maître du combat de spectacle,uc,"Combat, Performance"
+maître-du-refus-de-mourir,Maître du refus de mourir,uc,General
+maître-ingénieur-de-siège,Maître ingénieur de siège,uc,Combat
+maîtrise-de-larmure-magique,Maîtrise de l'armure magique,pfrpg,Combat
+maîtrise-des-arbalètes,Maîtrise des arbalètes,apg,General
+maîtrise-des-armes-de-spectacle,Maîtrise des armes de spectacle,uc,"Combat, Performance"
+maîtrise-des-armes-improvisées,Maîtrise des armes improvisées,pfrpg,Combat
+maîtrise-des-sorts,Maîtrise des sorts,pfrpg,General
+maîtrise-du-bouclier,Maîtrise du bouclier,pfrpg,Combat
+maîtrise-du-combat-défensif,Maîtrise du combat défensif,pfrpg,Combat
+maîtrise-du-combat-en-aveugle,Maîtrise du combat en aveugle,apg,General
+maîtrise-du-critique-de-plaie,Maîtrise du critique de plaie,um,General
+maîtrise-du-critique,Maîtrise du critique,pfrpg,"Combat, Critical"
+maîtrise-du-fouet-supérieure,Maîtrise du fouet supérieure,uc,Combat
+maîtrise-du-fouet,Maîtrise du fouet,uc,Combat
+maîtrise-du-tir-à-bout-portant,Maîtrise du tir à bout portant,apg,General
+meurs-pour-ton-maître,Meurs pour ton maître,um,General
+mort-venue-du-ciel,Mort venue du ciel,uc,Combat
+mot-de-guérison,Mot de guérison,um,General
+mouvements-du-singe,Mouvements du singe,uc,"Combat, Style"
+mur-de-boucliers-canalisé,Mur de boucliers canalisé,um,General
+mur-de-boucliers,Mur de boucliers,apg,General
+musique-flamboyante,Musique flamboyante,um,General
+médecin-de-guerre,Médecin de guerre,uc,Teamwork
+métamagie-spontanée,Métamagie spontanée,um,General
+odorat-supérieur,Odorat supérieur,apg,General
+optimisation-de-la-frappe-magique,Optimisation de la frappe magique,uc,General
+par-dessus-et-par-dessous,Par-dessus et par-dessous,apg,General
+parade-de-la-panthère,Parade de la panthère,uc,"Combat, Style"
+parade-de-projectiles,Parade de projectiles,pfrpg,Combat
+parade-de-sorts,Parade de sorts,apg,General
+partenaire-de-feinte,Partenaire de feinte,uc,"Combat, Teamwork"
+pas-de-côté,Pas de côté,apg,General
+pas-léger,Pas léger,apg,General
+passer-pour-un-humain,Passer pour un humain,apg,General
+patrouille-en-combat,Patrouille en combat,apg,General
+peau-de-fer,Peau de fer,apg,General
+perception-de-la-peur,Perception de la peur,apg,General
+perception-via-la-pierre,Perception via la pierre,apg,General
+perfection-magique,Perfection magique,apg,General
+persuasion,Persuasion,pfrpg,General
+perturbateur,Perturbateur,pfrpg,Combat
+pied-marin,Pied marin,uc,General
+pistolier-amateur,Pistolier amateur,uc,Combat
+piège-de-rôdeur-supplémentaire,Piège de rôdeur supplémentaire,um,General
+piège-de-rôdeur-évolué,Piège de rôdeur évolué,um,General
+piétinement-vicieux,Piétinement vicieux,uc,Combat
+piétinement,Piétinement,pfrpg,Combat
+poing-de-cauchemar,Poing de cauchemar,uc,Combat
+poing-de-dissipation,Poing de dissipation,uc,General
+poing-de-la-gorgone,Poing de la gorgone,pfrpg,Combat
+poing-du-croisé,Poing du croisé,uc,Combat
+poing-élémentaire,Poing élémentaire,apg,General
+port-de-larmure-magique,Port de l'armure magique,pfrpg,Combat
+port-des-armures-intermédiaires,Port des armures intermédiaires,pfrpg,Combat
+port-des-armures-lourdes,Port des armures lourdes,pfrpg,Combat
+port-des-armures-légères,Port des armures légères,pfrpg,Combat
+posture-de-lefrit,Posture de l'efrit,uc,Combat
+poursuite,Poursuite,apg,General
+pouvoir-de-rage-supplémentaire,Pouvoir de rage supplémentaire,apg,General
+pouvoir-magique-rapide,Pouvoir magique rapide,pfrpg,Monster
+première-volée,Première volée,uc,Combat
+prestidigitateur-gnome,Prestidigitateur gnome,apg,General
+prestige,Prestige,pfrpg,General
+proche-de-la-terre,Proche de la terre,apg,General
+profil-bas,Profil bas,apg,General
+protection-contre-un-ennemi-juré,Protection contre un ennemi juré,apg,General
+précision-elfique,Précision elfique,apg,General
+préparation-de-potions,Préparation de potions,pfrpg,ItemCreation
+prêt-de-canalisation,Prêt de canalisation,uc,General
+prêtre-guerrier,Prêtre guerrier,um,General
+quintessence-des-sorts,Quintessence des sorts,pfrpg,Metamagic
+rage-supplémentaire,Rage supplémentaire,pfrpg,General
+raillerie,Raillerie,apg,General
+rapide,Rapide,pfrpg,General
+rechargement-rapide,Rechargement rapide,uc,Combat
+refuser-la-mort,Refuser la mort,um,General
+regard-intimidant,Regard intimidant,um,General
+regard-pénétrant,Regard pénétrant,um,General
+renaissance-canalisée,Renaissance canalisée,uc,General
+renversement-de-lenfant-de-la-terre,Renversement de l'enfant de la terre,uc,Combat
+renversement-supérieur,Renversement supérieur,pfrpg,Combat
+renvoi-de-linsaisissable,Renvoi de l'insaisissable,uc,General
+renvoi-des-morts-vivants,Renvoi des morts-vivants,pfrpg,General
+repositionnement-rapide,Repositionnement rapide,uc,Combat
+repositionnement-supérieur,Repositionnement supérieur,apg,General
+reprends-toi,Reprends-toi,uc,Teamwork
+représentation-obsédante,Représentation obsédante,apg,General
+représentation-supplémentaire,Représentation supplémentaire,pfrpg,General
+représentation-théâtrale,Représentation théâtrale,uc,Combat
+responsable-du-siège,Responsable du siège,uc,Combat
+retour-en-force,Retour en force,uc,General
+riposte-de-la-grue,Riposte de la grue,uc,Combat
+riposte,Riposte,pfrpg,Combat
+robustesse-(alternatif),Robustesse (alternatif),pfrpg,General
+robustesse,Robustesse,pfrpg,General
+roulade,Roulade,uc,Combat
+rugissement-du-dragon,Rugissement du dragon,uc,Combat
+ruée-du-jann,Ruée du jann,uc,Combat
+récompense-de-grâce,Récompense de grâce,um,General
+récompense-de-vie,Récompense de vie,um,General
+récupération-héroïque,Récupération héroïque,apg,General
+réduction-agressive,Réduction agressive,uc,Combat
+réflexes-surhumains,Réflexes surhumains,pfrpg,General
+réparations-de-fortune,Réparations de fortune,uc,General
+répartition-des-maléfices-majeurs,Répartition des maléfices majeurs,um,General
+répartition-des-maléfices,Répartition des maléfices,um,General
+réserve-magique-supplémentaire,Réserve magique supplémentaire,um,General
+résilience-renforcée,Résilience renforcée,uc,General
+résistance-héroïque,Résistance héroïque,apg,General
+sage-harmonique,Sage harmonique,uc,General
+sagesse-de-la-mante,Sagesse de la mante,uc,Combat
+saisir-sa-chance,Saisir sa chance,uc,"Combat, Teamwork"
+sale-coup-rapide,Sale coup rapide,uc,Combat
+sale-coup-supérieur,Sale coup supérieur,apg,General
+savancer,S'avancer,pfrpg,Combat
+savant-dimensionnel,Savant dimensionnel,uc,General
+science-de-la-bousculade,Science de la bousculade,pfrpg,Combat
+science-de-la-canalisation,Science de la canalisation,pfrpg,General
+science-de-la-connaissance-des-monstres,Science de la connaissance des monstres,um,General
+science-de-la-destruction,Science de la destruction,pfrpg,Combat
+science-de-la-feinte-à-deux-armes,Science de la feinte à deux armes,uc,Combat
+science-de-la-feinte,Science de la feinte,pfrpg,Combat
+science-de-la-frappe-ciblée,Science de la frappe ciblée,uc,General
+science-de-la-frappe-décisive,Science de la frappe décisive,pfrpg,Combat
+science-de-la-frappe-dévastatrice,Science de la frappe dévastatrice,uc,Combat
+science-de-la-lacération-furieuse,Science de la lacération furieuse,uc,Combat
+science-de-la-lutte,Science de la lutte,pfrpg,Combat
+science-de-la-maîtrise-du-fouet,Science de la maîtrise du fouet,uc,Combat
+science-de-la-seconde-chance,Science de la seconde chance,apg,General
+science-de-la-subtilisation,Science de la subtilisation,apg,General
+science-de-la-vigueur-surhumaine,Science de la vigueur surhumaine,pfrpg,General
+science-de-la-volonté-de-fer,Science de la volonté de fer,pfrpg,General
+science-de-lenchaînement-final,Science de l'enchaînement final,uc,Combat
+science-de-lentraînement,Science de l'entraînement,apg,General
+science-de-linitiative,Science de l'initiative,pfrpg,Combat
+science-de-létrange-héritage,Science de l'étrange héritage,um,General
+science-des-réflexes-surhumains,Science des réflexes surhumains,pfrpg,General
+science-du-combat-dos-à-dos,Science du combat dos à dos,uc,Teamwork
+science-du-combat-en-aveugle,Science du combat en aveugle,apg,General
+science-du-combat-à-deux-armes,Science du combat à deux armes,pfrpg,Combat
+science-du-combat-à-mains-nues,Science du combat à mains nues,pfrpg,Combat
+science-du-contresort,Science du contresort,pfrpg,General
+science-du-coup-de-bouclier,Science du coup de bouclier,pfrpg,Combat
+science-du-critique-dempalement,Science du critique d'empalement,uc,"Combat, Critical"
+science-du-critique,Science du critique,pfrpg,"Combat, Critical"
+science-du-croc-en-jambe,Science du croc-en-jambe,pfrpg,Combat
+science-du-désarmement,Science du désarmement,pfrpg,Combat
+science-du-développement-de-la-résistance,Science du développement de la résistance,uc,General
+science-du-lancer-ki,Science du lancer ki,apg,General
+science-du-lancer-lors-dune-charge,Science du lancer lors d'une charge,pfrpg,Combat
+science-du-partage-des-sorts,Science du partage des sorts,apg,General
+science-du-pas-de-côté,Science du pas de côté,apg,General
+science-du-renversement,Science du renversement,pfrpg,Combat
+science-du-repositionnement,Science du repositionnement,apg,General
+science-du-sale-coup,Science du sale coup,apg,General
+science-du-tir-de-précision,Science du tir de précision,pfrpg,Combat
+science-du-tir-soudain,Science du tir soudain,uc,Combat
+se-relever-avec-le-ki,Se relever avec le ki,um,General
+seconde-chance,Seconde chance,apg,General
+sens-très-affûtés,Sens très affûtés,apg,General
+sociable,Sociable,apg,General
+sort-brûlant,Sort brûlant,um,Metamagic
+sort-concentré,Sort concentré,apg,General
+sort-de-prédilection,Sort de prédilection,apg,General
+sort-ectoplasmique,Sort ectoplasmique,apg,General
+sort-gelé,Sort gelé,um,Metamagic
+sort-hébétant,Sort hébétant,apg,General
+sort-intense,Sort intense,apg,General
+sort-miséricordieux,Sort miséricordieux,apg,General
+sort-percutant,Sort percutant,um,Metamagic
+sort-persistant,Sort persistant,apg,General
+sort-perturbateur,Sort perturbateur,apg,General
+sort-renversant,Sort renversant,um,Metamagic
+sort-soutenu,Sort soutenu,apg,General
+sort-thanatopique,Sort thanatopique,um,Metamagic
+sort-thrénodique,Sort thrénodique,um,Metamagic
+sort-tonitruant,Sort tonitruant,apg,General
+sort-transperçant,Sort transperçant,um,Metamagic
+sort-à-rebonds,Sort à rebonds,apg,General
+sort-éblouissant,Sort éblouissant,um,Metamagic
+sort-écœurant,Sort écœurant,apg,General
+sort-éloigné,Sort éloigné,apg,General
+sort-élémentaire,Sort élémentaire,apg,General
+souplesse-du-serpent,Souplesse du serpent,pfrpg,Combat
+sous-les-jambes,Sous les jambes,apg,General
+souvenir-destructeur,Souvenir destructeur,uc,General
+spécialisation-au-bouclier,Spécialisation au bouclier,apg,General
+spécialisation-magique-supérieure,Spécialisation magique supérieure,um,General
+spécialisation-magique,Spécialisation magique,um,General
+spécialisation-martiale-supérieure,Spécialisation martiale supérieure,pfrpg,Combat
+spécialisation-martiale,Spécialisation martiale,pfrpg,Combat
+spécialisation-supérieure-aux-boucliers,Spécialisation supérieure aux boucliers,apg,Combat
+subtilisation-rapide,Subtilisation rapide,uc,Combat
+subtilisation-supérieure,Subtilisation supérieure,apg,General
+succession-denchaînements,Succession d'enchaînements,pfrpg,Combat
+surprise,Surprise,pfrpg,Combat
+synergie-de-la-discrétion,Synergie de la discrétion,uc,Teamwork
+synergie-des-sens,Synergie des sens,um,General
+tacticien-de-la-téléportation,Tacticien de la téléportation,apg,General
+tacticien-expérimenté,Tacticien expérimenté,apg,General
+tactique-de-laile-cassée,Tactique de l'aile cassée,uc,"Combat, Teamwork"
+talent-magique,Talent magique,apg,General
+talent-supplémentaire,Talent supplémentaire,apg,General
+talent,Talent,pfrpg,General
+tempête-du-jann,Tempête du jann,uc,Combat
+théurgie,Théurgie,um,General
+tir-avec-concentration,Tir avec concentration,apg,General
+tir-de-loin,Tir de loin,pfrpg,Combat
+tir-de-précision,Tir de précision,pfrpg,Combat
+tir-en-enfilade,Tir en enfilade,uc,"Combat, Teamwork"
+tir-en-mouvement,Tir en mouvement,pfrpg,Combat
+tir-en-plein-saut,Tir en plein saut,uc,Grit
+tir-en-retraite,Tir en retraite,apg,General
+tir-monté,Tir monté,pfrpg,Combat
+tir-perturbateur,Tir perturbateur,apg,General
+tir-rapide,Tir rapide,pfrpg,Combat
+tir-soudain-supérieur,Tir soudain supérieur,uc,Combat
+tir-soudain,Tir soudain,uc,Combat
+tir-à-bout-portant,Tir à bout portant,pfrpg,Combat
+tirailleur-monté,Tirailleur monté,apg,General
+tireur-couché,Tireur couché,uc,Combat
+tireur-à-la-fronde-couché,Tireur à la fronde couché,uc,Combat
+tireur-à-larme-de-siège,Tireur à l'arme de siège,uc,Combat
+tirs-groupés,Tirs groupés,uc,Combat
+tisseur-de-cauchemar,Tisseur de cauchemar,uc,Combat
+tonnerres-jumeaux,Tonnerres jumeaux,uc,Combat
+toucher-de-la-sérénité,Toucher de la sérénité,apg,General
+tour-de-passe-passe,Tour de passe-passe,uc,Combat
+tourbillon-du-djinn,Tourbillon du djinn,uc,Combat
+tourment-de-la-mante,Tourment de la mante,uc,"Combat, Style"
+tours-de-magie-ou-oraisons-supplémentaires,Tours de magie ou oraisons supplémentaires,um,General
+traits-supplémentaires,Traits supplémentaires,apg,General
+transmutation-tenace,Transmutation tenace,apg,General
+traqueur-au-clair-de-lune,Traqueur au clair de lune,uc,Combat
+travail-en-équipe,Travail en équipe,apg,General
+tueur-intimidant,Tueur intimidant,uc,General
+tueur-magique,Tueur magique,uc,General
+tueur-menaçant,Tueur menaçant,uc,General
+tueur-miséricordieux,Tueur miséricordieux,uc,General
+tueur-prolongé,Tueur prolongé,um,General
+tueur-supplémentaire,Tueur supplémentaire,uc,General
+ultime-fermeté,Ultime fermeté,um,General
+une-fronde-pour-fléau,Une fronde pour fléau,uc,Combat
+vigie,Vigie,apg,General
+vigilance-instinctive,Vigilance instinctive,um,General
+vigilance,Vigilance,pfrpg,General
+vigueur-en-rage,Vigueur en rage,apg,General
+vigueur-surhumaine,Vigueur surhumaine,pfrpg,General
+virage-sur-laile,Virage sur l'aile,pfrpg,Monster
+visage-de-pierre,Visage de pierre,apg,General
+viser-juste,Viser juste,pfrpg,Combat
+viser,Viser,pfrpg,Combat
+vision-affûtée,Vision affûtée,apg,General
+vision-prophétique,Vision prophétique,um,General
+voie-du-kirin,Voie du kirin,uc,Combat
+voix-de-la-sibylle,Voix de la sibylle,um,General
+voix-discordante,Voix discordante,uc,General
+vol-stationnaire,Vol stationnaire,pfrpg,Monster
+volonté-de-fer,Volonté de fer,pfrpg,General
+voltigeur,Voltigeur,pfrpg,General
+yeux-de-lynx,Yeux de lynx,apg,General
+zélote-du-refus-de-mourir,Zélote du refus de mourir,uc,Combat
+à-labri,À l'abri,apg,General
+à-terre-à-cheval,À terre à cheval,uc,Combat
+âme-dacier,Âme d'acier,apg,General
+échange-de-place,Échange de place,apg,General
+échange-trompeur,Échange trompeur,uc,General
+échappatoire,Échappatoire,uc,Teamwork
+écho-magique,Écho magique,um,Metamagic
+éclat-du-singe,Éclat du singe,uc,"Combat, Style"
+éclats-darme,Éclats d'arme,uc,General
+école-de-la-mante,École de la mante,uc,"Combat, Style"
+école-de-la-panthère,École de la panthère,uc,"Combat, Style"
+école-de-la-tortue-alligator,École de la tortue alligator,uc,"Combat, Style"
+école-du-marid,École du marid,uc,"Combat, Style"
+école-du-sanglier,École du sanglier,uc,"Combat, Style"
+école-du-scorpion,École du scorpion,pfrpg,Combat
+école-du-serpent,École du serpent,uc,"Combat, Style"
+école-du-shaitan,École du shaitan,uc,"Combat, Style"
+école-du-singe,École du singe,uc,"Combat, Style"
+école-du-tigre,École du tigre,uc,"Combat, Style"
+école-renforcée,École renforcée,pfrpg,General
+école-supérieure,École supérieure,pfrpg,General
+écriture-de-parchemins,Écriture de parchemins,pfrpg,ItemCreation
+élément-renforcé,Élément renforcé,apg,General
+élément-supérieur,Élément supérieur,apg,General
+équipe-de-pickpockets,Équipe de pickpockets,uc,Teamwork
+étourdir-limmobile,Étourdir limmobile,uc,Combat
+étrange-héritage-supérieur,Étrange héritage supérieur,um,General
+étrange-héritage,Étrange héritage,um,General
+étreinte-de-la-tortue-alligator,Étreinte de la tortue alligator,uc,"Combat, Style"
+étreinte-fatale,Étreinte fatale,uc,Combat
+étreinte-étouffante,Étreinte étouffante,uc,Combat
+éventration-de-limmobile,Éventration de l'immobile,uc,Combat
+éventration-à-deux-armes,Éventration à deux armes,pfrpg,Combat
+évolutions-supplémentaires,Évolutions supplémentaires,um,General
+œil-du-juge,Œil du juge,um,General

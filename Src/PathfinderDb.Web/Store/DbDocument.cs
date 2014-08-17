@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace PathfinderDb.Models
+namespace PathfinderDb.Datas
 {
     using System;
     using System.ComponentModel.DataAnnotations;
@@ -12,6 +12,7 @@ namespace PathfinderDb.Models
     using System.IO;
     using System.Xml;
     using System.Xml.Serialization;
+    using Models;
     using Schema;
 
     public class DbDocument
@@ -29,6 +30,8 @@ namespace PathfinderDb.Models
         [MaxLength(100)]
         public string Id { get; set; }
 
+        public string Name { get; set; }
+
         public string Source { get; set; }
 
         public string Category { get; set; }
@@ -37,13 +40,15 @@ namespace PathfinderDb.Models
 
         public string Content { get; set; }
 
-        public void SerializeContent<T>(T contentObject) where T : Element, IElementWithId
+        public void SerializeContent(Element contentObject)
         {
-            this.Source = contentObject.Source.Id;
-            this.HasEnglishName = contentObject.HasEnglishNameFor(this.Type);
-            this.Category = contentObject.GetDocumentCategory(this.Type);
+            var adapter = this.GetAdapter();
+            this.Source = contentObject.Source.Id ?? Schema.Source.Ids.PathfinderRpg;
+            this.Name = adapter.GetName(contentObject);
+            this.HasEnglishName = contentObject.HasEnglishNameFor(adapter);
+            this.Category = adapter.GetCategory(contentObject);
 
-            var serializer = new XmlSerializer(typeof(T), Namespaces.PathfinderDb);
+            var serializer = new XmlSerializer(adapter.SchemaType, Namespaces.PathfinderDb);
 
             var ns = new XmlSerializerNamespaces();
             ns.Add("", Namespaces.PathfinderDb);
@@ -58,14 +63,16 @@ namespace PathfinderDb.Models
 
         public static DbDocument From<T>(DbDocumentType type, T source) where T : Element, IElementWithId
         {
+            var adapter = GetAdapterFor(type);
+
             var result = new DbDocument
             {
                 Type = type,
                 Lang = DataSetLanguages.French,
-                Id = Ids.Normalize(source.Id),
-                HasEnglishName = source.HasEnglishNameFor(type),
+                Id = source.Id,
+                HasEnglishName = source.HasEnglishNameFor(adapter),
                 Source = source.Source.Id,
-                Category = source.GetDocumentCategory(type),
+                Category = adapter.GetCategory(source),
             };
 
             result.SerializeContent(source);
@@ -75,7 +82,7 @@ namespace PathfinderDb.Models
 
         public object As(Type type)
         {
-            var serializer = new XmlSerializer(type);
+            var serializer = new XmlSerializer(type, Namespaces.PathfinderDb);
             using (var stringReader = new StringReader(this.Content))
             {
                 return serializer.Deserialize(stringReader);
@@ -92,6 +99,26 @@ namespace PathfinderDb.Models
                 item.Id = this.Id;
                 return item;
             }
+        }
+
+        public static ISchemaAdapter GetAdapterFor(DbDocumentType type)
+        {
+            switch (type)
+            {
+                case DbDocumentType.Spells:
+                    return Models.Spell.SpellAdapter.Instance;
+
+                case DbDocumentType.Gear:
+                    return Models.Gear.GearAdapter.Instance;
+
+                default:
+                    throw new NotSupportedException(type.ToString());
+            }
+        }
+
+        public ISchemaAdapter GetAdapter()
+        {
+            return GetAdapterFor(this.Type);
         }
     }
 }
