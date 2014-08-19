@@ -20,7 +20,7 @@ namespace PathfinderDb.Datas
         {
         }
 
-        public DbSet<DbDocument> Documents { get; set; }
+        //public DbSet<DbDocument> Documents { get; set; }
 
         public static PathfinderDbContext Create()
         {
@@ -31,21 +31,21 @@ namespace PathfinderDb.Datas
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder
-                .Entity<DbDocument>()
-                .HasKey(x => x.DocId);
+            //modelBuilder
+            //    .Entity<DbDocument>()
+            //    .HasKey(x => x.DocId);
         }
     }
 
     public static class DbSetExtensions
     {
-        public static List<TViewModel> AsSchema<TViewModel>(this DbSet<DbDocument> @this, Func<DbDocument, TViewModel> transform)
-        {
-            return @this
-                .Where(d => d.Type == DbDocumentType.Gear && d.Lang == DataSetLanguages.French)
-                .ToList()
-                .Select(transform)
-                .ToList();
-        }
+        //public static List<TViewModel> AsSchema<TViewModel>(this DbSet<DbDocument> @this, Func<DbDocument, TViewModel> transform)
+        //{
+        //    return @this
+        //        .Where(d => d.Type == DbDocumentType.Gear && d.Lang == DataSetLanguages.French)
+        //        .ToList()
+        //        .Select(transform)
+        //        .ToList();
+        //}
     }
 }

@@ -6,22 +6,27 @@
 
 namespace PathfinderDb.Controllers
 {
+    using System.Linq;
     using System.Web.Mvc;
     using Datas;
     using Models.Gear;
     using Schema;
+    using Store;
 
-    public class GearController : ItemController<Gear, ItemViewModel, EditViewModel>
+    public class GearController : Controller
     {
-        public GearController() : base(DbDocumentType.Gear)
+        private readonly IDocumentService docService;
+
+        public GearController(IDocumentService docService)
         {
+            this.docService = docService;
         }
 
         public ActionResult Index(IndexViewModel model)
         {
-            using (var db = this.OpenDb())
+            using (var db = this.docService.OpenSession())
             {
-                model.Items = this.LoadItems(db, model.AsExpressions());
+                model.Items = db.LoadGears(model).Select(x => x.AsItem()).ToList();
             }
 
             return View(model);
@@ -40,12 +45,27 @@ namespace PathfinderDb.Controllers
 
         public ActionResult Edit(int id)
         {
-            return this.ViewOrNotFound(this.LoadEdit(id));
+            using (var db = this.docService.OpenSession())
+            {
+                var doc = db.LoadGear(id);
+                return this.ViewOrNotFound(doc.AsEdit());
+            }
         }
 
         [HttpPost]
         public ActionResult Edit(EditViewModel model)
         {
+            using (var db = this.docService.OpenSession())
+            {
+                // charge
+                var doc = db.LoadGear(model.DocId);
+                
+                // modifie
+                doc.Apply(model);
+
+                // enregistre
+                db.SaveGear(doc);
+            }
             return this.Save(model, false);
         }
 

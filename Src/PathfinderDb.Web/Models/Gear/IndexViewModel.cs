@@ -12,14 +12,14 @@ namespace PathfinderDb.Models.Gear
     using System.Linq.Expressions;
     using Datas;
 
-    public class IndexViewModel : Page<ItemViewModel>
+    public class IndexViewModel : Page<ItemViewModel>, Store.IDocumentQuery<GearDocument>
     {
         [UIHint("SourceNullable")]
         public string Source { get; set; }
 
         public GearCategoryViewModel? Category { get; set; }
 
-        public IEnumerable<Expression<Func<DbDocument, bool>>> AsExpressions()
+        public IEnumerable<Expression<Func<GearDocument, bool>>> AsExpressions()
         {
             if (!string.IsNullOrEmpty(this.Source))
             {
@@ -28,8 +28,8 @@ namespace PathfinderDb.Models.Gear
 
             if (this.Category.HasValue)
             {
-                var categoryText = this.Category.Value.ToString();
-                yield return x => x.Category == categoryText;
+                var category = this.Category.Value;
+                yield return x => x.Category == category;
             }
         }
     }
