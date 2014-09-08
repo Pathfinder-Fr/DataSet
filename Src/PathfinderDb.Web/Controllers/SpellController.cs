@@ -13,32 +13,32 @@ namespace PathfinderDb.Controllers
     using Models.Spell;
     using Schema;
 
-    public class SpellController : ItemController<Spell, ItemViewModel, EditViewModel>
+    public class SpellController : Controller
     {
-        public SpellController() :
-            base(Datas.DbDocumentType.Spells)
+        public SpellController()
+            
         {
         }
 
         [HttpPost]
         public ActionResult Import()
         {
-            var serializer = new XmlSerializer(typeof(DataSet));
-            var dataSet = (DataSet)serializer.Deserialize(this.Request.InputStream);
+            //var serializer = new XmlSerializer(typeof(DataSet));
+            //var dataSet = (DataSet)serializer.Deserialize(this.Request.InputStream);
 
-            using (var db = this.OpenDb())
-            {
-                foreach (var spell in dataSet.Spells)
-                {
-                    // force id update
-                    spell.Id = Ids.Normalize(spell.Name);
+            //using (var db = this.OpenDb())
+            //{
+            //    foreach (var spell in dataSet.Spells)
+            //    {
+            //        // force id update
+            //        spell.Id = Ids.Normalize(spell.Name);
 
-                    var dbDoc = DbDocument.From(this.DocType, spell);
-                    db.Documents.Add(dbDoc);
-                }
+            //        var dbDoc = DbDocument.From(this.DocType, spell);
+            //        db.Documents.Add(dbDoc);
+            //    }
 
-                db.SaveChanges();
-            }
+            //    db.SaveChanges();
+            //}
 
             return null;
         }

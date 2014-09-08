@@ -225,3 +225,5 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+/Src/PathfinderDb.Web/App_Data/RavenDB
+/Src/PathfinderDb.Web/Data

@@ -16,23 +16,23 @@ namespace PathfinderDb.Controllers
         {
             using (var db = this.OpenDb())
             {
-                foreach (var dbDoc in db.Documents)
-                {
-                    try
-                    {
-                        var adapter = dbDoc.GetAdapter();
-                        var schema = (Element)dbDoc.As(adapter.SchemaType);
-                        dbDoc.SerializeContent(schema);
+                //foreach (var dbDoc in db.Documents)
+                //{
+                //    try
+                //    {
+                //        var adapter = dbDoc.GetAdapter();
+                //        var schema = (Element)dbDoc.As(adapter.SchemaType);
+                //        dbDoc.SerializeContent(schema);
 
-                    }
-                    catch (Exception ex)
-                    {
-                        throw new InvalidOperationException(string.Format("Error when migrating {0}", dbDoc.Id), ex);
+                //    }
+                //    catch (Exception ex)
+                //    {
+                //        throw new InvalidOperationException(string.Format("Error when migrating {0}", dbDoc.Id), ex);
 
-                    }
-                }
+                //    }
+                //}
 
-                db.SaveChanges();
+                //db.SaveChanges();
             }
 
             return new EmptyResult();

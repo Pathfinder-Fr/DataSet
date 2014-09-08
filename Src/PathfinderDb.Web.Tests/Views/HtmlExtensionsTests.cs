@@ -149,19 +149,19 @@ namespace PathfinderDb.Views
             Assert.AreEqual(string.Empty, selectList[0].Text);
         }
 
-        class FakeViewDataContainer : IViewDataContainer
-        {
-            public FakeViewDataContainer()
-            {
-                this.ViewData = new ViewDataDictionary();
-            }
+        //class FakeViewDataContainer : IViewDataContainer
+        //{
+        //    public FakeViewDataContainer()
+        //    {
+        //        this.ViewData = new ViewDataDictionary();
+        //    }
 
-            public ViewDataDictionary ViewData
-            {
-                get;
-                set;
-            }
-        }
+        //    public ViewDataDictionary ViewData
+        //    {
+        //        get;
+        //        set;
+        //    }
+        //}
     }
 
     internal sealed class MyModel

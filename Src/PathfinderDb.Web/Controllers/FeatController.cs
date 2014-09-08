@@ -19,7 +19,7 @@ namespace PathfinderDb.Controllers
         {
             using (var db = this.OpenDb())
             {
-                model.Feats = db.Documents.Where(d => d.Type == DbDocumentType.Feat).ToList().Select(f => f.As<Feat>());
+                //model.Feats = db.Documents.Where(d => d.Type == DbDocumentType.Feat).ToList().Select(f => f.As<Feat>());
             }
 
             return View(model);

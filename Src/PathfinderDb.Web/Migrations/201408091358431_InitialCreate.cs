@@ -13,19 +13,6 @@ namespace PathfinderDb.Migrations
         public override void Up()
         {
             this.CreateTable(
-                "dbo.DbDocuments",
-                c => new
-                {
-                    DocId = c.Int(false, true),
-                    Type = c.Int(false),
-                    Lang = c.String(maxLength: 6),
-                    Id = c.String(maxLength: 100),
-                    Content = c.String(),
-                })
-                .PrimaryKey(t => t.DocId)
-                .Index(t => new { t.Type, t.Lang, t.Id }, unique: true, name: "IX_DbDocument_RefByTypeByLang");
-
-            this.CreateTable(
                 "dbo.AspNetRoles",
                 c => new
                 {
@@ -107,13 +94,11 @@ namespace PathfinderDb.Migrations
             this.DropIndex("dbo.AspNetUserRoles", new[] { "RoleId" });
             this.DropIndex("dbo.AspNetUserRoles", new[] { "UserId" });
             this.DropIndex("dbo.AspNetRoles", "RoleNameIndex");
-            this.DropIndex("dbo.DbDocuments", "IX_DbDocument_RefByTypeByLang");
             this.DropTable("dbo.AspNetUserLogins");
             this.DropTable("dbo.AspNetUserClaims");
             this.DropTable("dbo.AspNetUsers");
             this.DropTable("dbo.AspNetUserRoles");
             this.DropTable("dbo.AspNetRoles");
-            this.DropTable("dbo.DbDocuments");
         }
     }
 }

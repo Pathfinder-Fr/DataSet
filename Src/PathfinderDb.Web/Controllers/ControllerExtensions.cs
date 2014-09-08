@@ -4,14 +4,33 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
+using System.Web;
+using System.Web.Mvc;
+using PathfinderDb.Datas;
+using Raven.Client;
+using Raven.Client.Embedded;
+
 namespace PathfinderDb.Controllers
 {
-    using System.Web.Mvc;
-    using Datas;
-    using Models;
-
     internal static class ControllerExtensions
     {
+        private static EmbeddableDocumentStore store;
+
+        public static IDocumentSession OpenSession(this Controller @this)
+        {
+            if (store == null)
+            {
+                store = new EmbeddableDocumentStore
+                {
+                    DataDirectory = string.Format(@"{0}\RavenDB", HttpContext.Current.Server.MapPath("~/App_Data"))
+                };
+
+                store.Initialize();
+            }
+
+            return store.OpenSession();
+        }
+
         public static PathfinderDbContext OpenDb(this Controller @this)
         {
             return PathfinderDbContext.Create();
@@ -19,7 +38,7 @@ namespace PathfinderDb.Controllers
 
         public static ActionResult ViewOrNotFound<T>(this Controller @this, T viewModel)
         {
-            if(Equals(viewModel, default(T)))
+            if (Equals(viewModel, default(T)))
             {
                 return new HttpNotFoundResult(null);
             }

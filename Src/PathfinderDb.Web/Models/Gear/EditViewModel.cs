@@ -97,9 +97,9 @@ namespace PathfinderDb.Models.Gear
             };
         }
 
-        public void Saved(Datas.DbDocument dbDoc)
-        {
-            this.DocId = dbDoc.DocId;
-        }
+        //public void Saved(Datas.DbDocument dbDoc)
+        //{
+        //    this.DocId = dbDoc.DocId;
+        //}
     }
 }

@@ -4,20 +4,24 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
+using System;
+
 namespace PathfinderDb.Schema
 {
     public static class Elements
     {
-        public static bool HasEnglishNameFor(this Element @this, Models.ISchemaAdapter adapter)
+        public static bool HasEnglishNameFor(this Element @this)
         {
-            var propertyName = adapter.GetNameProperty();
+            //var propertyName = adapter.GetNameProperty();
 
-            if (string.IsNullOrEmpty(propertyName))
-            {
-                return false;
-            }
+            //if (string.IsNullOrEmpty(propertyName))
+            //{
+            //    return false;
+            //}
 
-            return @this.OpenLocalization().GetLocalizedEntry(DataSetLanguages.English, propertyName) != null;
+            throw new NotImplementedException();
+
+            return @this.OpenLocalization().GetLocalizedEntry(DataSetLanguages.English, "") != null;
         }
     }
 }

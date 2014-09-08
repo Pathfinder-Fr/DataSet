@@ -13,18 +13,18 @@ namespace PathfinderDb.ViewModels
     {
         public List<DataGroup> Groups { get; set; }
 
-        public void CreateGroups(IDictionary<Datas.DbDocumentType, int> counts)
-        {
-            this.Groups = Datas.DbDocumentTypeDescription
-                .All
-                .Select(f => new DataGroup
-                {
-                    Controller = f.ControllerName,
-                    DisplayName = f.Name,
-                    Count = GetOrDefault(counts, f.Type)
-                })
-                .ToList();
-        }
+        //public void CreateGroups(IDictionary<Datas.DbDocumentType, int> counts)
+        //{
+        //    this.Groups = Datas.DbDocumentTypeDescription
+        //        .All
+        //        .Select(f => new DataGroup
+        //        {
+        //            Controller = f.ControllerName,
+        //            DisplayName = f.Name,
+        //            Count = GetOrDefault(counts, f.Type)
+        //        })
+        //        .ToList();
+        //}
 
         private static TValue GetOrDefault<TKey, TValue>(IDictionary<TKey, TValue> dict, TKey key, TValue @default = default(TValue))
         {

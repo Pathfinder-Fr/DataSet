@@ -36,7 +36,7 @@
 </div>
 
 <h2>Données</h2>
-@foreach (var group in Model.Groups.Select((x, i) => new { Index = i, Value = x }).GroupBy(g => g.Index / 3, g => g.Value))
+@*@foreach (var group in Model.Groups.Select((x, i) => new { Index = i, Value = x }).GroupBy(g => g.Index / 3, g => g.Value))
 {
     <div class="row">
         @foreach (var item in group)
@@ -49,4 +49,4 @@
             </div>
         }
     </div>
-}
+}*@

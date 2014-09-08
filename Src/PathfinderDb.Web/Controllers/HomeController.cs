@@ -18,9 +18,9 @@ namespace PathfinderDb.Controllers
 
             using(var db = this.OpenDb())
             {
-                var groupCount = db.Documents.GroupBy(d => d.Type).Select(d => new { Type = d.Key, Count = d.Count() }).ToDictionary(x => x.Type, x => x.Count);
+                //var groupCount = db.Documents.GroupBy(d => d.Type).Select(d => new { Type = d.Key, Count = d.Count() }).ToDictionary(x => x.Type, x => x.Count);
 
-                model.CreateGroups(groupCount);
+                //model.CreateGroups(groupCount);
             }
 
             return this.View(model);
