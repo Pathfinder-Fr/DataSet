@@ -20,10 +20,16 @@ namespace PathfinderDb.Controllers
         {
             if (store == null)
             {
+                var appData = HttpContext.Current.Server.MapPath("~/App_Data");
                 store = new EmbeddableDocumentStore
                 {
-                    DataDirectory = string.Format(@"{0}\RavenDB", HttpContext.Current.Server.MapPath("~/App_Data"))
+                    DataDirectory = string.Format(@"{0}\RavenDB\Data", appData),
                 };
+
+                store.Configuration.PluginsDirectory = string.Format(@"{0}\RavenDB\Plugins", appData);
+                //store.Configuration.IndexStoragePath = string.Format(@"{0}\RavenDB\Indexes", appData);
+                store.Configuration.CompiledIndexCacheDirectory = string.Format(@"{0}\RavenDB\CompiledIndexCache", appData);
+                store.Configuration.CreateAnalyzersDirectoryIfNotExisting = false;
 
                 store.Initialize();
             }
