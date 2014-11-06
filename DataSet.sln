@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BC520CAC-447D-4533-ADB7-34118CED3781}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Web", "Src\PathfinderDb.Web\PathfinderDb.Web.csproj", "{1E1D9FEA-E618-4087-B4CF-D0119404B1B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Web.Tests", "Src\PathfinderDb.Web.Tests\PathfinderDb.Web.Tests.csproj", "{33D2D32E-004A-4716-A0D3-167437714068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Xml2Json.Console", "Src\PathfinderDb.Xml2Json.Console\PathfinderDb.Xml2Json.Console.csproj", "{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{33D2D32E-004A-4716-A0D3-167437714068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D2D32E-004A-4716-A0D3-167437714068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D2D32E-004A-4716-A0D3-167437714068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
