@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="WeightAmount.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System;
     using System.ComponentModel;

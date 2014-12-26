@@ -1,50 +1,42 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="CreatureType.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
     [XmlType("creatureType")]
     public enum CreatureType
     {
-        [XmlEnum("")]
-        Other,
+        [XmlEnum("")] Other,
 
-        [XmlEnum("aberration")]
-        Aberration,
+        [XmlEnum("aberration")] Aberration,
 
-        [XmlEnum("animal")]
-        Animal,
+        [XmlEnum("animal")] Animal,
 
-        [XmlEnum("construct")]
-        Construct,
+        [XmlEnum("construct")] Construct,
 
-        [XmlEnum("dragon")]
-        Dragon,
+        [XmlEnum("dragon")] Dragon,
 
-        [XmlEnum("fey")]
-        Fey,
+        [XmlEnum("fey")] Fey,
 
-        [XmlEnum("humanoid")]
-        Humanoid,
+        [XmlEnum("humanoid")] Humanoid,
 
-        [XmlEnum("magicalBeast")]
-        MagicalBeast,
+        [XmlEnum("magicalBeast")] MagicalBeast,
 
-        [XmlEnum("monstrousHumanoid")]
-        MonstrousHumanoid,
+        [XmlEnum("monstrousHumanoid")] MonstrousHumanoid,
 
-        [XmlEnum("ooze")]
-        Ooze,
+        [XmlEnum("ooze")] Ooze,
 
-        [XmlEnum("outsider")]
-        Outsider,
+        [XmlEnum("outsider")] Outsider,
 
-        [XmlEnum("plant")]
-        Plant,
+        [XmlEnum("plant")] Plant,
 
-        [XmlEnum("undead")]
-        Undead,
+        [XmlEnum("undead")] Undead,
 
-        [XmlEnum("vermin")]
-        Vermin
+        [XmlEnum("vermin")] Vermin
     }
 }

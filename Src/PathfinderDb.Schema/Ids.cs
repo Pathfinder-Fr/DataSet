@@ -25,7 +25,7 @@ namespace PathfinderDb.Schema
             for (var i = 0; i < id.Length; i++)
             {
                 var c = id[i];
-                if(Doubles.IndexOf(c) != -1)
+                if (Doubles.IndexOf(c) != -1)
                 {
                     maxSize++;
                 }
@@ -45,7 +45,7 @@ namespace PathfinderDb.Schema
                     c = Remplac[ci];
                 }
 
-                if((ci = Doubles.IndexOf(c)) != -1)
+                if ((ci = Doubles.IndexOf(c)) != -1)
                 {
                     // replacement doubleletters
                     var c1 = DoublesReplacement[(ci * 2)];
@@ -58,7 +58,7 @@ namespace PathfinderDb.Schema
 
                     // the second letter will be added automatically
                 }
-                
+
                 if (char.IsLetterOrDigit(c))
                 {
                     result[size] = wordBoundary ? char.ToUpperInvariant(c) : char.ToLowerInvariant(c);

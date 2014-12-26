@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="SpecialBoolean.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
@@ -8,13 +14,10 @@
     [XmlType("specialBoolean")]
     public enum SpecialBoolean
     {
-        [XmlEnum("false")]
-        No = 0,
+        [XmlEnum("false")] No = 0,
 
-        [XmlEnum("true")]
-        Yes = 1,
+        [XmlEnum("true")] Yes = 1,
 
-        [XmlEnum("special")]
-        Special = 2
+        [XmlEnum("special")] Special = 2
     }
 }

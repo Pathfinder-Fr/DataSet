@@ -1,50 +1,42 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="BodySlot.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
     [XmlType("bodySlot")]
     public enum BodySlot
     {
-        [XmlEnum("none")]
-        None,
+        [XmlEnum("none")] None,
 
-        [XmlEnum("armor")]
-        Armor,
+        [XmlEnum("armor")] Armor,
 
-        [XmlEnum("belts")]
-        Belts,
+        [XmlEnum("belts")] Belts,
 
-        [XmlEnum("chest")]
-        Chest,
+        [XmlEnum("chest")] Chest,
 
-        [XmlEnum("eyes")]
-        Eyes,
+        [XmlEnum("eyes")] Eyes,
 
-        [XmlEnum("feet")]
-        Feet,
+        [XmlEnum("feet")] Feet,
 
-        [XmlEnum("hands")]
-        Hands,
+        [XmlEnum("hands")] Hands,
 
-        [XmlEnum("head")]
-        Head,
+        [XmlEnum("head")] Head,
 
-        [XmlEnum("headband")]
-        Headband,
+        [XmlEnum("headband")] Headband,
 
-        [XmlEnum("neck")]
-        Neck,
+        [XmlEnum("neck")] Neck,
 
-        [XmlEnum("ring")]
-        Ring,
+        [XmlEnum("ring")] Ring,
 
-        [XmlEnum("shield")]
-        Shield,
+        [XmlEnum("shield")] Shield,
 
-        [XmlEnum("shoulders")]
-        Shoulders,
+        [XmlEnum("shoulders")] Shoulders,
 
-        [XmlEnum("wrist")]
-        Wrist
+        [XmlEnum("wrist")] Wrist
     }
 }

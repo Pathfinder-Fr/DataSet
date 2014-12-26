@@ -11,40 +11,28 @@ namespace PathfinderDb.Schema
     [XmlType("gearCategory")]
     public enum GearCategory
     {
-        [XmlEnum("adventuring")]
-        Adventuring,
+        [XmlEnum("adventuring")] Adventuring,
 
-        [XmlEnum("toolsAndSkillKits")]
-        ToolsAndSkillKits,
+        [XmlEnum("toolsAndSkillKits")] ToolsAndSkillKits,
 
-        [XmlEnum("animalsMountsAndRelatedGear")]
-        AnimalsMountsAndRelatedGear,
+        [XmlEnum("animalsMountsAndRelatedGear")] AnimalsMountsAndRelatedGear,
 
-        [XmlEnum("clothing")]
-        Clothing,
+        [XmlEnum("clothing")] Clothing,
 
-        [XmlEnum("entertainment")]
-        Entertainment,
+        [XmlEnum("entertainment")] Entertainment,
 
-        [XmlEnum("tradeGoods")]
-        TradeGoods,
+        [XmlEnum("tradeGoods")] TradeGoods,
 
-        [XmlEnum("foodDrinkAndLodging")]
-        FoodDrinkAndLodging,
+        [XmlEnum("foodDrinkAndLodging")] FoodDrinkAndLodging,
 
-        [XmlEnum("services")]
-        Services,
+        [XmlEnum("services")] Services,
 
-        [XmlEnum("transport")]
-        Transport,
+        [XmlEnum("transport")] Transport,
 
-        [XmlEnum("alchemy")]
-        Alchemy,
+        [XmlEnum("alchemy")] Alchemy,
 
-        [XmlEnum("specialSubstancesAndItems")]
-        SpecialSubstancesAndItems,
+        [XmlEnum("specialSubstancesAndItems")] SpecialSubstancesAndItems,
 
-        [XmlEnum("poisons")]
-        Poisons,
+        [XmlEnum("poisons")] Poisons,
     }
 }

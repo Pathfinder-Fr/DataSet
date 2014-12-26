@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="Source.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System;
     using System.ComponentModel;
@@ -14,7 +20,7 @@
     {
         /// <summary>
         /// Gets or sets the unique id for this product source.
-        /// It can be one of the values of <see cref="Ids"/> or any custom string.
+        /// It can be one of the values of <see cref="Ids" /> or any custom string.
         /// It should be culture insensitive (all pathfinder rpg rulebook are referenced using the "pfrpg" id, ignoring the language used).
         /// </summary>
         [XmlAttribute("id")]

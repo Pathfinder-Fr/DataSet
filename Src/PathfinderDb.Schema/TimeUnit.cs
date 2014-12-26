@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="TimeUnit.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
@@ -11,56 +17,47 @@
         /// The unit of time can not be described using a unit of time.
         /// It can be a conditional value, or a range.
         /// </summary>
-        [XmlEnum("special")]
-        Special = 0,
+        [XmlEnum("special")] Special = 0,
 
         /// <summary>
         /// A simple action, as described in pathfinder combat rules.
         /// </summary>
-        [XmlEnum("simpleAction")]
-        SimpleAction,
+        [XmlEnum("simpleAction")] SimpleAction,
 
         /// <summary>
         /// An immediate action, as described in pathfinder combat rules.
         /// </summary>
-        [XmlEnum("immediateAction")]
-        ImmediateAction,
+        [XmlEnum("immediateAction")] ImmediateAction,
 
         /// <summary>
         /// A swift action, as described in pathfinder combat rules.
         /// </summary>
-        [XmlEnum("swiftAction")]
-        SwiftAction,
+        [XmlEnum("swiftAction")] SwiftAction,
 
         /// <summary>
         /// A full round action, as described in pathfinder combat rules.
         /// </summary>
-        [XmlEnum("fullRoundAction")]
-        FullRoundAction,
+        [XmlEnum("fullRoundAction")] FullRoundAction,
 
         /// <summary>
         /// One or more rounds.
         /// A round is a unit of time in pathfinder rpg consisting of six seconds.
         /// </summary>
-        [XmlEnum("round")]
-        Round,
+        [XmlEnum("round")] Round,
 
         /// <summary>
         /// One or more minutes.
         /// </summary>
-        [XmlEnum("minute")]
-        Minute,
+        [XmlEnum("minute")] Minute,
 
         /// <summary>
         /// One or more hours.
         /// </summary>
-        [XmlEnum("hour")]
-        Hour,
+        [XmlEnum("hour")] Hour,
 
         /// <summary>
         /// One or more days.
         /// </summary>
-        [XmlEnum("day")]
-        Day
+        [XmlEnum("day")] Day
     }
 }

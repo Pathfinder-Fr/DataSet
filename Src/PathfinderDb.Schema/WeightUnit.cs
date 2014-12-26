@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="WeightUnit.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
@@ -11,13 +17,11 @@
         /// <summary>
         /// Pounds.
         /// </summary>
-        [XmlEnum("lbs")]
-        Pounds,
+        [XmlEnum("lbs")] Pounds,
 
         /// <summary>
         /// Kilograms.
         /// </summary>
-        [XmlEnum("kg")]
-        Kilogram,
+        [XmlEnum("kg")] Kilogram,
     }
 }

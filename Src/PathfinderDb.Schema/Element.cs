@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="Element.cs" organization="Pathfinder-Fr">
+// <copyright file="Element.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------

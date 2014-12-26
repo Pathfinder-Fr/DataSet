@@ -1,23 +1,24 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="MagicAuraStrength.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
     [XmlType("magicAuraStrength")]
     public enum MagicAuraStrength
     {
-        [XmlEnum("none")]
-        None,
+        [XmlEnum("none")] None,
 
-        [XmlEnum("faint")]
-        Faint,
+        [XmlEnum("faint")] Faint,
 
-        [XmlEnum("moderate")]
-        Moderate,
+        [XmlEnum("moderate")] Moderate,
 
-        [XmlEnum("strong")]
-        Strong,
+        [XmlEnum("strong")] Strong,
 
-        [XmlEnum("overwhelming")]
-        Overwhelming
+        [XmlEnum("overwhelming")] Overwhelming
     }
 }

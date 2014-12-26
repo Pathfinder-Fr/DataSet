@@ -1,4 +1,10 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="SpellSchool.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
@@ -8,31 +14,22 @@
     [XmlType("spellSchool")]
     public enum SpellSchool
     {
-        [XmlEnum("universal")]
-        Universal,
+        [XmlEnum("universal")] Universal,
 
-        [XmlEnum("abjuration")]
-        Abjuration,
+        [XmlEnum("abjuration")] Abjuration,
 
-        [XmlEnum("conjuration")]
-        Conjuration,
+        [XmlEnum("conjuration")] Conjuration,
 
-        [XmlEnum("divination")]
-        Divination,
+        [XmlEnum("divination")] Divination,
 
-        [XmlEnum("enchantment")]
-        Enchantment,
+        [XmlEnum("enchantment")] Enchantment,
 
-        [XmlEnum("evocation")]
-        Evocation,
+        [XmlEnum("evocation")] Evocation,
 
-        [XmlEnum("illusion")]
-        Illusion,
+        [XmlEnum("illusion")] Illusion,
 
-        [XmlEnum("necromancy")]
-        Necromancy,
+        [XmlEnum("necromancy")] Necromancy,
 
-        [XmlEnum("transmutation")]
-        Transmutation
+        [XmlEnum("transmutation")] Transmutation
     }
 }

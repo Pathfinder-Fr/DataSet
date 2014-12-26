@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="DataSetLanguages.cs" organization="Pathfinder-Fr">
+// <copyright file="DataSetLanguages.cs" company="Pathfinder-fr">
 // Copyright (c) Pathfinder-fr. Tous droits reserves.
 // </copyright>
 // -----------------------------------------------------------------------

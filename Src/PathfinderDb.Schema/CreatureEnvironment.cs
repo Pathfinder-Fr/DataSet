@@ -1,44 +1,38 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="CreatureEnvironment.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
     [XmlType("creatureEnvironment")]
     public enum CreatureEnvironment
     {
-        [XmlEnum("")]
-        Unknown,
+        [XmlEnum("")] Unknown,
 
-        [XmlEnum("aquatic")]
-        Aquatic,
+        [XmlEnum("aquatic")] Aquatic,
 
-        [XmlEnum("sky")]
-        Sky,
+        [XmlEnum("sky")] Sky,
 
-        [XmlEnum("hills")]
-        Hills,
+        [XmlEnum("hills")] Hills,
 
-        [XmlEnum("desert")]
-        Desert,
+        [XmlEnum("desert")] Desert,
 
-        [XmlEnum("forest-jungle")]
-        ForestJungle,
+        [XmlEnum("forest-jungle")] ForestJungle,
 
-        [XmlEnum("swamp")]
-        Swamp,
+        [XmlEnum("swamp")] Swamp,
 
-        [XmlEnum("mountains")]
-        Mountains,
+        [XmlEnum("mountains")] Mountains,
 
-        [XmlEnum("plains")]
-        Plains,
+        [XmlEnum("plains")] Plains,
 
-        [XmlEnum("ruins-dungeons")]
-        RuinsDungeons,
+        [XmlEnum("ruins-dungeons")] RuinsDungeons,
 
-        [XmlEnum("underground")]
-        Underground,
+        [XmlEnum("underground")] Underground,
 
-        [XmlEnum("urban")]
-        Urban
+        [XmlEnum("urban")] Urban
     }
 }

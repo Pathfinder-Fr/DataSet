@@ -1,23 +1,24 @@
-﻿namespace PathfinderDb.Schema
+﻿// -----------------------------------------------------------------------
+// <copyright file="SpellSavingThrowTarget.cs" company="Pathfinder-fr">
+// Copyright (c) Pathfinder-fr. Tous droits reserves.
+// </copyright>
+// -----------------------------------------------------------------------
+
+namespace PathfinderDb.Schema
 {
     using System.Xml.Serialization;
 
     [XmlType("spellSavingThrowTarget")]
     public enum SpellSavingThrowTarget
     {
-        [XmlEnum("none")]
-        None = 0,
+        [XmlEnum("none")] None = 0,
 
-        [XmlEnum("reflex")]
-        Reflex = 1,
+        [XmlEnum("reflex")] Reflex = 1,
 
-        [XmlEnum("fortitude")]
-        Fortitude = 2,
+        [XmlEnum("fortitude")] Fortitude = 2,
 
-        [XmlEnum("will")]
-        Will = 3,
+        [XmlEnum("will")] Will = 3,
 
-        [XmlEnum("special")]
-        Special = 4,
+        [XmlEnum("special")] Special = 4,
     }
 }
