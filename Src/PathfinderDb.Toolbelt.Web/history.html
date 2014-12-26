@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Pathfinder History Generator</title>
+    </head>
+    <body>
+        <div>
+            <label>
+                Race :
+                <select id="races"></select>
+            </label>
+        </div>
+        <div>
+            <label>
+                Classe :
+                <select id="classes"></select>
+            </label>
+        </div>
+        <div>
+            <button id="run" disabled>Générer</button>
+        </div>
+        <div>
+            <h2>Historique</h2>
+            <ul id="history"></ul>
+        </div>
+        <div>
+            <h2>Traits accessibles</h2>
+            <ul id="traits"></ul>
+        </div>
+        <script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.js"></script>
+        <script type="text/javascript">
+            var json;
+
+            var load = function() {
+                var select = $("#races");
+                $.each(json.historyGenerator.childhood.races, function(key, value) {
+                    select.append($('<option>', { value: value.race, text: value.race }));
+                });
+
+                select = $("#classes");
+                $.each(json.historyGenerator.adolescence.classes, function(key, value) {
+                    select.append($('<option>', { value: value.classe, text: value.classe }));
+                });
+
+                $("#run").on('click', generate);
+
+                $("#run").removeAttr('disabled');
+            };
+
+            var generate = function() {
+                // clear
+                $("#history").html('');
+                $("#traits").html('');
+
+                // local variables
+                var count = 0;
+
+                // race
+                var race = json.historyGenerator.childhood.races[document.getElementById("races").selectedIndex];
+
+                // 1) nativeCountry
+                var result = rollTable(race.nativeCountry);
+                addHistory('Pays natal', result.result);
+                addTraits(result.traits);
+
+                // 1.2) unusualHome
+                if (result.additionalTable === "unusualHome") {
+                    result = rollTable(json.historyGenerator.childhood.unusualHome);
+                    addHistory('Foyer inhabituel', result.result);
+                    addTraits(result.traits);
+                }
+
+                // 2) relatives
+                result = rollTable(race.relatives);
+                addHistory('Parents', result.result);
+                addTraits(result.traits);
+
+                // 3) siblings
+                result = rollTable(race.siblings);
+                addHistory('Frères et soeurs', result.result);
+                addTraits(result.traits);
+
+                var siblingsCount = 0;
+                if (result.bio) {
+                    count = 0;
+                    switch (result.bio) {
+                    case "1d4":
+                        count = roll(4);
+                        break;
+                    case "1d4+1":
+                        count = roll(4, 1);
+                        break;
+                    case "1d3-1":
+                        count = roll(3, -1);
+                        break;
+                    }
+
+                    siblingsCount += count;
+
+                    for (var i = 0; i < count; i++) {
+                        addHistory('Frère ou soeur biologique ' + (i + 1), rollAge());
+                    }
+                }
+
+                if (result.adoptives) {
+                    count = 0;
+                    switch (result.adoptives) {
+                    case "1d3-1":
+                        count = roll(3, -1);
+                        break;
+                    }
+
+                    siblingsCount += count;
+
+                    for (var i = 0; i < count; i++) {
+                        var siblingAge = rollAge();
+                        var siblingRace = rollTable(json.historyGenerator.childhood.siblingsAdoptedRace).result;
+                        addHistory('Frère ou soeur adoptif ' + (i + 1), siblingAge + " Race : " + siblingRace);
+                    }
+                }
+
+                if (siblingsCount >= 2) {
+                    addTraits(["protecteur de la famille"]);
+                }
+
+                // 4) birth
+                result = rollTable(json.historyGenerator.childhood.birth);
+                addHistory('Circonstance de la naissance', result.result);
+                addTraits(result.traits);
+                var special = result.special;
+
+                if (result.additionalTable === "nobility") {
+                    // 4.1) nobility
+                    result = rollTable(json.historyGenerator.childhood.nobility);
+                    addHistory('Noblesse', result.result);
+                }
+
+                if (result.additionalTable === "adopted") {
+                    // 4.2) adopted
+                    result = rollTable(json.historyGenerator.childhood.nobility);
+                    addHistory('Adopté par des parents d\'une autre race', result.result);
+                    addTraits(result.traits);
+                }
+
+                // 5) parentsOccupation
+                if (special === "lowOccupation") {
+                    result = rollTable(json.historyGenerator.childhood.parentsOccupation, roll(20, 0, 2));
+                } else {
+                    result = rollTable(json.historyGenerator.childhood.parentsOccupation);
+                }
+
+                if (special == "doubleOccupation") {
+                    addHistory('Profession des parents naturels', result.result);
+                    result = rollTable(json.historyGenerator.childhood.parentsOccupation);
+                    addHistory('Profession des parents adoptifs', result.result);
+                } else {
+                    addHistory('Profession des parents', result.result);
+                }
+
+                addTraits(result.traits);
+
+                // 6) event
+                result = rollTable(json.historyGenerator.childhood.event);
+                addHistory('Événement marquant de l\'enfance', result.result);
+                addTraits(result.traits);
+
+            };
+
+            var rollAge = function() {
+                var result = rollTable(json.historyGenerator.childhood.siblingsAge);
+                if (result.additionalTable === "age") {
+                    // twins
+                    var twinResult = rollTable(json.historyGenerator.childhood.siblingsAge);
+                    if (twinResult.additionalTable === "age") {
+                        // triplets
+                        return "Vous êtes des triplés (vrais ou faux au choix).";
+                    }
+
+                    return result.result + " " + twinResult.result;
+                }
+
+                return result.result;
+            };
+
+            var rollTable = function(table, dice) {
+                dice = dice || roll(100, 0);
+                var selected;
+                table.every(function(element) {
+                    if (element.range >= dice) {
+                        selected = element;
+                        return false;
+                    }
+
+                    return true;
+                });
+                return selected;
+            };
+
+            var roll = function(faces, bonus, count) {
+                var diceResult = 0;
+                count = count || 1;
+                for (var i = 0; i < count; i++) {
+                    diceResult += Math.round(Math.random() * (faces - 1)) + 1;
+                }
+                console.log('Roll ' + count + 'd' + faces + ' : ' + diceResult);
+                return Math.max(1, diceResult + (bonus || 0));
+            };
+
+            var addHistory = function(title, result) {
+                $("#history").append($('<li>').html(title + ' : ' + result));
+            }
+
+            var addTraits = function(traits) {
+                if (traits) {
+                    for (var i = 0; i < traits.length; i++) {
+                        $("#traits").append($('<li>').html(traits[i]));
+                    }
+                }
+            }
+
+            $(function() {
+                $.ajax({
+                    url: '/uca.json',
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function(getjson) {
+                        json = getjson;
+                        load();
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+﻿{
+	"historyGenerator": {
+		"childhood": {
+			"races": [
+				{
+					"race": "nain",
+					"nativeCountry": [
+						{ "range": 40, "result": "Collines ou montagnes. Vous avez accès au trait racial renifleur d'or et au trait régional habitant des hautes terres." },
+						{ "range": 80, "result": "Souterrain. Vous avez accès au trait racial combattant des tunnels et au trait régional étranger à la surface." },
+						{ "range": 87, "result": "" },
+						{ "range": 95, "result": "" },
+						{ "range": 100, "result": "" }
+					],
+					"relatives": [
+						{ "range": 60, "result": "Vos deux parents sont en vie." },
+						{ "range": 73, "result": "Il ne reste que votre père." }
+					],
+					"siblings": [
+						{
+							"range": 80,
+							"result": "1d4 frères et soeurs biologiques. Si vous en avez deux ou plus, vous avez accès au trait de combat protecteur de la famille.",
+							"code": "history.siblings.add(dice('1d4'))); if (history.siblings.count >= 2) { character.traits.available('protecteur de la famille'); }"
+						}
+					]
+				},
+				{
+                    "race": "elfe",
+                    "nativeCountry": [
+							{ "range": 60, "result": "Forêt." }
+					]
+				}
+			],
+			"siblings": {
+				"age": [
+					{ "range": 48, "result": "Votre frère/soeur est plus âgé(e) que vous." },
+					{ "range": 96, "result": "Votre frère/soeur est plus jeune que vous." },
+					{ "range": 100, "result": "Vous êtes jumeaux (vrais ou faux, au choix). Relancez le dé dans cette table. Si vous obtenez de nouveau le même résultat, vous faîtes partie d'un groupe de triplés ; sinon, l'âge relatif détermine lequel d'entre vous est né en premier." }
+				],
+				"adoptedRace": [
+					{ "range": 1, "result": "Aasimar" }
+				]
+			},
+			"unusualHome": [
+				{ "range": 10, "result": "Souterrain. Vous avez accès au trait régional étranger à la surface." }
+			],
+			"birth": [
+				{ "range": 40, "result": "Classe inférieure. Vous êtes né chez des paysans ou des habitants d'un quartier pauvre. Vous avez grandi en travaillant la terre non loin d'un village ou d'un manoir, en faisant des petits boulots ou en mendiant dans une communauté. Vous avez accès au trait social miséreux. Lancez 2d20 et non 1d100 dans la table 1-26 : Profession des parents pour déterminer le métier de vos parents." },
+				{ "range": 65, "result": "Classe moyenne." }
+			],
+			"parentsOccupation": [
+				{ "range": 5, "result": "" }
+			],
+			"adopted": [
+				{ "range": 5, "result": "Adopté par les dragons." }
+
+			],
+			"nobility": [
+				{ "range": 60, "result": "Aristocratie terrienne." }
+			],
+			"event": [
+				{ "range": 5, "result": "Formation à l'académie." }
+			],
+			"crime": [
+				{ "range": 10, "result": "Adultère" }
+			],
+			"punishment": [
+				{ "range": 10, "result": "Bastonnade" }
+			]
+		}
+	}
+}
