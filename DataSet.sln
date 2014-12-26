@@ -1,25 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BC520CAC-447D-4533-ADB7-34118CED3781}"
-	ProjectSection(SolutionItems) = preProject
-		Samples\DataSetHeader.xml = Samples\DataSetHeader.xml
-		Samples\Feat.xml = Samples\Feat.xml
-		Samples\Monster.xml = Samples\Monster.xml
-		Samples\Spell.xml = Samples\Spell.xml
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Schema", "Src\PathfinderDb.Schema\PathfinderDb.Schema.csproj", "{BD23C9F2-EBFC-43EA-99B4-08E958F72658}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Schema.Tests", "Src\PathfinderDb.Schema.Tests\PathfinderDb.Schema.Tests.csproj", "{B004E87A-31EB-498E-A53F-F14EDD154F4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Web", "Src\PathfinderDb.Web\PathfinderDb.Web.csproj", "{1E1D9FEA-E618-4087-B4CF-D0119404B1B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Web.Tests", "Src\PathfinderDb.Web.Tests\PathfinderDb.Web.Tests.csproj", "{33D2D32E-004A-4716-A0D3-167437714068}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Xml2Json.Console", "Src\PathfinderDb.Xml2Json.Console\PathfinderDb.Xml2Json.Console.csproj", "{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{BF2E8BD2-15DC-4E08-BFCB-38E707BDA029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Web.Tests", "Tests\PathfinderDb.Web.Tests\PathfinderDb.Web.Tests.csproj", "{33D2D32E-004A-4716-A0D3-167437714068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Schema.Tests", "Tests\PathfinderDb.Schema.Tests\PathfinderDb.Schema.Tests.csproj", "{B004E87A-31EB-498E-A53F-F14EDD154F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,24 +25,28 @@ Global
 		{BD23C9F2-EBFC-43EA-99B4-08E958F72658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD23C9F2-EBFC-43EA-99B4-08E958F72658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD23C9F2-EBFC-43EA-99B4-08E958F72658}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E1D9FEA-E618-4087-B4CF-D0119404B1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E1D9FEA-E618-4087-B4CF-D0119404B1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E1D9FEA-E618-4087-B4CF-D0119404B1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E1D9FEA-E618-4087-B4CF-D0119404B1B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33D2D32E-004A-4716-A0D3-167437714068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33D2D32E-004A-4716-A0D3-167437714068}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33D2D32E-004A-4716-A0D3-167437714068}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33D2D32E-004A-4716-A0D3-167437714068}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D2D32E-004A-4716-A0D3-167437714068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D2D32E-004A-4716-A0D3-167437714068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D2D32E-004A-4716-A0D3-167437714068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D2D32E-004A-4716-A0D3-167437714068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B004E87A-31EB-498E-A53F-F14EDD154F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E1D9FEA-E618-4087-B4CF-D0119404B1B3} = {BF2E8BD2-15DC-4E08-BFCB-38E707BDA029}
+		{33D2D32E-004A-4716-A0D3-167437714068} = {BF2E8BD2-15DC-4E08-BFCB-38E707BDA029}
 	EndGlobalSection
 EndGlobal
