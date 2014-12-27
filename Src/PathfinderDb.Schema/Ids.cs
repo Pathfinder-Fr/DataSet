@@ -38,11 +38,16 @@ namespace PathfinderDb.Schema
             for (var i = 0; i < id.Length; i++)
             {
                 var c = id[i];
+                var lc = char.ToLowerInvariant(c);
                 int ci;
-                if ((ci = Accents.IndexOf(c)) != -1)
+                if ((ci = Accents.IndexOf(lc)) != -1)
                 {
                     // suppression accents
                     c = Remplac[ci];
+                    if (lc != c)
+                    {
+                        c = char.ToUpperInvariant(c);
+                    }
                 }
 
                 if ((ci = Doubles.IndexOf(c)) != -1)
