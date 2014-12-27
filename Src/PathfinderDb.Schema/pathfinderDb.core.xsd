@@ -53,7 +53,6 @@
             </xs:element>
           </xs:sequence>
           <xs:attribute ref="xml:lang" use="required" />
-          <xs:attribute name="sourceId" type="xs:string" />
         </xs:complexType>
       </xs:element>
     </xs:sequence>
