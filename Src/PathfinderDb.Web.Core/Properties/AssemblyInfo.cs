@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 
 using System.Reflection;
-using System.Resources;
+using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Pathfinder DataSet Schema")]
+[assembly: AssemblyTitle("PathfinderDb.Web.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("en")]
+[assembly: ComVisible(false)]

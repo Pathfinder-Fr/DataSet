@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{75BFDB9D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Toolbelt.Web", "src\PathfinderDb.Toolbelt.Web\PathfinderDb.Toolbelt.Web.csproj", "{0CBA9D93-EAC6-456F-8A03-47D9753D986B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfinderDb.Web.Core", "src\PathfinderDb.Web.Core\PathfinderDb.Web.Core.csproj", "{CB805D3F-3E8A-4E8D-98E9-1626C2D9475B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{0CBA9D93-EAC6-456F-8A03-47D9753D986B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CBA9D93-EAC6-456F-8A03-47D9753D986B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CBA9D93-EAC6-456F-8A03-47D9753D986B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB805D3F-3E8A-4E8D-98E9-1626C2D9475B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB805D3F-3E8A-4E8D-98E9-1626C2D9475B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB805D3F-3E8A-4E8D-98E9-1626C2D9475B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB805D3F-3E8A-4E8D-98E9-1626C2D9475B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +64,6 @@ Global
 		{A5E0D543-2BB5-431F-AEBF-CA59BF01C409} = {75BFDB9D-81F4-43AA-B0E0-EA256D699314}
 		{33D2D32E-004A-4716-A0D3-167437714068} = {BF2E8BD2-15DC-4E08-BFCB-38E707BDA029}
 		{0CBA9D93-EAC6-456F-8A03-47D9753D986B} = {BF2E8BD2-15DC-4E08-BFCB-38E707BDA029}
+		{CB805D3F-3E8A-4E8D-98E9-1626C2D9475B} = {BF2E8BD2-15DC-4E08-BFCB-38E707BDA029}
 	EndGlobalSection
 EndGlobal

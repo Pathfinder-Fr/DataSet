@@ -117,13 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Account_Login" xml:space="preserve">
-    <value>Log In</value>
+  <data name="CoinCopper" xml:space="preserve">
+    <value>pc</value>
   </data>
-  <data name="Account_Register" xml:space="preserve">
-    <value>Register</value>
+  <data name="CoinGold" xml:space="preserve">
+    <value>po</value>
   </data>
-  <data name="Account_Status" xml:space="preserve">
-    <value>Hello {0}!</value>
+  <data name="CoinPlatinium" xml:space="preserve">
+    <value>pp</value>
+  </data>
+  <data name="CoinSilver" xml:space="preserve">
+    <value>pa</value>
   </data>
 </root>
